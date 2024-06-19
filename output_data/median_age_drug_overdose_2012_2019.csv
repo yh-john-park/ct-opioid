@@ -1,0 +1,88 @@
+region,sex,race,median_age
+Connecticut,all,aapi,31
+Connecticut,all,all,42
+Connecticut,all,black,49
+Connecticut,all,latino,43
+Connecticut,all,other_unknown,41
+Connecticut,all,white,41
+Connecticut,female,aapi,36
+Connecticut,female,all,44
+Connecticut,female,black,48
+Connecticut,female,latino,44
+Connecticut,female,other_unknown,45
+Connecticut,female,white,44
+Connecticut,male,aapi,30.5
+Connecticut,male,all,42
+Connecticut,male,black,50
+Connecticut,male,latino,43
+Connecticut,male,other_unknown,38.5
+Connecticut,male,white,41
+Fairfield County,all,aapi,33
+Fairfield County,all,all,41
+Fairfield County,all,black,50
+Fairfield County,all,latino,39.5
+Fairfield County,all,other_unknown,32
+Fairfield County,all,white,41
+Fairfield County,female,aapi,31
+Fairfield County,female,all,45
+Fairfield County,female,black,49.5
+Fairfield County,female,latino,36
+Fairfield County,female,white,45
+Fairfield County,male,aapi,35.5
+Fairfield County,male,all,41
+Fairfield County,male,black,50.5
+Fairfield County,male,latino,41
+Fairfield County,male,other_unknown,32
+Fairfield County,male,white,39
+Greater Hartford,all,aapi,30
+Greater Hartford,all,all,43
+Greater Hartford,all,black,52
+Greater Hartford,all,latino,45
+Greater Hartford,all,other_unknown,45
+Greater Hartford,all,white,41
+Greater Hartford,female,aapi,29
+Greater Hartford,female,all,44
+Greater Hartford,female,black,50
+Greater Hartford,female,latino,44
+Greater Hartford,female,other_unknown,45
+Greater Hartford,female,white,42
+Greater Hartford,male,aapi,31.5
+Greater Hartford,male,all,43
+Greater Hartford,male,black,52
+Greater Hartford,male,latino,45
+Greater Hartford,male,other_unknown,47.5
+Greater Hartford,male,white,40
+Greater New Haven,all,aapi,37
+Greater New Haven,all,all,44
+Greater New Haven,all,black,48.5
+Greater New Haven,all,latino,44.5
+Greater New Haven,all,other_unknown,27
+Greater New Haven,all,white,44
+Greater New Haven,female,aapi,41
+Greater New Haven,female,all,46
+Greater New Haven,female,black,47
+Greater New Haven,female,latino,48.5
+Greater New Haven,female,white,45
+Greater New Haven,male,aapi,22.5
+Greater New Haven,male,all,44
+Greater New Haven,male,black,50
+Greater New Haven,male,latino,43.5
+Greater New Haven,male,other_unknown,27
+Greater New Haven,male,white,43
+Lower Naugatuck Valley,all,aapi,31
+Lower Naugatuck Valley,all,all,42
+Lower Naugatuck Valley,all,black,48
+Lower Naugatuck Valley,all,latino,32.5
+Lower Naugatuck Valley,all,other_unknown,40.5
+Lower Naugatuck Valley,all,white,42
+Lower Naugatuck Valley,female,all,41
+Lower Naugatuck Valley,female,black,48
+Lower Naugatuck Valley,female,latino,31.5
+Lower Naugatuck Valley,female,other_unknown,52
+Lower Naugatuck Valley,female,white,41
+Lower Naugatuck Valley,male,aapi,31
+Lower Naugatuck Valley,male,all,42
+Lower Naugatuck Valley,male,black,47.5
+Lower Naugatuck Valley,male,latino,33.5
+Lower Naugatuck Valley,male,other_unknown,29
+Lower Naugatuck Valley,male,white,43

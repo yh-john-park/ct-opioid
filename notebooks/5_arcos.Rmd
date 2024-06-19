@@ -1,0 +1,220 @@
+---
+title: "Arcos data"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, message = F, warning = F)
+```
+
+The process here looks at number of pills per person administered at retail/chain pharmacies between 2006 and 2014 (this removes locations like hospitals and manufacturers). Population is the average population by town and the study area over those nine years. Then, by county, we can look at per capita pills administered year over year.
+
+The call to arcos fails when their servers are busy, but the data is saved in input_data.
+
+```{r}
+library(arcos)
+library(tidyverse)
+library(tidycensus)
+library(viridis)
+library(sf)
+
+source("../_utils/kelly_utils.R")
+
+towns <- cwi::regions$`Greater Hartford`
+```
+
+## Fetch and clean data
+
+```{r eval = F}
+counties <- list("HARTFORD", "LITCHFIELD", "MIDDLESEX", "NEW HAVEN", "NEW LONDON", "TOLLAND", "WINDHAM")
+
+ct_pills_town <- counties %>% map(~total_pharmacies_county(county = ., state = "CT", key = "WaPo")) %>% 
+	bind_rows()
+
+pills_annual_county_summaries <- summarized_county_annual(state = "CT", key = "WaPo")
+
+pharm_type <- buyer_addresses(state = "CT", key = "WaPo") %>% 
+	mutate(is_retail = if_else(grepl("RETAIL|CHAIN", BUYER_BUS_ACT), T, F))
+
+write_csv(ct_pills_town, file = "../output_data/ct_pills_town.csv")
+write_csv(pills_annual_county_summaries, file = "../output_data/pills_annual_county_summaries.csv")
+write_csv(pharm_type, file = "../output_data/pharm_type.csv")
+```
+
+A ton of population calls since this straddles ACS survey rollouts. Only acs1 available for 2006-2008 by county. The rest for county are regular acs5. For towns, same deal, but 2006–2008 data are pulled in from the state estimates (which I just put into one csv) from <https://portal.ct.gov/DPH/Health-Information-Systems--Reporting/Population/Annual-Town-and-County-Population-for-Connecticut>
+
+```{r}
+years06_08 <- as.list(c(2006:2008))
+years06_08 <- set_names(years06_08)
+years09_14 <- as.list(c(2009:2014))
+years09_14 <- set_names(years09_14)
+
+county_pop <- years06_08 %>% map(~get_acs(state = 09, geography = "county", variables = "B01001_001", year = ., survey = "acs1")) %>%
+	bind_rows(.id = "year") %>% 
+	bind_rows(years09_14 %>%
+							map(~get_acs(state = 09, geography = "county", variables = "B01001_001", year = .)) %>%
+							bind_rows(.id = "year")) %>% 
+  select(year, name = NAME, pop = estimate)
+```
+
+````{r}
+town_pop <- read_csv("../raw_data/town_pops_2006-2008.csv") %>%
+	mutate(year = as.character(year)) %>% 
+	bind_rows(years09_14 %>% map(~get_acs(state = 09, geography = "county subdivision", variables = "B01001_001", year = .)) %>% 
+	bind_rows(.id = "year") %>% 
+	cwi::town_names(NAME) %>% 
+  select(year, name = NAME, pop = estimate)) %>% 
+	pivot_wider(id_cols = name, names_from = year, values_from = pop) %>%
+	group_by(name) %>% 
+	mutate(average = mean(`2006`:`2014`)) %>% 
+	ungroup() %>% 
+	pivot_longer(cols = -name, names_to = "year", values_to = "pop")
+```
+
+## Pharmacies
+
+```{r}
+retail_pharms <- read_csv("../output_data/ct_pills_town.csv") %>% 
+	left_join(read_csv("../output_data/pharm_type.csv") %>%
+							janitor::clean_names() %>% 
+							select(buyer_dea_no, is_retail),
+						by = "buyer_dea_no") %>% 
+	filter(is_retail == T)
+
+pharms_town <- retail_pharms %>% 
+	select(buyer_dea_no, buyer_name, buyer_city, total_dosage_unit) %>% 
+	mutate(buyer_city = str_to_title(buyer_city)) %>% 
+	filter(buyer_city %in% towns) %>% 
+	left_join(town_pop %>% filter(year == "average"), by = c("buyer_city" = "name")) %>% 
+	mutate(per_cap_pills = total_dosage_unit / pop) %>% 
+	select(retailer = buyer_name, city = buyer_city, per_cap_pills) %>% #combining by retailer
+	group_by(retailer, city) %>% 
+	summarise(per_cap_pills = sum(per_cap_pills)) %>% 
+	ungroup() %>% 
+	mutate(retailer = as.factor(retailer) %>% #cleaning up a couple names
+				 	fct_collapse(`OSCO PHARMACY` = c("OSCO PHARMACY #7452/210", "OSCO PHARMACY #7454/213"),
+				 							 `RITE AID` = c("RITE AID OF CONNECTICUT INC", "RITE AID OF CONNECTICUT, INC."),
+				 							 `STOP & SHOP` = c("THE STOP & SHOP SUPERMARKET", "THE STOP & SHOP SUPERMARKT CO", "THE STOP & SHOP SUPERMARTK CO"),
+				 							 `WAL-MART` = c("WAL-MART PHARMACY 10-3545", "WAL-MART PHARMACY 10-5439")))
+```
+
+I've grouped by pharmacy chain (e.g., Walgreens, CVS) to remove redundancies. Again, Woodbridge and Bethany don't have pharmacies, so these are just the three towns that do. Walgreens sold the most opioid pills. Unsurprisingly, Walgreens and CVS are high on the list since they have so many locations, but North Haven locations sold far more pills per capita than retailers in Hamden or New Haven.
+
+```{r}
+pharms_town %>% 
+	ggplot(aes(per_cap_pills, reorder(retailer, per_cap_pills))) +
+	geom_point(aes(color = city), alpha = .8) +
+	labs(title = "Pills per capita sold by retail pharmacy chain, by town") +
+	theme(plot.title.position = "plot")
+```
+
+## Towns
+
+Quick look at just our region, pills per capita for all pharmacies in each town, using the average population for each area (i.e., the average of all 9 years of data). Bethany and Woodbridge had no retail pharms.
+
+```{r}
+ct_towns <- retail_pharms %>% 
+	select(name = buyer_city, total_dosage_unit) %>% 
+	mutate(name = str_to_title(name)) %>% 
+	group_by(name) %>% 
+	summarise(total_dosage_unit = sum(total_dosage_unit)) %>% 
+	left_join(town_pop, by = "name") %>% 
+	filter(year == "average") %>% 
+	mutate(per_cap_pills = total_dosage_unit / pop)
+	
+nhc <- ct_towns %>% 
+	filter(name %in% towns)
+
+region <- nhc %>% 
+	select(-per_cap_pills) %>% 
+	mutate(name = "Greater Hartford") %>% 
+	group_by(name, year) %>% 
+	summarise_all(sum) %>% 
+	mutate(per_cap_pills = total_dosage_unit / pop)
+```
+
+In line with what we saw above by pharmacy, per capita, North Haven had more pills sold per person than other towns. Not sure how this stacks up statewide.
+
+```{r fig.height=5}
+pills_town <- nhc %>% 
+	bind_rows(region) %>% 
+	ggplot(aes(per_cap_pills, reorder(name, per_cap_pills))) +
+	geom_col(width = .75, fill = qual_pal[3]) +
+	geom_text(aes(label = round(per_cap_pills, 0)), hjust = 1.2, size = 3.5) +
+	labs(title = "Prescription Opioid Pills Dispensed per Person, 2006–2014",
+			 subtitle = "Town and Region", x = "", y = "") +
+	scale_x_continuous(expand = expansion(mult = c(0,0))) +
+	theme(axis.text.x = element_blank(),
+				panel.grid.major.y = element_blank())
+
+ggsave("../plots/6_pills_town.png", pills_town, width=5, height=6)
+```
+
+Of the 114 towns with values, our region looks pretty middle of the road. Might make sense to look at these alongside ODs or ED encounters.
+
+```{r eval = F}
+towns_sf <- cwi::town_sf %>% left_join(ct_towns, by = "name")
+border <- cwi::town_sf %>% filter(name %in% towns)
+
+ggplot() +
+  geom_sf(data = towns_sf, aes(geometry = geometry, fill = per_cap_pills, color = per_cap_pills)) +
+	geom_sf(data = border, aes(geometry = geometry), color = "black", fill = NA) +
+	coord_sf() +
+  scale_fill_viridis(direction=-1, label = scales::comma, na.value = "grey80") +
+  scale_color_viridis(direction=-1, label = scales::comma, na.value = "grey80") +
+	labs(title = "Rx opioid pills dispensed 2006–2014 per person")
+```
+
+## Counties
+
+The only year-over-year data is by county, not town, so if we want to see trends at all, we can only use counties.
+
+```{r}
+ct_counties <- read_csv("../output_data/pills_annual_county_summaries.csv") %>% 
+	janitor::clean_names() %>% 
+	rename(name = buyer_county) %>% 
+	mutate(year = as.character(year)) %>% 
+	filter(!is.na(name)) %>% 
+	mutate(name = str_to_title(name),
+				 name = paste(name, "County", sep = " ")) %>% 
+	group_by(name, year) %>% 
+	summarise(dosage_unit = sum(dosage_unit)) %>% 
+	left_join(county_pop %>% 
+							mutate(name = str_remove(name, ", Connecticut")),
+						by = c("name", "year")) %>% 
+	mutate(per_cap_pills = dosage_unit / pop) %>% 
+	bind_rows(read_csv("../output_data/pills_annual_county_summaries.csv") %>% 
+	  janitor::clean_names() %>% 
+	  rename(name = buyer_county) %>% 
+  	mutate(year = as.character(year)) %>% 
+  	filter(!is.na(name)) %>% 
+  	mutate(name = "Connecticut") %>% 
+  	group_by(name, year) %>% 
+  	summarise(dosage_unit = sum(dosage_unit)) %>% 
+  	left_join(county_pop %>% 
+							mutate(name = "Connecticut") %>% 
+							group_by(name, year) %>% 
+							summarise(pop = sum(pop)),
+						by = c("name", "year")) %>% 
+	mutate(per_cap_pills = dosage_unit / pop))
+```
+
+New Haven County leads the state in per capita pills. Unsure if these are adjusted so it's just retail (might include hospitals, etc. but that doesn't explain why FC is so comparatively low).
+```{r}
+ct_counties %>% 
+	filter(name %in% c("Hartford County", "Connecticut")) %>% 
+	ggplot(aes(name, per_cap_pills, group = name)) +
+	geom_col(aes(fill = name), width = .9, position = position_dodge(.9)) +
+	geom_text(aes(label = round(per_cap_pills, 0)), position = position_dodge(.9), size = 3, vjust = 1.3) +
+	facet_grid(cols = vars(year))+
+	scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
+	scale_fill_manual(values = c(qual_pal[3], qual_pal[1])) +
+	theme(legend.position = "bottom",
+				axis.text.y = element_blank(),
+				axis.text.x = element_blank(), 
+				panel.grid.major.y = element_blank()) +
+	guides(fill = guide_legend(title = "")) +
+	labs(title = "Prescription Opioid Pills Dispensed Annually per Person, 2006–2014", subtitle = "County and State", x = "", y = "")
+
+ggsave(filename = "../plots/7_pills_county.png")
+```

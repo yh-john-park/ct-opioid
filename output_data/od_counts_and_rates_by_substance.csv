@@ -1,0 +1,757 @@
+level,name,year,substance,count,share
+regions,Fairfield County,2012,all,1536,NA
+regions,Fairfield County,2012,opioid,768,0.5
+regions,Fairfield County,2012,fentanyl,768,0.5
+regions,Fairfield County,2012,heroin,768,0.5
+regions,Fairfield County,2012,cocaine,768,0.5
+regions,Fairfield County,2012,amphet,768,0.5
+regions,Fairfield County,2013,all,2624,NA
+regions,Fairfield County,2013,opioid,1312,0.5
+regions,Fairfield County,2013,fentanyl,1312,0.5
+regions,Fairfield County,2013,heroin,1312,0.5
+regions,Fairfield County,2013,cocaine,1312,0.5
+regions,Fairfield County,2013,amphet,1312,0.5
+regions,Fairfield County,2014,all,2368,NA
+regions,Fairfield County,2014,opioid,1184,0.5
+regions,Fairfield County,2014,fentanyl,1184,0.5
+regions,Fairfield County,2014,heroin,1184,0.5
+regions,Fairfield County,2014,cocaine,1184,0.5
+regions,Fairfield County,2014,amphet,1184,0.5
+regions,Fairfield County,2015,all,3392,NA
+regions,Fairfield County,2015,opioid,1696,0.5
+regions,Fairfield County,2015,fentanyl,1696,0.5
+regions,Fairfield County,2015,heroin,1696,0.5
+regions,Fairfield County,2015,cocaine,1696,0.5
+regions,Fairfield County,2015,amphet,1696,0.5
+regions,Fairfield County,2016,all,5024,NA
+regions,Fairfield County,2016,opioid,2512,0.5
+regions,Fairfield County,2016,fentanyl,2512,0.5
+regions,Fairfield County,2016,heroin,2512,0.5
+regions,Fairfield County,2016,cocaine,2512,0.5
+regions,Fairfield County,2016,amphet,2512,0.5
+regions,Fairfield County,2017,all,4704,NA
+regions,Fairfield County,2017,opioid,2352,0.5
+regions,Fairfield County,2017,fentanyl,2352,0.5
+regions,Fairfield County,2017,heroin,2352,0.5
+regions,Fairfield County,2017,cocaine,2352,0.5
+regions,Fairfield County,2017,amphet,2352,0.5
+regions,Fairfield County,2018,all,4704,NA
+regions,Fairfield County,2018,opioid,2352,0.5
+regions,Fairfield County,2018,fentanyl,2352,0.5
+regions,Fairfield County,2018,heroin,2352,0.5
+regions,Fairfield County,2018,cocaine,2352,0.5
+regions,Fairfield County,2018,amphet,2352,0.5
+regions,Fairfield County,2019,all,5408,NA
+regions,Fairfield County,2019,opioid,2704,0.5
+regions,Fairfield County,2019,fentanyl,2704,0.5
+regions,Fairfield County,2019,heroin,2704,0.5
+regions,Fairfield County,2019,cocaine,2704,0.5
+regions,Fairfield County,2019,amphet,2704,0.5
+regions,Fairfield County,2020,all,6592,NA
+regions,Fairfield County,2020,opioid,3296,0.5
+regions,Fairfield County,2020,fentanyl,3296,0.5
+regions,Fairfield County,2020,heroin,3296,0.5
+regions,Fairfield County,2020,cocaine,3296,0.5
+regions,Fairfield County,2020,amphet,3296,0.5
+regions,Greater Hartford,2012,all,2880,NA
+regions,Greater Hartford,2012,opioid,1440,0.5
+regions,Greater Hartford,2012,fentanyl,1440,0.5
+regions,Greater Hartford,2012,heroin,1440,0.5
+regions,Greater Hartford,2012,cocaine,1440,0.5
+regions,Greater Hartford,2012,amphet,1440,0.5
+regions,Greater Hartford,2013,all,3712,NA
+regions,Greater Hartford,2013,opioid,1856,0.5
+regions,Greater Hartford,2013,fentanyl,1856,0.5
+regions,Greater Hartford,2013,heroin,1856,0.5
+regions,Greater Hartford,2013,cocaine,1856,0.5
+regions,Greater Hartford,2013,amphet,1856,0.5
+regions,Greater Hartford,2014,all,4864,NA
+regions,Greater Hartford,2014,opioid,2432,0.5
+regions,Greater Hartford,2014,fentanyl,2432,0.5
+regions,Greater Hartford,2014,heroin,2432,0.5
+regions,Greater Hartford,2014,cocaine,2432,0.5
+regions,Greater Hartford,2014,amphet,2432,0.5
+regions,Greater Hartford,2015,all,6080,NA
+regions,Greater Hartford,2015,opioid,3040,0.5
+regions,Greater Hartford,2015,fentanyl,3040,0.5
+regions,Greater Hartford,2015,heroin,3040,0.5
+regions,Greater Hartford,2015,cocaine,3040,0.5
+regions,Greater Hartford,2015,amphet,3040,0.5
+regions,Greater Hartford,2016,all,7904,NA
+regions,Greater Hartford,2016,opioid,3952,0.5
+regions,Greater Hartford,2016,fentanyl,3952,0.5
+regions,Greater Hartford,2016,heroin,3952,0.5
+regions,Greater Hartford,2016,cocaine,3952,0.5
+regions,Greater Hartford,2016,amphet,3952,0.5
+regions,Greater Hartford,2017,all,9088,NA
+regions,Greater Hartford,2017,opioid,4544,0.5
+regions,Greater Hartford,2017,fentanyl,4544,0.5
+regions,Greater Hartford,2017,heroin,4544,0.5
+regions,Greater Hartford,2017,cocaine,4544,0.5
+regions,Greater Hartford,2017,amphet,4544,0.5
+regions,Greater Hartford,2018,all,9056,NA
+regions,Greater Hartford,2018,opioid,4528,0.5
+regions,Greater Hartford,2018,fentanyl,4528,0.5
+regions,Greater Hartford,2018,heroin,4528,0.5
+regions,Greater Hartford,2018,cocaine,4528,0.5
+regions,Greater Hartford,2018,amphet,4528,0.5
+regions,Greater Hartford,2019,all,9792,NA
+regions,Greater Hartford,2019,opioid,4896,0.5
+regions,Greater Hartford,2019,fentanyl,4896,0.5
+regions,Greater Hartford,2019,heroin,4896,0.5
+regions,Greater Hartford,2019,cocaine,4896,0.5
+regions,Greater Hartford,2019,amphet,4896,0.5
+regions,Greater Hartford,2020,all,10848,NA
+regions,Greater Hartford,2020,opioid,5424,0.5
+regions,Greater Hartford,2020,fentanyl,5424,0.5
+regions,Greater Hartford,2020,heroin,5424,0.5
+regions,Greater Hartford,2020,cocaine,5424,0.5
+regions,Greater Hartford,2020,amphet,5424,0.5
+regions,Greater New Haven,2012,all,1312,NA
+regions,Greater New Haven,2012,opioid,656,0.5
+regions,Greater New Haven,2012,fentanyl,656,0.5
+regions,Greater New Haven,2012,heroin,656,0.5
+regions,Greater New Haven,2012,cocaine,656,0.5
+regions,Greater New Haven,2012,amphet,656,0.5
+regions,Greater New Haven,2013,all,2208,NA
+regions,Greater New Haven,2013,opioid,1104,0.5
+regions,Greater New Haven,2013,fentanyl,1104,0.5
+regions,Greater New Haven,2013,heroin,1104,0.5
+regions,Greater New Haven,2013,cocaine,1104,0.5
+regions,Greater New Haven,2013,amphet,1104,0.5
+regions,Greater New Haven,2014,all,2144,NA
+regions,Greater New Haven,2014,opioid,1072,0.5
+regions,Greater New Haven,2014,fentanyl,1072,0.5
+regions,Greater New Haven,2014,heroin,1072,0.5
+regions,Greater New Haven,2014,cocaine,1072,0.5
+regions,Greater New Haven,2014,amphet,1072,0.5
+regions,Greater New Haven,2015,all,2816,NA
+regions,Greater New Haven,2015,opioid,1408,0.5
+regions,Greater New Haven,2015,fentanyl,1408,0.5
+regions,Greater New Haven,2015,heroin,1408,0.5
+regions,Greater New Haven,2015,cocaine,1408,0.5
+regions,Greater New Haven,2015,amphet,1408,0.5
+regions,Greater New Haven,2016,all,3872,NA
+regions,Greater New Haven,2016,opioid,1936,0.5
+regions,Greater New Haven,2016,fentanyl,1936,0.5
+regions,Greater New Haven,2016,heroin,1936,0.5
+regions,Greater New Haven,2016,cocaine,1936,0.5
+regions,Greater New Haven,2016,amphet,1936,0.5
+regions,Greater New Haven,2017,all,4160,NA
+regions,Greater New Haven,2017,opioid,2080,0.5
+regions,Greater New Haven,2017,fentanyl,2080,0.5
+regions,Greater New Haven,2017,heroin,2080,0.5
+regions,Greater New Haven,2017,cocaine,2080,0.5
+regions,Greater New Haven,2017,amphet,2080,0.5
+regions,Greater New Haven,2018,all,2912,NA
+regions,Greater New Haven,2018,opioid,1456,0.5
+regions,Greater New Haven,2018,fentanyl,1456,0.5
+regions,Greater New Haven,2018,heroin,1456,0.5
+regions,Greater New Haven,2018,cocaine,1456,0.5
+regions,Greater New Haven,2018,amphet,1456,0.5
+regions,Greater New Haven,2019,all,4608,NA
+regions,Greater New Haven,2019,opioid,2304,0.5
+regions,Greater New Haven,2019,fentanyl,2304,0.5
+regions,Greater New Haven,2019,heroin,2304,0.5
+regions,Greater New Haven,2019,cocaine,2304,0.5
+regions,Greater New Haven,2019,amphet,2304,0.5
+regions,Greater New Haven,2020,all,6112,NA
+regions,Greater New Haven,2020,opioid,3056,0.5
+regions,Greater New Haven,2020,fentanyl,3056,0.5
+regions,Greater New Haven,2020,heroin,3056,0.5
+regions,Greater New Haven,2020,cocaine,3056,0.5
+regions,Greater New Haven,2020,amphet,3056,0.5
+regions,Hartford Inner Ring,2012,all,1344,NA
+regions,Hartford Inner Ring,2012,opioid,672,0.5
+regions,Hartford Inner Ring,2012,fentanyl,672,0.5
+regions,Hartford Inner Ring,2012,heroin,672,0.5
+regions,Hartford Inner Ring,2012,cocaine,672,0.5
+regions,Hartford Inner Ring,2012,amphet,672,0.5
+regions,Hartford Inner Ring,2013,all,1504,NA
+regions,Hartford Inner Ring,2013,opioid,752,0.5
+regions,Hartford Inner Ring,2013,fentanyl,752,0.5
+regions,Hartford Inner Ring,2013,heroin,752,0.5
+regions,Hartford Inner Ring,2013,cocaine,752,0.5
+regions,Hartford Inner Ring,2013,amphet,752,0.5
+regions,Hartford Inner Ring,2014,all,2112,NA
+regions,Hartford Inner Ring,2014,opioid,1056,0.5
+regions,Hartford Inner Ring,2014,fentanyl,1056,0.5
+regions,Hartford Inner Ring,2014,heroin,1056,0.5
+regions,Hartford Inner Ring,2014,cocaine,1056,0.5
+regions,Hartford Inner Ring,2014,amphet,1056,0.5
+regions,Hartford Inner Ring,2015,all,2144,NA
+regions,Hartford Inner Ring,2015,opioid,1072,0.5
+regions,Hartford Inner Ring,2015,fentanyl,1072,0.5
+regions,Hartford Inner Ring,2015,heroin,1072,0.5
+regions,Hartford Inner Ring,2015,cocaine,1072,0.5
+regions,Hartford Inner Ring,2015,amphet,1072,0.5
+regions,Hartford Inner Ring,2016,all,2912,NA
+regions,Hartford Inner Ring,2016,opioid,1456,0.5
+regions,Hartford Inner Ring,2016,fentanyl,1456,0.5
+regions,Hartford Inner Ring,2016,heroin,1456,0.5
+regions,Hartford Inner Ring,2016,cocaine,1456,0.5
+regions,Hartford Inner Ring,2016,amphet,1456,0.5
+regions,Hartford Inner Ring,2017,all,4128,NA
+regions,Hartford Inner Ring,2017,opioid,2064,0.5
+regions,Hartford Inner Ring,2017,fentanyl,2064,0.5
+regions,Hartford Inner Ring,2017,heroin,2064,0.5
+regions,Hartford Inner Ring,2017,cocaine,2064,0.5
+regions,Hartford Inner Ring,2017,amphet,2064,0.5
+regions,Hartford Inner Ring,2018,all,4224,NA
+regions,Hartford Inner Ring,2018,opioid,2112,0.5
+regions,Hartford Inner Ring,2018,fentanyl,2112,0.5
+regions,Hartford Inner Ring,2018,heroin,2112,0.5
+regions,Hartford Inner Ring,2018,cocaine,2112,0.5
+regions,Hartford Inner Ring,2018,amphet,2112,0.5
+regions,Hartford Inner Ring,2019,all,3872,NA
+regions,Hartford Inner Ring,2019,opioid,1936,0.5
+regions,Hartford Inner Ring,2019,fentanyl,1936,0.5
+regions,Hartford Inner Ring,2019,heroin,1936,0.5
+regions,Hartford Inner Ring,2019,cocaine,1936,0.5
+regions,Hartford Inner Ring,2019,amphet,1936,0.5
+regions,Hartford Inner Ring,2020,all,4480,NA
+regions,Hartford Inner Ring,2020,opioid,2240,0.5
+regions,Hartford Inner Ring,2020,fentanyl,2240,0.5
+regions,Hartford Inner Ring,2020,heroin,2240,0.5
+regions,Hartford Inner Ring,2020,cocaine,2240,0.5
+regions,Hartford Inner Ring,2020,amphet,2240,0.5
+regions,Hartford Outer Ring,2012,all,640,NA
+regions,Hartford Outer Ring,2012,opioid,320,0.5
+regions,Hartford Outer Ring,2012,fentanyl,320,0.5
+regions,Hartford Outer Ring,2012,heroin,320,0.5
+regions,Hartford Outer Ring,2012,cocaine,320,0.5
+regions,Hartford Outer Ring,2012,amphet,320,0.5
+regions,Hartford Outer Ring,2013,all,832,NA
+regions,Hartford Outer Ring,2013,opioid,416,0.5
+regions,Hartford Outer Ring,2013,fentanyl,416,0.5
+regions,Hartford Outer Ring,2013,heroin,416,0.5
+regions,Hartford Outer Ring,2013,cocaine,416,0.5
+regions,Hartford Outer Ring,2013,amphet,416,0.5
+regions,Hartford Outer Ring,2014,all,1440,NA
+regions,Hartford Outer Ring,2014,opioid,720,0.5
+regions,Hartford Outer Ring,2014,fentanyl,720,0.5
+regions,Hartford Outer Ring,2014,heroin,720,0.5
+regions,Hartford Outer Ring,2014,cocaine,720,0.5
+regions,Hartford Outer Ring,2014,amphet,720,0.5
+regions,Hartford Outer Ring,2015,all,1472,NA
+regions,Hartford Outer Ring,2015,opioid,736,0.5
+regions,Hartford Outer Ring,2015,fentanyl,736,0.5
+regions,Hartford Outer Ring,2015,heroin,736,0.5
+regions,Hartford Outer Ring,2015,cocaine,736,0.5
+regions,Hartford Outer Ring,2015,amphet,736,0.5
+regions,Hartford Outer Ring,2016,all,1888,NA
+regions,Hartford Outer Ring,2016,opioid,944,0.5
+regions,Hartford Outer Ring,2016,fentanyl,944,0.5
+regions,Hartford Outer Ring,2016,heroin,944,0.5
+regions,Hartford Outer Ring,2016,cocaine,944,0.5
+regions,Hartford Outer Ring,2016,amphet,944,0.5
+regions,Hartford Outer Ring,2017,all,1952,NA
+regions,Hartford Outer Ring,2017,opioid,976,0.5
+regions,Hartford Outer Ring,2017,fentanyl,976,0.5
+regions,Hartford Outer Ring,2017,heroin,976,0.5
+regions,Hartford Outer Ring,2017,cocaine,976,0.5
+regions,Hartford Outer Ring,2017,amphet,976,0.5
+regions,Hartford Outer Ring,2018,all,1504,NA
+regions,Hartford Outer Ring,2018,opioid,752,0.5
+regions,Hartford Outer Ring,2018,fentanyl,752,0.5
+regions,Hartford Outer Ring,2018,heroin,752,0.5
+regions,Hartford Outer Ring,2018,cocaine,752,0.5
+regions,Hartford Outer Ring,2018,amphet,752,0.5
+regions,Hartford Outer Ring,2019,all,1664,NA
+regions,Hartford Outer Ring,2019,opioid,832,0.5
+regions,Hartford Outer Ring,2019,fentanyl,832,0.5
+regions,Hartford Outer Ring,2019,heroin,832,0.5
+regions,Hartford Outer Ring,2019,cocaine,832,0.5
+regions,Hartford Outer Ring,2019,amphet,832,0.5
+regions,Hartford Outer Ring,2020,all,2208,NA
+regions,Hartford Outer Ring,2020,opioid,1104,0.5
+regions,Hartford Outer Ring,2020,fentanyl,1104,0.5
+regions,Hartford Outer Ring,2020,heroin,1104,0.5
+regions,Hartford Outer Ring,2020,cocaine,1104,0.5
+regions,Hartford Outer Ring,2020,amphet,1104,0.5
+regions,Lower Naugatuck Valley,2012,all,544,NA
+regions,Lower Naugatuck Valley,2012,opioid,272,0.5
+regions,Lower Naugatuck Valley,2012,fentanyl,272,0.5
+regions,Lower Naugatuck Valley,2012,heroin,272,0.5
+regions,Lower Naugatuck Valley,2012,cocaine,272,0.5
+regions,Lower Naugatuck Valley,2012,amphet,272,0.5
+regions,Lower Naugatuck Valley,2013,all,544,NA
+regions,Lower Naugatuck Valley,2013,opioid,272,0.5
+regions,Lower Naugatuck Valley,2013,fentanyl,272,0.5
+regions,Lower Naugatuck Valley,2013,heroin,272,0.5
+regions,Lower Naugatuck Valley,2013,cocaine,272,0.5
+regions,Lower Naugatuck Valley,2013,amphet,272,0.5
+regions,Lower Naugatuck Valley,2014,all,640,NA
+regions,Lower Naugatuck Valley,2014,opioid,320,0.5
+regions,Lower Naugatuck Valley,2014,fentanyl,320,0.5
+regions,Lower Naugatuck Valley,2014,heroin,320,0.5
+regions,Lower Naugatuck Valley,2014,cocaine,320,0.5
+regions,Lower Naugatuck Valley,2014,amphet,320,0.5
+regions,Lower Naugatuck Valley,2015,all,896,NA
+regions,Lower Naugatuck Valley,2015,opioid,448,0.5
+regions,Lower Naugatuck Valley,2015,fentanyl,448,0.5
+regions,Lower Naugatuck Valley,2015,heroin,448,0.5
+regions,Lower Naugatuck Valley,2015,cocaine,448,0.5
+regions,Lower Naugatuck Valley,2015,amphet,448,0.5
+regions,Lower Naugatuck Valley,2016,all,1536,NA
+regions,Lower Naugatuck Valley,2016,opioid,768,0.5
+regions,Lower Naugatuck Valley,2016,fentanyl,768,0.5
+regions,Lower Naugatuck Valley,2016,heroin,768,0.5
+regions,Lower Naugatuck Valley,2016,cocaine,768,0.5
+regions,Lower Naugatuck Valley,2016,amphet,768,0.5
+regions,Lower Naugatuck Valley,2017,all,1472,NA
+regions,Lower Naugatuck Valley,2017,opioid,736,0.5
+regions,Lower Naugatuck Valley,2017,fentanyl,736,0.5
+regions,Lower Naugatuck Valley,2017,heroin,736,0.5
+regions,Lower Naugatuck Valley,2017,cocaine,736,0.5
+regions,Lower Naugatuck Valley,2017,amphet,736,0.5
+regions,Lower Naugatuck Valley,2018,all,1248,NA
+regions,Lower Naugatuck Valley,2018,opioid,624,0.5
+regions,Lower Naugatuck Valley,2018,fentanyl,624,0.5
+regions,Lower Naugatuck Valley,2018,heroin,624,0.5
+regions,Lower Naugatuck Valley,2018,cocaine,624,0.5
+regions,Lower Naugatuck Valley,2018,amphet,624,0.5
+regions,Lower Naugatuck Valley,2019,all,1824,NA
+regions,Lower Naugatuck Valley,2019,opioid,912,0.5
+regions,Lower Naugatuck Valley,2019,fentanyl,912,0.5
+regions,Lower Naugatuck Valley,2019,heroin,912,0.5
+regions,Lower Naugatuck Valley,2019,cocaine,912,0.5
+regions,Lower Naugatuck Valley,2019,amphet,912,0.5
+regions,Lower Naugatuck Valley,2020,all,1792,NA
+regions,Lower Naugatuck Valley,2020,opioid,896,0.5
+regions,Lower Naugatuck Valley,2020,fentanyl,896,0.5
+regions,Lower Naugatuck Valley,2020,heroin,896,0.5
+regions,Lower Naugatuck Valley,2020,cocaine,896,0.5
+regions,Lower Naugatuck Valley,2020,amphet,896,0.5
+regions,New Haven Inner Ring,2012,all,352,NA
+regions,New Haven Inner Ring,2012,opioid,176,0.5
+regions,New Haven Inner Ring,2012,fentanyl,176,0.5
+regions,New Haven Inner Ring,2012,heroin,176,0.5
+regions,New Haven Inner Ring,2012,cocaine,176,0.5
+regions,New Haven Inner Ring,2012,amphet,176,0.5
+regions,New Haven Inner Ring,2013,all,576,NA
+regions,New Haven Inner Ring,2013,opioid,288,0.5
+regions,New Haven Inner Ring,2013,fentanyl,288,0.5
+regions,New Haven Inner Ring,2013,heroin,288,0.5
+regions,New Haven Inner Ring,2013,cocaine,288,0.5
+regions,New Haven Inner Ring,2013,amphet,288,0.5
+regions,New Haven Inner Ring,2014,all,736,NA
+regions,New Haven Inner Ring,2014,opioid,368,0.5
+regions,New Haven Inner Ring,2014,fentanyl,368,0.5
+regions,New Haven Inner Ring,2014,heroin,368,0.5
+regions,New Haven Inner Ring,2014,cocaine,368,0.5
+regions,New Haven Inner Ring,2014,amphet,368,0.5
+regions,New Haven Inner Ring,2015,all,1152,NA
+regions,New Haven Inner Ring,2015,opioid,576,0.5
+regions,New Haven Inner Ring,2015,fentanyl,576,0.5
+regions,New Haven Inner Ring,2015,heroin,576,0.5
+regions,New Haven Inner Ring,2015,cocaine,576,0.5
+regions,New Haven Inner Ring,2015,amphet,576,0.5
+regions,New Haven Inner Ring,2016,all,1216,NA
+regions,New Haven Inner Ring,2016,opioid,608,0.5
+regions,New Haven Inner Ring,2016,fentanyl,608,0.5
+regions,New Haven Inner Ring,2016,heroin,608,0.5
+regions,New Haven Inner Ring,2016,cocaine,608,0.5
+regions,New Haven Inner Ring,2016,amphet,608,0.5
+regions,New Haven Inner Ring,2017,all,1376,NA
+regions,New Haven Inner Ring,2017,opioid,688,0.5
+regions,New Haven Inner Ring,2017,fentanyl,688,0.5
+regions,New Haven Inner Ring,2017,heroin,688,0.5
+regions,New Haven Inner Ring,2017,cocaine,688,0.5
+regions,New Haven Inner Ring,2017,amphet,688,0.5
+regions,New Haven Inner Ring,2018,all,960,NA
+regions,New Haven Inner Ring,2018,opioid,480,0.5
+regions,New Haven Inner Ring,2018,fentanyl,480,0.5
+regions,New Haven Inner Ring,2018,heroin,480,0.5
+regions,New Haven Inner Ring,2018,cocaine,480,0.5
+regions,New Haven Inner Ring,2018,amphet,480,0.5
+regions,New Haven Inner Ring,2019,all,1408,NA
+regions,New Haven Inner Ring,2019,opioid,704,0.5
+regions,New Haven Inner Ring,2019,fentanyl,704,0.5
+regions,New Haven Inner Ring,2019,heroin,704,0.5
+regions,New Haven Inner Ring,2019,cocaine,704,0.5
+regions,New Haven Inner Ring,2019,amphet,704,0.5
+regions,New Haven Inner Ring,2020,all,1664,NA
+regions,New Haven Inner Ring,2020,opioid,832,0.5
+regions,New Haven Inner Ring,2020,fentanyl,832,0.5
+regions,New Haven Inner Ring,2020,heroin,832,0.5
+regions,New Haven Inner Ring,2020,cocaine,832,0.5
+regions,New Haven Inner Ring,2020,amphet,832,0.5
+regions,New Haven Outer Ring,2012,all,320,NA
+regions,New Haven Outer Ring,2012,opioid,160,0.5
+regions,New Haven Outer Ring,2012,fentanyl,160,0.5
+regions,New Haven Outer Ring,2012,heroin,160,0.5
+regions,New Haven Outer Ring,2012,cocaine,160,0.5
+regions,New Haven Outer Ring,2012,amphet,160,0.5
+regions,New Haven Outer Ring,2013,all,768,NA
+regions,New Haven Outer Ring,2013,opioid,384,0.5
+regions,New Haven Outer Ring,2013,fentanyl,384,0.5
+regions,New Haven Outer Ring,2013,heroin,384,0.5
+regions,New Haven Outer Ring,2013,cocaine,384,0.5
+regions,New Haven Outer Ring,2013,amphet,384,0.5
+regions,New Haven Outer Ring,2014,all,608,NA
+regions,New Haven Outer Ring,2014,opioid,304,0.5
+regions,New Haven Outer Ring,2014,fentanyl,304,0.5
+regions,New Haven Outer Ring,2014,heroin,304,0.5
+regions,New Haven Outer Ring,2014,cocaine,304,0.5
+regions,New Haven Outer Ring,2014,amphet,304,0.5
+regions,New Haven Outer Ring,2015,all,800,NA
+regions,New Haven Outer Ring,2015,opioid,400,0.5
+regions,New Haven Outer Ring,2015,fentanyl,400,0.5
+regions,New Haven Outer Ring,2015,heroin,400,0.5
+regions,New Haven Outer Ring,2015,cocaine,400,0.5
+regions,New Haven Outer Ring,2015,amphet,400,0.5
+regions,New Haven Outer Ring,2016,all,1152,NA
+regions,New Haven Outer Ring,2016,opioid,576,0.5
+regions,New Haven Outer Ring,2016,fentanyl,576,0.5
+regions,New Haven Outer Ring,2016,heroin,576,0.5
+regions,New Haven Outer Ring,2016,cocaine,576,0.5
+regions,New Haven Outer Ring,2016,amphet,576,0.5
+regions,New Haven Outer Ring,2017,all,1504,NA
+regions,New Haven Outer Ring,2017,opioid,752,0.5
+regions,New Haven Outer Ring,2017,fentanyl,752,0.5
+regions,New Haven Outer Ring,2017,heroin,752,0.5
+regions,New Haven Outer Ring,2017,cocaine,752,0.5
+regions,New Haven Outer Ring,2017,amphet,752,0.5
+regions,New Haven Outer Ring,2018,all,672,NA
+regions,New Haven Outer Ring,2018,opioid,336,0.5
+regions,New Haven Outer Ring,2018,fentanyl,336,0.5
+regions,New Haven Outer Ring,2018,heroin,336,0.5
+regions,New Haven Outer Ring,2018,cocaine,336,0.5
+regions,New Haven Outer Ring,2018,amphet,336,0.5
+regions,New Haven Outer Ring,2019,all,1376,NA
+regions,New Haven Outer Ring,2019,opioid,688,0.5
+regions,New Haven Outer Ring,2019,fentanyl,688,0.5
+regions,New Haven Outer Ring,2019,heroin,688,0.5
+regions,New Haven Outer Ring,2019,cocaine,688,0.5
+regions,New Haven Outer Ring,2019,amphet,688,0.5
+regions,New Haven Outer Ring,2020,all,1568,NA
+regions,New Haven Outer Ring,2020,opioid,784,0.5
+regions,New Haven Outer Ring,2020,fentanyl,784,0.5
+regions,New Haven Outer Ring,2020,heroin,784,0.5
+regions,New Haven Outer Ring,2020,cocaine,784,0.5
+regions,New Haven Outer Ring,2020,amphet,784,0.5
+state,Connecticut,2012,all,10496,NA
+state,Connecticut,2012,opioid,5248,0.5
+state,Connecticut,2012,fentanyl,5248,0.5
+state,Connecticut,2012,heroin,5248,0.5
+state,Connecticut,2012,cocaine,5248,0.5
+state,Connecticut,2012,amphet,5248,0.5
+state,Connecticut,2013,all,14368,NA
+state,Connecticut,2013,opioid,7184,0.5
+state,Connecticut,2013,fentanyl,7184,0.5
+state,Connecticut,2013,heroin,7184,0.5
+state,Connecticut,2013,cocaine,7184,0.5
+state,Connecticut,2013,amphet,7184,0.5
+state,Connecticut,2014,all,16320,NA
+state,Connecticut,2014,opioid,8160,0.5
+state,Connecticut,2014,fentanyl,8160,0.5
+state,Connecticut,2014,heroin,8160,0.5
+state,Connecticut,2014,cocaine,8160,0.5
+state,Connecticut,2014,amphet,8160,0.5
+state,Connecticut,2015,all,21696,NA
+state,Connecticut,2015,opioid,10848,0.5
+state,Connecticut,2015,fentanyl,10848,0.5
+state,Connecticut,2015,heroin,10848,0.5
+state,Connecticut,2015,cocaine,10848,0.5
+state,Connecticut,2015,amphet,10848,0.5
+state,Connecticut,2016,all,27360,NA
+state,Connecticut,2016,opioid,13680,0.5
+state,Connecticut,2016,fentanyl,13680,0.5
+state,Connecticut,2016,heroin,13680,0.5
+state,Connecticut,2016,cocaine,13680,0.5
+state,Connecticut,2016,amphet,13680,0.5
+state,Connecticut,2017,all,30368,NA
+state,Connecticut,2017,opioid,15184,0.5
+state,Connecticut,2017,fentanyl,15184,0.5
+state,Connecticut,2017,heroin,15184,0.5
+state,Connecticut,2017,cocaine,15184,0.5
+state,Connecticut,2017,amphet,15184,0.5
+state,Connecticut,2018,all,30048,NA
+state,Connecticut,2018,opioid,15024,0.5
+state,Connecticut,2018,fentanyl,15024,0.5
+state,Connecticut,2018,heroin,15024,0.5
+state,Connecticut,2018,cocaine,15024,0.5
+state,Connecticut,2018,amphet,15024,0.5
+state,Connecticut,2019,all,34464,NA
+state,Connecticut,2019,opioid,17232,0.5
+state,Connecticut,2019,fentanyl,17232,0.5
+state,Connecticut,2019,heroin,17232,0.5
+state,Connecticut,2019,cocaine,17232,0.5
+state,Connecticut,2019,amphet,17232,0.5
+state,Connecticut,2020,all,39808,NA
+state,Connecticut,2020,opioid,19904,0.5
+state,Connecticut,2020,fentanyl,19904,0.5
+state,Connecticut,2020,heroin,19904,0.5
+state,Connecticut,2020,cocaine,19904,0.5
+state,Connecticut,2020,amphet,19904,0.5
+towns,Bridgeport,2012,all,384,NA
+towns,Bridgeport,2012,opioid,192,0.5
+towns,Bridgeport,2012,fentanyl,192,0.5
+towns,Bridgeport,2012,heroin,192,0.5
+towns,Bridgeport,2012,cocaine,192,0.5
+towns,Bridgeport,2012,amphet,192,0.5
+towns,Bridgeport,2013,all,736,NA
+towns,Bridgeport,2013,opioid,368,0.5
+towns,Bridgeport,2013,fentanyl,368,0.5
+towns,Bridgeport,2013,heroin,368,0.5
+towns,Bridgeport,2013,cocaine,368,0.5
+towns,Bridgeport,2013,amphet,368,0.5
+towns,Bridgeport,2014,all,640,NA
+towns,Bridgeport,2014,opioid,320,0.5
+towns,Bridgeport,2014,fentanyl,320,0.5
+towns,Bridgeport,2014,heroin,320,0.5
+towns,Bridgeport,2014,cocaine,320,0.5
+towns,Bridgeport,2014,amphet,320,0.5
+towns,Bridgeport,2015,all,864,NA
+towns,Bridgeport,2015,opioid,432,0.5
+towns,Bridgeport,2015,fentanyl,432,0.5
+towns,Bridgeport,2015,heroin,432,0.5
+towns,Bridgeport,2015,cocaine,432,0.5
+towns,Bridgeport,2015,amphet,432,0.5
+towns,Bridgeport,2016,all,1536,NA
+towns,Bridgeport,2016,opioid,768,0.5
+towns,Bridgeport,2016,fentanyl,768,0.5
+towns,Bridgeport,2016,heroin,768,0.5
+towns,Bridgeport,2016,cocaine,768,0.5
+towns,Bridgeport,2016,amphet,768,0.5
+towns,Bridgeport,2017,all,1632,NA
+towns,Bridgeport,2017,opioid,816,0.5
+towns,Bridgeport,2017,fentanyl,816,0.5
+towns,Bridgeport,2017,heroin,816,0.5
+towns,Bridgeport,2017,cocaine,816,0.5
+towns,Bridgeport,2017,amphet,816,0.5
+towns,Bridgeport,2018,all,1856,NA
+towns,Bridgeport,2018,opioid,928,0.5
+towns,Bridgeport,2018,fentanyl,928,0.5
+towns,Bridgeport,2018,heroin,928,0.5
+towns,Bridgeport,2018,cocaine,928,0.5
+towns,Bridgeport,2018,amphet,928,0.5
+towns,Bridgeport,2019,all,1920,NA
+towns,Bridgeport,2019,opioid,960,0.5
+towns,Bridgeport,2019,fentanyl,960,0.5
+towns,Bridgeport,2019,heroin,960,0.5
+towns,Bridgeport,2019,cocaine,960,0.5
+towns,Bridgeport,2019,amphet,960,0.5
+towns,Bridgeport,2020,all,2144,NA
+towns,Bridgeport,2020,opioid,1072,0.5
+towns,Bridgeport,2020,fentanyl,1072,0.5
+towns,Bridgeport,2020,heroin,1072,0.5
+towns,Bridgeport,2020,cocaine,1072,0.5
+towns,Bridgeport,2020,amphet,1072,0.5
+towns,Hartford,2012,all,512,NA
+towns,Hartford,2012,opioid,256,0.5
+towns,Hartford,2012,fentanyl,256,0.5
+towns,Hartford,2012,heroin,256,0.5
+towns,Hartford,2012,cocaine,256,0.5
+towns,Hartford,2012,amphet,256,0.5
+towns,Hartford,2013,all,800,NA
+towns,Hartford,2013,opioid,400,0.5
+towns,Hartford,2013,fentanyl,400,0.5
+towns,Hartford,2013,heroin,400,0.5
+towns,Hartford,2013,cocaine,400,0.5
+towns,Hartford,2013,amphet,400,0.5
+towns,Hartford,2014,all,832,NA
+towns,Hartford,2014,opioid,416,0.5
+towns,Hartford,2014,fentanyl,416,0.5
+towns,Hartford,2014,heroin,416,0.5
+towns,Hartford,2014,cocaine,416,0.5
+towns,Hartford,2014,amphet,416,0.5
+towns,Hartford,2015,all,1376,NA
+towns,Hartford,2015,opioid,688,0.5
+towns,Hartford,2015,fentanyl,688,0.5
+towns,Hartford,2015,heroin,688,0.5
+towns,Hartford,2015,cocaine,688,0.5
+towns,Hartford,2015,amphet,688,0.5
+towns,Hartford,2016,all,1984,NA
+towns,Hartford,2016,opioid,992,0.5
+towns,Hartford,2016,fentanyl,992,0.5
+towns,Hartford,2016,heroin,992,0.5
+towns,Hartford,2016,cocaine,992,0.5
+towns,Hartford,2016,amphet,992,0.5
+towns,Hartford,2017,all,1856,NA
+towns,Hartford,2017,opioid,928,0.5
+towns,Hartford,2017,fentanyl,928,0.5
+towns,Hartford,2017,heroin,928,0.5
+towns,Hartford,2017,cocaine,928,0.5
+towns,Hartford,2017,amphet,928,0.5
+towns,Hartford,2018,all,1952,NA
+towns,Hartford,2018,opioid,976,0.5
+towns,Hartford,2018,fentanyl,976,0.5
+towns,Hartford,2018,heroin,976,0.5
+towns,Hartford,2018,cocaine,976,0.5
+towns,Hartford,2018,amphet,976,0.5
+towns,Hartford,2019,all,3072,NA
+towns,Hartford,2019,opioid,1536,0.5
+towns,Hartford,2019,fentanyl,1536,0.5
+towns,Hartford,2019,heroin,1536,0.5
+towns,Hartford,2019,cocaine,1536,0.5
+towns,Hartford,2019,amphet,1536,0.5
+towns,Hartford,2020,all,2784,NA
+towns,Hartford,2020,opioid,1392,0.5
+towns,Hartford,2020,fentanyl,1392,0.5
+towns,Hartford,2020,heroin,1392,0.5
+towns,Hartford,2020,cocaine,1392,0.5
+towns,Hartford,2020,amphet,1392,0.5
+towns,New Britain,2012,all,384,NA
+towns,New Britain,2012,opioid,192,0.5
+towns,New Britain,2012,fentanyl,192,0.5
+towns,New Britain,2012,heroin,192,0.5
+towns,New Britain,2012,cocaine,192,0.5
+towns,New Britain,2012,amphet,192,0.5
+towns,New Britain,2013,all,576,NA
+towns,New Britain,2013,opioid,288,0.5
+towns,New Britain,2013,fentanyl,288,0.5
+towns,New Britain,2013,heroin,288,0.5
+towns,New Britain,2013,cocaine,288,0.5
+towns,New Britain,2013,amphet,288,0.5
+towns,New Britain,2014,all,480,NA
+towns,New Britain,2014,opioid,240,0.5
+towns,New Britain,2014,fentanyl,240,0.5
+towns,New Britain,2014,heroin,240,0.5
+towns,New Britain,2014,cocaine,240,0.5
+towns,New Britain,2014,amphet,240,0.5
+towns,New Britain,2015,all,1088,NA
+towns,New Britain,2015,opioid,544,0.5
+towns,New Britain,2015,fentanyl,544,0.5
+towns,New Britain,2015,heroin,544,0.5
+towns,New Britain,2015,cocaine,544,0.5
+towns,New Britain,2015,amphet,544,0.5
+towns,New Britain,2016,all,1120,NA
+towns,New Britain,2016,opioid,560,0.5
+towns,New Britain,2016,fentanyl,560,0.5
+towns,New Britain,2016,heroin,560,0.5
+towns,New Britain,2016,cocaine,560,0.5
+towns,New Britain,2016,amphet,560,0.5
+towns,New Britain,2017,all,1152,NA
+towns,New Britain,2017,opioid,576,0.5
+towns,New Britain,2017,fentanyl,576,0.5
+towns,New Britain,2017,heroin,576,0.5
+towns,New Britain,2017,cocaine,576,0.5
+towns,New Britain,2017,amphet,576,0.5
+towns,New Britain,2018,all,1376,NA
+towns,New Britain,2018,opioid,688,0.5
+towns,New Britain,2018,fentanyl,688,0.5
+towns,New Britain,2018,heroin,688,0.5
+towns,New Britain,2018,cocaine,688,0.5
+towns,New Britain,2018,amphet,688,0.5
+towns,New Britain,2019,all,1184,NA
+towns,New Britain,2019,opioid,592,0.5
+towns,New Britain,2019,fentanyl,592,0.5
+towns,New Britain,2019,heroin,592,0.5
+towns,New Britain,2019,cocaine,592,0.5
+towns,New Britain,2019,amphet,592,0.5
+towns,New Britain,2020,all,1376,NA
+towns,New Britain,2020,opioid,688,0.5
+towns,New Britain,2020,fentanyl,688,0.5
+towns,New Britain,2020,heroin,688,0.5
+towns,New Britain,2020,cocaine,688,0.5
+towns,New Britain,2020,amphet,688,0.5
+towns,New Haven,2012,all,640,NA
+towns,New Haven,2012,opioid,320,0.5
+towns,New Haven,2012,fentanyl,320,0.5
+towns,New Haven,2012,heroin,320,0.5
+towns,New Haven,2012,cocaine,320,0.5
+towns,New Haven,2012,amphet,320,0.5
+towns,New Haven,2013,all,864,NA
+towns,New Haven,2013,opioid,432,0.5
+towns,New Haven,2013,fentanyl,432,0.5
+towns,New Haven,2013,heroin,432,0.5
+towns,New Haven,2013,cocaine,432,0.5
+towns,New Haven,2013,amphet,432,0.5
+towns,New Haven,2014,all,800,NA
+towns,New Haven,2014,opioid,400,0.5
+towns,New Haven,2014,fentanyl,400,0.5
+towns,New Haven,2014,heroin,400,0.5
+towns,New Haven,2014,cocaine,400,0.5
+towns,New Haven,2014,amphet,400,0.5
+towns,New Haven,2015,all,864,NA
+towns,New Haven,2015,opioid,432,0.5
+towns,New Haven,2015,fentanyl,432,0.5
+towns,New Haven,2015,heroin,432,0.5
+towns,New Haven,2015,cocaine,432,0.5
+towns,New Haven,2015,amphet,432,0.5
+towns,New Haven,2016,all,1504,NA
+towns,New Haven,2016,opioid,752,0.5
+towns,New Haven,2016,fentanyl,752,0.5
+towns,New Haven,2016,heroin,752,0.5
+towns,New Haven,2016,cocaine,752,0.5
+towns,New Haven,2016,amphet,752,0.5
+towns,New Haven,2017,all,1280,NA
+towns,New Haven,2017,opioid,640,0.5
+towns,New Haven,2017,fentanyl,640,0.5
+towns,New Haven,2017,heroin,640,0.5
+towns,New Haven,2017,cocaine,640,0.5
+towns,New Haven,2017,amphet,640,0.5
+towns,New Haven,2018,all,1280,NA
+towns,New Haven,2018,opioid,640,0.5
+towns,New Haven,2018,fentanyl,640,0.5
+towns,New Haven,2018,heroin,640,0.5
+towns,New Haven,2018,cocaine,640,0.5
+towns,New Haven,2018,amphet,640,0.5
+towns,New Haven,2019,all,1824,NA
+towns,New Haven,2019,opioid,912,0.5
+towns,New Haven,2019,fentanyl,912,0.5
+towns,New Haven,2019,heroin,912,0.5
+towns,New Haven,2019,cocaine,912,0.5
+towns,New Haven,2019,amphet,912,0.5
+towns,New Haven,2020,all,2880,NA
+towns,New Haven,2020,opioid,1440,0.5
+towns,New Haven,2020,fentanyl,1440,0.5
+towns,New Haven,2020,heroin,1440,0.5
+towns,New Haven,2020,cocaine,1440,0.5
+towns,New Haven,2020,amphet,1440,0.5
+towns,Waterbury,2012,all,576,NA
+towns,Waterbury,2012,opioid,288,0.5
+towns,Waterbury,2012,fentanyl,288,0.5
+towns,Waterbury,2012,heroin,288,0.5
+towns,Waterbury,2012,cocaine,288,0.5
+towns,Waterbury,2012,amphet,288,0.5
+towns,Waterbury,2013,all,832,NA
+towns,Waterbury,2013,opioid,416,0.5
+towns,Waterbury,2013,fentanyl,416,0.5
+towns,Waterbury,2013,heroin,416,0.5
+towns,Waterbury,2013,cocaine,416,0.5
+towns,Waterbury,2013,amphet,416,0.5
+towns,Waterbury,2014,all,960,NA
+towns,Waterbury,2014,opioid,480,0.5
+towns,Waterbury,2014,fentanyl,480,0.5
+towns,Waterbury,2014,heroin,480,0.5
+towns,Waterbury,2014,cocaine,480,0.5
+towns,Waterbury,2014,amphet,480,0.5
+towns,Waterbury,2015,all,1408,NA
+towns,Waterbury,2015,opioid,704,0.5
+towns,Waterbury,2015,fentanyl,704,0.5
+towns,Waterbury,2015,heroin,704,0.5
+towns,Waterbury,2015,cocaine,704,0.5
+towns,Waterbury,2015,amphet,704,0.5
+towns,Waterbury,2016,all,1056,NA
+towns,Waterbury,2016,opioid,528,0.5
+towns,Waterbury,2016,fentanyl,528,0.5
+towns,Waterbury,2016,heroin,528,0.5
+towns,Waterbury,2016,cocaine,528,0.5
+towns,Waterbury,2016,amphet,528,0.5
+towns,Waterbury,2017,all,1408,NA
+towns,Waterbury,2017,opioid,704,0.5
+towns,Waterbury,2017,fentanyl,704,0.5
+towns,Waterbury,2017,heroin,704,0.5
+towns,Waterbury,2017,cocaine,704,0.5
+towns,Waterbury,2017,amphet,704,0.5
+towns,Waterbury,2018,all,2144,NA
+towns,Waterbury,2018,opioid,1072,0.5
+towns,Waterbury,2018,fentanyl,1072,0.5
+towns,Waterbury,2018,heroin,1072,0.5
+towns,Waterbury,2018,cocaine,1072,0.5
+towns,Waterbury,2018,amphet,1072,0.5
+towns,Waterbury,2019,all,2816,NA
+towns,Waterbury,2019,opioid,1408,0.5
+towns,Waterbury,2019,fentanyl,1408,0.5
+towns,Waterbury,2019,heroin,1408,0.5
+towns,Waterbury,2019,cocaine,1408,0.5
+towns,Waterbury,2019,amphet,1408,0.5
+towns,Waterbury,2020,all,2752,NA
+towns,Waterbury,2020,opioid,1376,0.5
+towns,Waterbury,2020,fentanyl,1376,0.5
+towns,Waterbury,2020,heroin,1376,0.5
+towns,Waterbury,2020,cocaine,1376,0.5
+towns,Waterbury,2020,amphet,1376,0.5

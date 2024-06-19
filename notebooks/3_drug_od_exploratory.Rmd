@@ -1,0 +1,306 @@
+---
+title: "Drug ODs exploratory analysis"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE,
+	fig.showtext = TRUE
+)
+```
+
+```{r}
+library(tidyverse)
+library(tidycensus)
+library(camiller)
+library(cwi)
+library(lubridate)
+library(tsibble)
+source("../_utils/misc_functions.R")
+```
+
+```{r}
+drugs_indiv <- read_csv("../output_data/overdoses_indiv_2012_2020.csv")
+drug_ts <- readRDS("../output_data/drug_overdose_5ct_monthly_ts_1mil.rds")
+drug_trend <- readRDS("../output_data/drug_overdose_age_adj_time_series_by_group_2012_2020.rds")
+annual_15_20 <- read_csv("../output_data/annual_avg_drug_deaths_100k_2015_2020.csv")
+```
+
+## Overview
+```{r}
+range(drugs_indiv$date) # Date range: Jan 1, 2012 to Dec 30, 2019
+
+drugs_indiv %>%
+  count(year = year(date)) # Number of OD deaths has more than trip'ed since 2012.
+
+drugs_indiv %>%
+  count(year = year(date)) %>%
+  filter(year %in% range(year)) %>%
+  spread(key = year, value = n, sep = "_") %>%
+  mutate(change = year_2020 - year_2012,
+         percent_change = change / year_2012) # 279 percent increase from 2012 to 2020
+
+drugs_indiv %>%
+  filter(date >= "2020-01-01") %>% 
+  count(is_opioid) %>%
+  mutate(share = n / sum(n)) # 94 percent of drug related deaths in 2019 involve opioid/opiate
+```
+
+```{r}
+drugs_indiv %>%
+  count(month = month(date), year = year(date)) %>%
+  mutate(mon_yr = paste(month, "1", year, sep = "-") %>% mdy()) %>%
+  ggplot(aes(x = mon_yr, y = n)) +
+    geom_point() +
+    geom_smooth(method = loess, size = 0.4, se = F) +
+    labs(title = "Monthly count of overdose deaths, 2012-2020")
+```
+
+```{r}
+drugs_indiv %>%
+  count(month = month(date), year = year(date), is_opioid) %>%
+  mutate(mon_yr = paste(month, "1", year, sep = "-") %>% mdy()) %>%
+  ggplot(aes(x = mon_yr, y = n, color = is_opioid)) +
+    geom_point() +
+    geom_smooth(method = loess, size = 0.4, se = F) +
+    labs(title = "Monthly count of overdose deaths, opioid vs non, 2012-2020")
+```
+
+```{r}
+drugs_indiv %>%
+  count(month = month(date), year = year(date)) %>%
+  ggplot(aes(x = month, y = n, fill = as.factor(year))) +
+    geom_area(position = position_stack()) +
+    scale_x_continuous(breaks = 1:12) +
+    labs(title = "Monthly count of deaths, 2012-2020")
+```
+
+5 year avg annual age adj rates (and total)
+```{r}
+annual_15_20 %>%
+  pivot_wider(names_from = is_opioid, 
+              values_from = c(total_n, avg_annual_age_adj), values_fn = list(avg_annual_age_adj = ~round(., digits = 1)))
+```
+
+## Geography
+```{r}
+drugs_ts %>%
+  filter(is_opioid == "all_drugs", !is.na(rolling_mean_6mo)) %>%
+  ggplot(aes(x = month, y = rolling_mean_6mo, color = name)) +
+  geom_line() +
+  ggrepel::geom_text_repel(aes(label = name), 
+                           data = . %>% filter(month == max(month)),
+                           direction = "y", hjust = 0, size = 2.8, nudge_x = 30) +
+  scale_x_date(expand = expansion(mult = c(0.05, 0.2))) +
+  labs(x = NULL, title = "Age-adjusted overdose death rate per month per 1 million",
+       subtitle = "6-month rolling average by cluster, 2012–2019") +
+  theme_light() +
+  theme(legend.position = "none")
+
+drugs_ts %>%
+  filter(is_opioid == "opioids_only", !is.na(rolling_mean_6mo)) %>%
+  ggplot(aes(x = month, y = rolling_mean_6mo, color = name)) +
+  geom_line() +
+  ggrepel::geom_text_repel(aes(label = name), 
+                           data = . %>% filter(month == max(month)),
+                           direction = "y", hjust = 0, size = 2.8, nudge_x = 30) +
+  scale_x_date(expand = expansion(mult = c(0.05, 0.2))) +
+  labs(x = NULL, title = "Age-adjusted opioid-related od death rate per month per 1 million",
+       subtitle = "6-month rolling average by cluster, 2012–2019") +
+  theme_light() +
+  theme(legend.position = "none")
+```
+
+## Gender
+```{r}
+drugs_indiv %>%
+  filter(!is.na(sex)) %>%
+  count(sex) %>%
+  mutate(share = n / sum(n)) # 74 percent of drug related deaths are men
+
+drugs_indiv %>%
+  filter(!is.na(sex)) %>%
+  group_by(sex, is_opioid) %>%
+  summarise(n = n()) %>%
+  mutate(share = n / sum(n)) # 93 percent of men who overdosed involved opioids; 91 percent of women
+```
+
+```{r}
+drugs_indiv %>%
+  filter(!is.na(sex)) %>%
+  count(month = month(date), year = year(date), sex) %>%
+  mutate(mon_yr = paste(month, "1", year, sep = "-") %>% mdy()) %>%
+  ggplot(aes(x = mon_yr, y = n, color = sex)) +
+    geom_point() +
+    geom_smooth(method = loess, size = 0.4, se = F) +
+    labs(title = "Monthly count of overdose deaths by sex, 2012-2020")
+```
+
+## Race
+```{r}
+age_adj <- readRDS("../output_data/age_adj_drug_deaths_2015_2020.rds")
+age_adj_race <- age_adj$by_race
+
+age_adj_race %>% 
+  filter(name == "Connecticut") %>% 
+  filter(is_opioid == "any_substance") %>% 
+  select(race, annualized_age_adj_rate100k)
+```
+Drug related deaths by race: white 79 percent, Latino 12 percent, Black 8.7 percent, AAPI 0.7 percent.
+57 percent are white men.
+
+```{r}
+drugs_indiv %>%
+  count(month = month(date), year = year(date), race) %>%
+  mutate(mon_yr = paste(month, "1", year, sep = "-") %>% mdy()) %>%
+  ggplot(aes(x = mon_yr, y = n, color = race)) +
+    geom_point() +
+    geom_smooth(method = loess, size = 0.4, se = F) +
+    labs(title = "Monthly count of overdose deaths by race, 2012-2019")
+```
+
+## Age
+```{r}
+drugs_indiv %>% count(age_group)
+drugs_indiv %>%
+  filter(is_opioid) %>% 
+  group_by(age_group) %>% 
+  count(year = year(date)) %>%
+  mutate(yr = paste("1", "1", year, sep = "-") %>% mdy()) %>% 
+  ggplot(aes(x = yr, y = n, color=age_group)) +
+    geom_line(size=1.0) +
+    labs(title = "Annual opioid overdose deaths by age, 2012-2018",
+         subtitle = "Deaths among 25-34 & 35-44 have surpassed 45-54 (wording?)") # how to word?
+```
+
+## Opioid + other substances
+```{r}
+# to delete opioids
+drug_strs_2 <- c("anyopioid", "oxycodone", "oxymorphone",  "morphine", "tramadol", "fentanyl", "hydrocodone", "opiates", "\\bfen", "44700", "47700", "br?upre?no", "codeine", "fentanil", "fentanyl", "h-morph", "heroi?n", "hyd-?morph", "hydr-?mor", "hydr?o?morph?", "hydro?\\s?morp", "hydrocod", "levorphanol", "meperidine", "methadone", "mor?ph?i+ne", "morph", "morphone", "opiate", "opioi?d", "oxycod", "oxymorph", "percocet", "poppy", "tapentadol", "tramad")
+drug_re_2 <- drug_strs_2 %>%
+  paste(collapse = "|") %>%
+  sprintf("(%s)", .)
+
+# top 5 most common
+drugs_indiv %>% 
+  mutate(subs_txt_2 = str_remove_all(subs_txt, drug_re_2)) %>% 
+  mutate(id = row_number()) %>% 
+  tidytext::unnest_tokens(word, input = subs_txt_2) %>% 
+  count(word) %>% arrange(desc(n))
+# 1537
+
+drugs_top5_2019 <- drugs_indiv %>% 
+  mutate(benzodiazepine = str_detect(subs_txt, "benzodiazepine|benzodiazepines|benzo$|benzodiazapine")) %>% 
+  mutate(cocaine = str_detect(subs_txt, "cocain|cocanie")) %>% 
+  mutate(ethanol = str_detect(subs_txt, "ethanol|ethanl")) %>% 
+  mutate(alprazolam = str_detect(subs_txt, "alprazolam")) %>% 
+  mutate(alcohol = str_detect(subs_txt, "alcohol")) %>% 
+  filter(is_opioid==TRUE) %>% 
+  filter(date > "2018-12-31 18:00:00")
+
+drugs_top5_2019 %>% 
+  select(benzodiazepine:alcohol) %>% 
+  gather(key, value) %>%
+  filter(value) %>% 
+  ggplot(aes(key)) +
+  geom_bar(stat="count", position = "dodge") # add alprazolam: brand name = xanax
+
+all5 <- drugs_top5_2019 %>% 
+  summarize(any_true = sum( benzodiazepine|cocaine|ethanol|alprazolam|alcohol) / 1011)
+
+benzo_alc <- drugs_top5_2019 %>% 
+  summarize(any_true = sum( benzodiazepine|alcohol) / 1011)
+
+coc_xan_eth <- drugs_top5_2019 %>% 
+  summarize(any_true = sum( cocaine|ethanol|alprazolam) / 1011)
+```
+62 percent of opioid related deaths in 2019 also involved cocaine, ethanol, and/or alprazolam.
+
+Because opioid overdoses kill people by suppressing their ability to breathe, many opioid-involved od deaths also include other drugs that interact on this respiratory depression effect. In 2019, 33% of opioid related deaths also involved benzodiazepines and/or alcohol.
+
+## Semi-synthetic vs. synthetic
+```{r}
+semi <- "heroin|codone"
+synth <- "fentanyl|tramadol|methadone"
+
+drugs_indiv_3 <- drugs_indiv %>% 
+  filter(is_opioid) %>% 
+  mutate(semi = str_detect(subs_txt, semi)) %>% 
+  mutate(synth = str_detect(subs_txt, synth))
+
+semi <- drugs_indiv_3 %>% 
+  count(year = year(date), semi, synth) %>% 
+  group_by(semi, year) %>% 
+  summarize(semi_count = sum(n)) %>% 
+  filter(semi) %>% 
+  ungroup()
+
+synth <- drugs_indiv_3 %>% 
+  count(year = year(date), semi, synth) %>% 
+  group_by(synth, year) %>% 
+  summarize(synth_count = sum(n)) %>% 
+  filter(synth) %>% 
+  ungroup()
+
+full_join(semi, synth, by="year") %>% 
+  select(year, semi_count, synth_count) %>% 
+  pivot_longer(cols=semi_count:synth_count) %>% 
+  ggplot(aes(x=year, y=value, color=name)) +
+  geom_line()
+```
+
+## Fentanyl
+```{r}
+drugs_indiv_4 <- drugs_indiv %>% 
+  mutate(is_fentanyl = str_detect(subs_txt, "fentanyl|fentayl")) %>% 
+  count(year = year(date), is_fentanyl) %>% 
+  group_by(is_fentanyl, year) %>% 
+  summarize(fentanyl_count = sum(n)) %>% 
+  ungroup()
+
+drugs_indiv_4 %>% ggplot(aes(x=year, y=fentanyl_count, color=is_fentanyl)) +
+  geom_line()
+```
+In the past 5 years, fentanyl involvement in drug overdose deaths has increased by 380%.
+
+
+
+```{r fig.width=7, fig.height=7}
+month6_fentanyl_n <- drugs_ts %>%
+  filter(date > "2012-12-31") %>% 
+  mutate_if(is.factor, as.character) %>%
+  index_by(mo6 = floor_date(date, "6 months")) %>%
+  group_by(level, name, is_fentanyl) %>%
+  summarise(n = sum(n)) %>%
+  as_tibble() %>%
+  group_by(level, name, mo6)
+
+month6_fentanyl_n %>%
+  filter(name %in% c("Greater Hartford", "Fairfield County", "Greater New Haven", "Lower Naugatuck Valley")) %>%
+  mutate(share = n / sum(n)) %>%
+  ggplot(aes(x = mo6, y = n, fill = is_fentanyl)) + 
+  geom_col(alpha = 0.9) +
+  geom_text(aes(label = scales::percent(share, accuracy = 1)), 
+            data = . %>% filter(is_fentanyl),
+            vjust = -0.1, family = "roboto", size = 2.8) +
+  theme_din() +
+  scale_fill_manual(values = tol12[c(3, 11)]) +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+  facet_wrap(vars(name), ncol = 2) +
+  labs(title = "Count of deaths by presence of fentanyl",
+       subtitle = "6-month totals, 2013-2019\nWith share of deaths that involve fentanyl",
+       x = NULL) +
+  theme(legend.position = "bottom")
+```
+
+
+
+
+
+
+
+
+

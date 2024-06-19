@@ -1,0 +1,175 @@
+Pulling and cleaning drug OD data
+================
+
+``` r
+library(tidyverse)
+library(tidycensus)
+library(camiller)
+library(cwi)
+library(lubridate)
+source("../_utils/misc_functions.R")
+```
+
+## Crosswalks
+
+``` r
+big_vill_xwalk <- readxl::read_excel("../raw_data/match_communities_to_towns.xlsx") %>%
+  rename(place = Community, town = Town) 
+
+xtra_xwalk <- tribble(
+  ~place,                ~town,
+  "north grosvenordale", "thompson",
+  "new brit",            "new britain",
+  "waterbruy",           "waterbury",
+  "no haven",            "north haven",
+  "w haven",             "west haven",
+  "n haven",             "new haven",
+  "stafford spgs",       "stafford",
+  "vernon-rockville",    "vernon",
+  "rockvl",              "vernon",
+  "vernon rockvl",       "vernon",
+  "sakem",               "salem",
+  "s glastonbury",       "glastonbury",
+  "north windam",        "windham"
+)
+
+op_xwalk <- cwi::xwalk %>%
+  distinct(town) %>%
+  mutate(place = town) %>%
+  bind_rows(
+    cwi::village2town %>% select(place, town),
+    big_vill_xwalk,
+    xtra_xwalk) %>%
+  rename(real_town = town) %>%
+  mutate_all(tolower) %>%
+  distinct(place, real_town) %>%
+  arrange(place)
+
+town2county <- tidycensus::fips_codes %>%
+  filter(state == "CT") %>%
+  distinct(county_code, county) %>%
+  mutate(county = str_remove(county, " County")) %>%
+  inner_join(
+    cwi::xwalk %>% 
+      mutate(county_fips = substr(town_fips, 3, 5)) %>%
+      distinct(town, county_fips),
+    by = c("county_code" = "county_fips")
+  ) %>%
+  mutate_all(tolower)
+```
+
+## Read data
+
+Reading directly from open data portal
+
+``` r
+drugs_read_0 <- RSocrata::read.socrata("https://data.ct.gov/resource/deaths.json") %>% 
+  select(date, age, sex, race,
+         city = residencecity, county = residencecounty, state = residencestate,
+         heroin, oxycodone, methadone, oxymorphone, hydrocodone, fentanyl, tramadol=tramad, morphine_notheroin, opiatenos, fentanylanalogue, hydromorphone, 
+         cocaine, ethanol, benzodiazepine, amphet, othersignifican,
+         anyopioid, other, 
+         cod)
+```
+
+As of 05/21/2020, the 2019 data is hosted separately on
+“<https://portal.ct.gov/OCME/Statistics>”
+
+Adding 2019 data
+
+``` r
+drugs_2019 <- readxl::read_excel("../raw_data/DrugDeaths_2015-2019.xlsx", sheet="2019") %>% 
+  janitor::clean_names() %>% 
+  select(date=dod, age, sex, race, city=residence_city, county=residence_county, state=residence_state, heroin, oxycodone, methadone, oxymorphone, hydrocodone, fentanyl, tramadol, morphine_notheroin=morphine_not_heroin, opiatenos=opiate_nos, fentanylanalogue=fentanyl_analogue, hydromorphone, cocaine, ethanol, benzodiazepine=benzodiazepines, amphet=meth_amphetamine, othersignifican=other_significan, anyopioid=any_opioid, other, cod=cause_of_death)
+
+drugs_read <- rbind(drugs_read_0, drugs_2019)
+```
+
+## Clean
+
+``` r
+drugs0 <- drugs_read %>%
+  as_tibble() %>%
+  mutate(age = as.numeric(age)) %>%
+  mutate_if(is.character, tolower) %>%
+  mutate(city = city %>%
+           str_replace_all("\\s{2,}", " ") %>%
+           str_trim()) %>%
+  mutate_at(vars(sex:state), as.factor) %>%
+  mutate(race = race %>%
+           fct_collapse(latino = c("hispanic, black", "hispanic, white")) %>%
+           fct_collapse(aapi = c("chinese", "korean", "asian indian", 
+                                 "asian, other", "hawaiian")) %>% 
+           fct_other(keep = c("white", "black", "latino", "aapi"), 
+                     other_level = "other_unknown") %>%
+           fct_explicit_na(na_level = "other_unknown"),
+         sex = fct_explicit_na(sex, na_level = "unknown")) %>%
+  mutate(cod = cod %>%
+           str_replace_all("[:punct:]", " ") %>%
+           str_replace_all("(?<=\\d)\\s", "_") %>%
+           str_trim() %>%
+           str_replace_all("\\s{2,}", " ") %>%
+           str_replace_all("\\bher\\s", "heroin ") %>%
+           str_replace_all("\\band\\B", "and ")) %>%
+  filter(state == "ct" | is.na(state))
+drugs <- drugs0 %>% 
+  inner_join(op_xwalk, by = c("city" = "place")) %>%
+  select(-county) %>%
+  left_join(town2county, by = c("real_town" = "town"))
+```
+
+## Text mining
+
+``` r
+op_stops <- data.frame(
+  word = c("acute", "intoxication", "combined", "effects", "due", "toxicity", "toxicities", "use", "complications", "including", "drug", "multidrug", "multiple", "intoxicationcombined", "chronic", "associated", "recent", "abuse", "using", "substance", "following", "disease", "toxcity"),
+  lexicon = "drugs"
+) %>%
+  bind_rows(tidytext::stop_words)
+
+# to find opioid
+drug_strs <- c("\\bfen", "44700", "47700", "br?upre?no", "codeine", "fentanil", "fentanyl", "h-morph", "heroi?n", "hyd-?morph", "hydr-?mor", "hydr?o?morph?", "hydro?\\s?morp", "hydrocodone", "hydrocod", "levorphanol", "meperidine", "methadone", "mor?ph?i+ne", "morph", "morphone", "opiate", "opioi?d", "oxycodone", "oxycod", "oxymorph", "percocet", "poppy", "tapentadol", "tramad")
+drug_re <- drug_strs %>%
+  paste(collapse = "|") %>%
+  sprintf("(%s)", .)
+
+drugs_indiv <- drugs %>%
+  select(date:race, town = real_town, county, heroin:cod) %>%
+  gather(key = subs, value, -date:-county, -cod, -other) %>%
+  mutate(value = as.factor(value) %>%
+           fct_collapse(y = c("y pops", "y (ptch)", "y-a", "yes")) %>%
+           fct_other(keep = "y", other_level = "n") %>%
+           fct_explicit_na(na_level = "n")) %>%
+  filter(value == "y") %>%
+  group_by_at(vars(-subs, -value)) %>%
+  summarise(subs_txt = c(subs, other, cod) %>%
+              na.omit() %>%
+              paste(collapse = " ")) %>%
+  ungroup() %>%
+# unnest tokens to remove duplicate words
+  tidytext::unnest_tokens(word, input = subs_txt) %>%
+  distinct() %>%
+  anti_join(op_stops, by = "word") %>%
+  group_by_at(vars(-word)) %>%
+  summarise(subs_txt = paste(word, collapse = " ")) %>%
+  ungroup() %>%
+  mutate(is_opioid = str_detect(subs_txt, drug_re)) %>%
+  mutate(age_group = cut(.$age, breaks=c(0,24,34,44,54,64,Inf), 
+                         labels=c("14-24", "25-34", "35-44", "45-54", 
+                                  "55-64", "65 and over"))) %>% 
+  select(date, age, age_group, sex:county, is_opioid, subs_txt) %>% 
+  mutate(date = as.Date(date)) %>%
+  mutate_at(vars(town, county), str_to_title) %>%
+  mutate(age_grp = cut(age, breaks = seq(0, 100, by = 5), right = F) %>%
+           fct_relabel(age_brks) %>%
+           fct_collapse(ages00_09 = c("ages0_4", "ages5_9"),
+                        ages85_over = c("ages85_89", "ages90_94", "ages95_99"))) %>%
+  mutate(year = year(date), 
+         is_fentanyl = str_detect(subs_txt, "fent"))
+```
+
+## Write file
+
+``` r
+write_csv(drugs_indiv, "../output_data/overdoses_indiv_2012_2019.csv")
+```

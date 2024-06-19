@@ -1,0 +1,2863 @@
+level,name,year,substance,count,share
+5CT,Rural,2012,all,0,NA
+5CT,Rural,2012,opioid,NA,NA
+5CT,Rural,2012,fentanyl,NA,NA
+5CT,Rural,2012,heroin,NA,NA
+5CT,Rural,2012,cocaine,NA,NA
+5CT,Rural,2012,amphet,NA,NA
+5CT,Rural,2013,all,0,NA
+5CT,Rural,2013,opioid,NA,NA
+5CT,Rural,2013,fentanyl,NA,NA
+5CT,Rural,2013,heroin,NA,NA
+5CT,Rural,2013,cocaine,NA,NA
+5CT,Rural,2013,amphet,NA,NA
+5CT,Rural,2014,all,0,NA
+5CT,Rural,2014,opioid,NA,NA
+5CT,Rural,2014,fentanyl,NA,NA
+5CT,Rural,2014,heroin,NA,NA
+5CT,Rural,2014,cocaine,NA,NA
+5CT,Rural,2014,amphet,NA,NA
+5CT,Rural,2015,all,58,NA
+5CT,Rural,2015,opioid,NA,NA
+5CT,Rural,2015,fentanyl,NA,NA
+5CT,Rural,2015,heroin,NA,NA
+5CT,Rural,2015,cocaine,NA,NA
+5CT,Rural,2015,amphet,NA,NA
+5CT,Rural,2016,all,90,NA
+5CT,Rural,2016,opioid,NA,NA
+5CT,Rural,2016,fentanyl,NA,NA
+5CT,Rural,2016,heroin,NA,NA
+5CT,Rural,2016,cocaine,NA,NA
+5CT,Rural,2016,amphet,NA,NA
+5CT,Rural,2017,all,117,NA
+5CT,Rural,2017,opioid,NA,NA
+5CT,Rural,2017,fentanyl,NA,NA
+5CT,Rural,2017,heroin,NA,NA
+5CT,Rural,2017,cocaine,NA,NA
+5CT,Rural,2017,amphet,NA,NA
+5CT,Rural,2018,all,111,NA
+5CT,Rural,2018,opioid,NA,NA
+5CT,Rural,2018,fentanyl,NA,NA
+5CT,Rural,2018,heroin,NA,NA
+5CT,Rural,2018,cocaine,NA,NA
+5CT,Rural,2018,amphet,NA,NA
+5CT,Rural,2019,all,115,NA
+5CT,Rural,2019,opioid,NA,NA
+5CT,Rural,2019,fentanyl,NA,NA
+5CT,Rural,2019,heroin,NA,NA
+5CT,Rural,2019,cocaine,NA,NA
+5CT,Rural,2019,amphet,NA,NA
+5CT,Rural,2020,all,134,NA
+5CT,Rural,2020,opioid,NA,NA
+5CT,Rural,2020,fentanyl,NA,NA
+5CT,Rural,2020,heroin,NA,NA
+5CT,Rural,2020,cocaine,NA,NA
+5CT,Rural,2020,amphet,NA,NA
+5CT,Suburban,2012,all,0,NA
+5CT,Suburban,2012,opioid,NA,NA
+5CT,Suburban,2012,fentanyl,NA,NA
+5CT,Suburban,2012,heroin,NA,NA
+5CT,Suburban,2012,cocaine,NA,NA
+5CT,Suburban,2012,amphet,NA,NA
+5CT,Suburban,2013,all,0,NA
+5CT,Suburban,2013,opioid,NA,NA
+5CT,Suburban,2013,fentanyl,NA,NA
+5CT,Suburban,2013,heroin,NA,NA
+5CT,Suburban,2013,cocaine,NA,NA
+5CT,Suburban,2013,amphet,NA,NA
+5CT,Suburban,2014,all,0,NA
+5CT,Suburban,2014,opioid,NA,NA
+5CT,Suburban,2014,fentanyl,NA,NA
+5CT,Suburban,2014,heroin,NA,NA
+5CT,Suburban,2014,cocaine,NA,NA
+5CT,Suburban,2014,amphet,NA,NA
+5CT,Suburban,2015,all,68,NA
+5CT,Suburban,2015,opioid,NA,NA
+5CT,Suburban,2015,fentanyl,NA,NA
+5CT,Suburban,2015,heroin,NA,NA
+5CT,Suburban,2015,cocaine,NA,NA
+5CT,Suburban,2015,amphet,NA,NA
+5CT,Suburban,2016,all,151,NA
+5CT,Suburban,2016,opioid,NA,NA
+5CT,Suburban,2016,fentanyl,NA,NA
+5CT,Suburban,2016,heroin,NA,NA
+5CT,Suburban,2016,cocaine,NA,NA
+5CT,Suburban,2016,amphet,NA,NA
+5CT,Suburban,2017,all,162,NA
+5CT,Suburban,2017,opioid,NA,NA
+5CT,Suburban,2017,fentanyl,NA,NA
+5CT,Suburban,2017,heroin,NA,NA
+5CT,Suburban,2017,cocaine,NA,NA
+5CT,Suburban,2017,amphet,NA,NA
+5CT,Suburban,2018,all,143,NA
+5CT,Suburban,2018,opioid,NA,NA
+5CT,Suburban,2018,fentanyl,NA,NA
+5CT,Suburban,2018,heroin,NA,NA
+5CT,Suburban,2018,cocaine,NA,NA
+5CT,Suburban,2018,amphet,NA,NA
+5CT,Suburban,2019,all,164,NA
+5CT,Suburban,2019,opioid,NA,NA
+5CT,Suburban,2019,fentanyl,NA,NA
+5CT,Suburban,2019,heroin,NA,NA
+5CT,Suburban,2019,cocaine,NA,NA
+5CT,Suburban,2019,amphet,NA,NA
+5CT,Suburban,2020,all,189,NA
+5CT,Suburban,2020,opioid,NA,NA
+5CT,Suburban,2020,fentanyl,NA,NA
+5CT,Suburban,2020,heroin,NA,NA
+5CT,Suburban,2020,cocaine,NA,NA
+5CT,Suburban,2020,amphet,NA,NA
+5CT,Urban core,2012,all,0,NA
+5CT,Urban core,2012,opioid,NA,NA
+5CT,Urban core,2012,fentanyl,NA,NA
+5CT,Urban core,2012,heroin,NA,NA
+5CT,Urban core,2012,cocaine,NA,NA
+5CT,Urban core,2012,amphet,NA,NA
+5CT,Urban core,2013,all,0,NA
+5CT,Urban core,2013,opioid,NA,NA
+5CT,Urban core,2013,fentanyl,NA,NA
+5CT,Urban core,2013,heroin,NA,NA
+5CT,Urban core,2013,cocaine,NA,NA
+5CT,Urban core,2013,amphet,NA,NA
+5CT,Urban core,2014,all,0,NA
+5CT,Urban core,2014,opioid,NA,NA
+5CT,Urban core,2014,fentanyl,NA,NA
+5CT,Urban core,2014,heroin,NA,NA
+5CT,Urban core,2014,cocaine,NA,NA
+5CT,Urban core,2014,amphet,NA,NA
+5CT,Urban core,2015,all,133,NA
+5CT,Urban core,2015,opioid,NA,NA
+5CT,Urban core,2015,fentanyl,NA,NA
+5CT,Urban core,2015,heroin,NA,NA
+5CT,Urban core,2015,cocaine,NA,NA
+5CT,Urban core,2015,amphet,NA,NA
+5CT,Urban core,2016,all,274,NA
+5CT,Urban core,2016,opioid,NA,NA
+5CT,Urban core,2016,fentanyl,NA,NA
+5CT,Urban core,2016,heroin,NA,NA
+5CT,Urban core,2016,cocaine,NA,NA
+5CT,Urban core,2016,amphet,NA,NA
+5CT,Urban core,2017,all,285,NA
+5CT,Urban core,2017,opioid,NA,NA
+5CT,Urban core,2017,fentanyl,NA,NA
+5CT,Urban core,2017,heroin,NA,NA
+5CT,Urban core,2017,cocaine,NA,NA
+5CT,Urban core,2017,amphet,NA,NA
+5CT,Urban core,2018,all,327,NA
+5CT,Urban core,2018,opioid,NA,NA
+5CT,Urban core,2018,fentanyl,NA,NA
+5CT,Urban core,2018,heroin,NA,NA
+5CT,Urban core,2018,cocaine,NA,NA
+5CT,Urban core,2018,amphet,NA,NA
+5CT,Urban core,2019,all,437,NA
+5CT,Urban core,2019,opioid,NA,NA
+5CT,Urban core,2019,fentanyl,NA,NA
+5CT,Urban core,2019,heroin,NA,NA
+5CT,Urban core,2019,cocaine,NA,NA
+5CT,Urban core,2019,amphet,NA,NA
+5CT,Urban core,2020,all,438,NA
+5CT,Urban core,2020,opioid,NA,NA
+5CT,Urban core,2020,fentanyl,NA,NA
+5CT,Urban core,2020,heroin,NA,NA
+5CT,Urban core,2020,cocaine,NA,NA
+5CT,Urban core,2020,amphet,NA,NA
+5CT,Urban periphery,2012,all,0,NA
+5CT,Urban periphery,2012,opioid,NA,NA
+5CT,Urban periphery,2012,fentanyl,NA,NA
+5CT,Urban periphery,2012,heroin,NA,NA
+5CT,Urban periphery,2012,cocaine,NA,NA
+5CT,Urban periphery,2012,amphet,NA,NA
+5CT,Urban periphery,2013,all,0,NA
+5CT,Urban periphery,2013,opioid,NA,NA
+5CT,Urban periphery,2013,fentanyl,NA,NA
+5CT,Urban periphery,2013,heroin,NA,NA
+5CT,Urban periphery,2013,cocaine,NA,NA
+5CT,Urban periphery,2013,amphet,NA,NA
+5CT,Urban periphery,2014,all,0,NA
+5CT,Urban periphery,2014,opioid,NA,NA
+5CT,Urban periphery,2014,fentanyl,NA,NA
+5CT,Urban periphery,2014,heroin,NA,NA
+5CT,Urban periphery,2014,cocaine,NA,NA
+5CT,Urban periphery,2014,amphet,NA,NA
+5CT,Urban periphery,2015,all,152,NA
+5CT,Urban periphery,2015,opioid,NA,NA
+5CT,Urban periphery,2015,fentanyl,NA,NA
+5CT,Urban periphery,2015,heroin,NA,NA
+5CT,Urban periphery,2015,cocaine,NA,NA
+5CT,Urban periphery,2015,amphet,NA,NA
+5CT,Urban periphery,2016,all,334,NA
+5CT,Urban periphery,2016,opioid,NA,NA
+5CT,Urban periphery,2016,fentanyl,NA,NA
+5CT,Urban periphery,2016,heroin,NA,NA
+5CT,Urban periphery,2016,cocaine,NA,NA
+5CT,Urban periphery,2016,amphet,NA,NA
+5CT,Urban periphery,2017,all,417,NA
+5CT,Urban periphery,2017,opioid,NA,NA
+5CT,Urban periphery,2017,fentanyl,NA,NA
+5CT,Urban periphery,2017,heroin,NA,NA
+5CT,Urban periphery,2017,cocaine,NA,NA
+5CT,Urban periphery,2017,amphet,NA,NA
+5CT,Urban periphery,2018,all,374,NA
+5CT,Urban periphery,2018,opioid,NA,NA
+5CT,Urban periphery,2018,fentanyl,NA,NA
+5CT,Urban periphery,2018,heroin,NA,NA
+5CT,Urban periphery,2018,cocaine,NA,NA
+5CT,Urban periphery,2018,amphet,NA,NA
+5CT,Urban periphery,2019,all,430,NA
+5CT,Urban periphery,2019,opioid,NA,NA
+5CT,Urban periphery,2019,fentanyl,NA,NA
+5CT,Urban periphery,2019,heroin,NA,NA
+5CT,Urban periphery,2019,cocaine,NA,NA
+5CT,Urban periphery,2019,amphet,NA,NA
+5CT,Urban periphery,2020,all,519,NA
+5CT,Urban periphery,2020,opioid,NA,NA
+5CT,Urban periphery,2020,fentanyl,NA,NA
+5CT,Urban periphery,2020,heroin,NA,NA
+5CT,Urban periphery,2020,cocaine,NA,NA
+5CT,Urban periphery,2020,amphet,NA,NA
+5CT,Wealthy,2012,all,0,NA
+5CT,Wealthy,2012,opioid,NA,NA
+5CT,Wealthy,2012,fentanyl,NA,NA
+5CT,Wealthy,2012,heroin,NA,NA
+5CT,Wealthy,2012,cocaine,NA,NA
+5CT,Wealthy,2012,amphet,NA,NA
+5CT,Wealthy,2013,all,0,NA
+5CT,Wealthy,2013,opioid,NA,NA
+5CT,Wealthy,2013,fentanyl,NA,NA
+5CT,Wealthy,2013,heroin,NA,NA
+5CT,Wealthy,2013,cocaine,NA,NA
+5CT,Wealthy,2013,amphet,NA,NA
+5CT,Wealthy,2014,all,0,NA
+5CT,Wealthy,2014,opioid,NA,NA
+5CT,Wealthy,2014,fentanyl,NA,NA
+5CT,Wealthy,2014,heroin,NA,NA
+5CT,Wealthy,2014,cocaine,NA,NA
+5CT,Wealthy,2014,amphet,NA,NA
+5CT,Wealthy,2015,all,6,NA
+5CT,Wealthy,2015,opioid,NA,NA
+5CT,Wealthy,2015,fentanyl,NA,NA
+5CT,Wealthy,2015,heroin,NA,NA
+5CT,Wealthy,2015,cocaine,NA,NA
+5CT,Wealthy,2015,amphet,NA,NA
+5CT,Wealthy,2016,all,8,NA
+5CT,Wealthy,2016,opioid,NA,NA
+5CT,Wealthy,2016,fentanyl,NA,NA
+5CT,Wealthy,2016,heroin,NA,NA
+5CT,Wealthy,2016,cocaine,NA,NA
+5CT,Wealthy,2016,amphet,NA,NA
+5CT,Wealthy,2017,all,11,NA
+5CT,Wealthy,2017,opioid,NA,NA
+5CT,Wealthy,2017,fentanyl,NA,NA
+5CT,Wealthy,2017,heroin,NA,NA
+5CT,Wealthy,2017,cocaine,NA,NA
+5CT,Wealthy,2017,amphet,NA,NA
+5CT,Wealthy,2018,all,9,NA
+5CT,Wealthy,2018,opioid,NA,NA
+5CT,Wealthy,2018,fentanyl,NA,NA
+5CT,Wealthy,2018,heroin,NA,NA
+5CT,Wealthy,2018,cocaine,NA,NA
+5CT,Wealthy,2018,amphet,NA,NA
+5CT,Wealthy,2019,all,17,NA
+5CT,Wealthy,2019,opioid,NA,NA
+5CT,Wealthy,2019,fentanyl,NA,NA
+5CT,Wealthy,2019,heroin,NA,NA
+5CT,Wealthy,2019,cocaine,NA,NA
+5CT,Wealthy,2019,amphet,NA,NA
+5CT,Wealthy,2020,all,14,NA
+5CT,Wealthy,2020,opioid,NA,NA
+5CT,Wealthy,2020,fentanyl,NA,NA
+5CT,Wealthy,2020,heroin,NA,NA
+5CT,Wealthy,2020,cocaine,NA,NA
+5CT,Wealthy,2020,amphet,NA,NA
+regions,QVHD_NHV,2012,all,0,NA
+regions,QVHD_NHV,2012,opioid,0,NA
+regions,QVHD_NHV,2012,fentanyl,0,NA
+regions,QVHD_NHV,2012,heroin,0,NA
+regions,QVHD_NHV,2012,cocaine,0,NA
+regions,QVHD_NHV,2012,amphet,0,NA
+regions,QVHD_NHV,2013,all,0,NA
+regions,QVHD_NHV,2013,opioid,0,NA
+regions,QVHD_NHV,2013,fentanyl,0,NA
+regions,QVHD_NHV,2013,heroin,0,NA
+regions,QVHD_NHV,2013,cocaine,0,NA
+regions,QVHD_NHV,2013,amphet,0,NA
+regions,QVHD_NHV,2014,all,0,NA
+regions,QVHD_NHV,2014,opioid,0,NA
+regions,QVHD_NHV,2014,fentanyl,0,NA
+regions,QVHD_NHV,2014,heroin,0,NA
+regions,QVHD_NHV,2014,cocaine,0,NA
+regions,QVHD_NHV,2014,amphet,0,NA
+regions,QVHD_NHV,2015,all,30,NA
+regions,QVHD_NHV,2015,opioid,27,0.9
+regions,QVHD_NHV,2015,fentanyl,5,0.167
+regions,QVHD_NHV,2015,heroin,14,0.467
+regions,QVHD_NHV,2015,cocaine,5,0.167
+regions,QVHD_NHV,2015,amphet,1,0.033
+regions,QVHD_NHV,2016,all,72,NA
+regions,QVHD_NHV,2016,opioid,64,0.889
+regions,QVHD_NHV,2016,fentanyl,32,0.444
+regions,QVHD_NHV,2016,heroin,31,0.431
+regions,QVHD_NHV,2016,cocaine,23,0.319
+regions,QVHD_NHV,2016,amphet,1,0.014
+regions,QVHD_NHV,2017,all,64,NA
+regions,QVHD_NHV,2017,opioid,60,0.938
+regions,QVHD_NHV,2017,fentanyl,35,0.547
+regions,QVHD_NHV,2017,heroin,34,0.531
+regions,QVHD_NHV,2017,cocaine,22,0.344
+regions,QVHD_NHV,2017,amphet,2,0.031
+regions,QVHD_NHV,2018,all,55,NA
+regions,QVHD_NHV,2018,opioid,52,0.945
+regions,QVHD_NHV,2018,fentanyl,28,0.509
+regions,QVHD_NHV,2018,heroin,34,0.618
+regions,QVHD_NHV,2018,cocaine,19,0.345
+regions,QVHD_NHV,2018,amphet,2,0.036
+regions,QVHD_NHV,2019,all,85,NA
+regions,QVHD_NHV,2019,opioid,78,0.918
+regions,QVHD_NHV,2019,fentanyl,60,0.706
+regions,QVHD_NHV,2019,heroin,37,0.435
+regions,QVHD_NHV,2019,cocaine,30,0.353
+regions,QVHD_NHV,2019,amphet,3,0.035
+regions,QVHD_NHV,2020,all,113,NA
+regions,QVHD_NHV,2020,opioid,108,0.956
+regions,QVHD_NHV,2020,fentanyl,96,0.85
+regions,QVHD_NHV,2020,heroin,24,0.212
+regions,QVHD_NHV,2020,cocaine,45,0.398
+regions,QVHD_NHV,2020,amphet,9,0.08
+state,Connecticut,2012,all,340,NA
+state,Connecticut,2012,opioid,292,0.859
+state,Connecticut,2012,fentanyl,14,0.041
+state,Connecticut,2012,heroin,174,0.512
+state,Connecticut,2012,cocaine,107,0.315
+state,Connecticut,2012,amphet,7,0.021
+state,Connecticut,2013,all,477,NA
+state,Connecticut,2013,opioid,413,0.866
+state,Connecticut,2013,fentanyl,37,0.078
+state,Connecticut,2013,heroin,257,0.539
+state,Connecticut,2013,cocaine,149,0.312
+state,Connecticut,2013,amphet,4,0.008
+state,Connecticut,2014,all,548,NA
+state,Connecticut,2014,opioid,502,0.916
+state,Connecticut,2014,fentanyl,76,0.139
+state,Connecticut,2014,heroin,329,0.6
+state,Connecticut,2014,cocaine,130,0.237
+state,Connecticut,2014,amphet,13,0.024
+state,Connecticut,2015,all,721,NA
+state,Connecticut,2015,opioid,662,0.918
+state,Connecticut,2015,fentanyl,188,0.261
+state,Connecticut,2015,heroin,429,0.595
+state,Connecticut,2015,cocaine,178,0.247
+state,Connecticut,2015,amphet,21,0.029
+state,Connecticut,2016,all,912,NA
+state,Connecticut,2016,opioid,861,0.944
+state,Connecticut,2016,fentanyl,486,0.533
+state,Connecticut,2016,heroin,509,0.558
+state,Connecticut,2016,cocaine,279,0.306
+state,Connecticut,2016,amphet,20,0.022
+state,Connecticut,2017,all,1032,NA
+state,Connecticut,2017,opioid,962,0.932
+state,Connecticut,2017,fentanyl,678,0.657
+state,Connecticut,2017,heroin,486,0.471
+state,Connecticut,2017,cocaine,347,0.336
+state,Connecticut,2017,amphet,40,0.039
+state,Connecticut,2018,all,1009,NA
+state,Connecticut,2018,opioid,950,0.942
+state,Connecticut,2018,fentanyl,760,0.753
+state,Connecticut,2018,heroin,390,0.387
+state,Connecticut,2018,cocaine,345,0.342
+state,Connecticut,2018,amphet,56,0.056
+state,Connecticut,2019,all,1202,NA
+state,Connecticut,2019,opioid,1135,0.944
+state,Connecticut,2019,fentanyl,983,0.818
+state,Connecticut,2019,heroin,390,0.324
+state,Connecticut,2019,cocaine,463,0.385
+state,Connecticut,2019,amphet,71,0.059
+state,Connecticut,2020,all,1355,NA
+state,Connecticut,2020,opioid,1275,0.941
+state,Connecticut,2020,fentanyl,1161,0.857
+state,Connecticut,2020,heroin,207,0.153
+state,Connecticut,2020,cocaine,454,0.335
+state,Connecticut,2020,amphet,95,0.07
+towns,Ansonia,2012,all,0,NA
+towns,Ansonia,2012,opioid,0,NA
+towns,Ansonia,2012,fentanyl,0,NA
+towns,Ansonia,2012,heroin,0,NA
+towns,Ansonia,2012,cocaine,0,NA
+towns,Ansonia,2012,amphet,0,NA
+towns,Ansonia,2013,all,0,NA
+towns,Ansonia,2013,opioid,0,NA
+towns,Ansonia,2013,fentanyl,0,NA
+towns,Ansonia,2013,heroin,0,NA
+towns,Ansonia,2013,cocaine,0,NA
+towns,Ansonia,2013,amphet,0,NA
+towns,Ansonia,2014,all,0,NA
+towns,Ansonia,2014,opioid,0,NA
+towns,Ansonia,2014,fentanyl,0,NA
+towns,Ansonia,2014,heroin,0,NA
+towns,Ansonia,2014,cocaine,0,NA
+towns,Ansonia,2014,amphet,0,NA
+towns,Ansonia,2015,all,1,NA
+towns,Ansonia,2015,opioid,1,1
+towns,Ansonia,2015,fentanyl,0,0
+towns,Ansonia,2015,heroin,0,0
+towns,Ansonia,2015,cocaine,0,0
+towns,Ansonia,2015,amphet,0,0
+towns,Ansonia,2016,all,8,NA
+towns,Ansonia,2016,opioid,8,1
+towns,Ansonia,2016,fentanyl,3,0.375
+towns,Ansonia,2016,heroin,3,0.375
+towns,Ansonia,2016,cocaine,3,0.375
+towns,Ansonia,2016,amphet,1,0.125
+towns,Ansonia,2017,all,6,NA
+towns,Ansonia,2017,opioid,5,0.833
+towns,Ansonia,2017,fentanyl,3,0.5
+towns,Ansonia,2017,heroin,2,0.333
+towns,Ansonia,2017,cocaine,2,0.333
+towns,Ansonia,2017,amphet,0,0
+towns,Ansonia,2018,all,5,NA
+towns,Ansonia,2018,opioid,5,1
+towns,Ansonia,2018,fentanyl,4,0.8
+towns,Ansonia,2018,heroin,3,0.6
+towns,Ansonia,2018,cocaine,2,0.4
+towns,Ansonia,2018,amphet,0,0
+towns,Ansonia,2019,all,7,NA
+towns,Ansonia,2019,opioid,7,1
+towns,Ansonia,2019,fentanyl,5,0.714
+towns,Ansonia,2019,heroin,4,0.571
+towns,Ansonia,2019,cocaine,3,0.429
+towns,Ansonia,2019,amphet,0,0
+towns,Ansonia,2020,all,8,NA
+towns,Ansonia,2020,opioid,7,0.875
+towns,Ansonia,2020,fentanyl,7,0.875
+towns,Ansonia,2020,heroin,0,0
+towns,Ansonia,2020,cocaine,4,0.5
+towns,Ansonia,2020,amphet,0,0
+towns,Berlin,2012,all,0,NA
+towns,Berlin,2012,opioid,0,NA
+towns,Berlin,2012,fentanyl,0,NA
+towns,Berlin,2012,heroin,0,NA
+towns,Berlin,2012,cocaine,0,NA
+towns,Berlin,2012,amphet,0,NA
+towns,Berlin,2013,all,0,NA
+towns,Berlin,2013,opioid,0,NA
+towns,Berlin,2013,fentanyl,0,NA
+towns,Berlin,2013,heroin,0,NA
+towns,Berlin,2013,cocaine,0,NA
+towns,Berlin,2013,amphet,0,NA
+towns,Berlin,2014,all,0,NA
+towns,Berlin,2014,opioid,0,NA
+towns,Berlin,2014,fentanyl,0,NA
+towns,Berlin,2014,heroin,0,NA
+towns,Berlin,2014,cocaine,0,NA
+towns,Berlin,2014,amphet,0,NA
+towns,Berlin,2015,all,1,NA
+towns,Berlin,2015,opioid,1,1
+towns,Berlin,2015,fentanyl,0,0
+towns,Berlin,2015,heroin,0,0
+towns,Berlin,2015,cocaine,0,0
+towns,Berlin,2015,amphet,0,0
+towns,Berlin,2016,all,2,NA
+towns,Berlin,2016,opioid,2,1
+towns,Berlin,2016,fentanyl,1,0.5
+towns,Berlin,2016,heroin,2,1
+towns,Berlin,2016,cocaine,1,0.5
+towns,Berlin,2016,amphet,0,0
+towns,Berlin,2017,all,8,NA
+towns,Berlin,2017,opioid,8,1
+towns,Berlin,2017,fentanyl,5,0.625
+towns,Berlin,2017,heroin,3,0.375
+towns,Berlin,2017,cocaine,2,0.25
+towns,Berlin,2017,amphet,0,0
+towns,Berlin,2018,all,3,NA
+towns,Berlin,2018,opioid,3,1
+towns,Berlin,2018,fentanyl,3,1
+towns,Berlin,2018,heroin,1,0.333
+towns,Berlin,2018,cocaine,0,0
+towns,Berlin,2018,amphet,1,0.333
+towns,Berlin,2019,all,6,NA
+towns,Berlin,2019,opioid,4,0.667
+towns,Berlin,2019,fentanyl,4,0.667
+towns,Berlin,2019,heroin,0,0
+towns,Berlin,2019,cocaine,2,0.333
+towns,Berlin,2019,amphet,0,0
+towns,Berlin,2020,all,10,NA
+towns,Berlin,2020,opioid,8,0.8
+towns,Berlin,2020,fentanyl,7,0.7
+towns,Berlin,2020,heroin,1,0.1
+towns,Berlin,2020,cocaine,3,0.3
+towns,Berlin,2020,amphet,1,0.1
+towns,Branford,2012,all,0,NA
+towns,Branford,2012,opioid,0,NA
+towns,Branford,2012,fentanyl,0,NA
+towns,Branford,2012,heroin,0,NA
+towns,Branford,2012,cocaine,0,NA
+towns,Branford,2012,amphet,0,NA
+towns,Branford,2013,all,0,NA
+towns,Branford,2013,opioid,0,NA
+towns,Branford,2013,fentanyl,0,NA
+towns,Branford,2013,heroin,0,NA
+towns,Branford,2013,cocaine,0,NA
+towns,Branford,2013,amphet,0,NA
+towns,Branford,2014,all,0,NA
+towns,Branford,2014,opioid,0,NA
+towns,Branford,2014,fentanyl,0,NA
+towns,Branford,2014,heroin,0,NA
+towns,Branford,2014,cocaine,0,NA
+towns,Branford,2014,amphet,0,NA
+towns,Branford,2015,all,3,NA
+towns,Branford,2015,opioid,3,1
+towns,Branford,2015,fentanyl,0,0
+towns,Branford,2015,heroin,2,0.667
+towns,Branford,2015,cocaine,0,0
+towns,Branford,2015,amphet,0,0
+towns,Branford,2016,all,5,NA
+towns,Branford,2016,opioid,5,1
+towns,Branford,2016,fentanyl,3,0.6
+towns,Branford,2016,heroin,2,0.4
+towns,Branford,2016,cocaine,1,0.2
+towns,Branford,2016,amphet,0,0
+towns,Branford,2017,all,11,NA
+towns,Branford,2017,opioid,11,1
+towns,Branford,2017,fentanyl,4,0.364
+towns,Branford,2017,heroin,6,0.545
+towns,Branford,2017,cocaine,4,0.364
+towns,Branford,2017,amphet,1,0.091
+towns,Branford,2018,all,9,NA
+towns,Branford,2018,opioid,9,1
+towns,Branford,2018,fentanyl,6,0.667
+towns,Branford,2018,heroin,4,0.444
+towns,Branford,2018,cocaine,4,0.444
+towns,Branford,2018,amphet,0,0
+towns,Branford,2019,all,9,NA
+towns,Branford,2019,opioid,8,0.889
+towns,Branford,2019,fentanyl,6,0.667
+towns,Branford,2019,heroin,3,0.333
+towns,Branford,2019,cocaine,2,0.222
+towns,Branford,2019,amphet,0,0
+towns,Branford,2020,all,17,NA
+towns,Branford,2020,opioid,17,1
+towns,Branford,2020,fentanyl,16,0.941
+towns,Branford,2020,heroin,7,0.412
+towns,Branford,2020,cocaine,7,0.412
+towns,Branford,2020,amphet,0,0
+towns,Bridgeport,2012,all,0,NA
+towns,Bridgeport,2012,opioid,0,NA
+towns,Bridgeport,2012,fentanyl,0,NA
+towns,Bridgeport,2012,heroin,0,NA
+towns,Bridgeport,2012,cocaine,0,NA
+towns,Bridgeport,2012,amphet,0,NA
+towns,Bridgeport,2013,all,0,NA
+towns,Bridgeport,2013,opioid,0,NA
+towns,Bridgeport,2013,fentanyl,0,NA
+towns,Bridgeport,2013,heroin,0,NA
+towns,Bridgeport,2013,cocaine,0,NA
+towns,Bridgeport,2013,amphet,0,NA
+towns,Bridgeport,2014,all,0,NA
+towns,Bridgeport,2014,opioid,0,NA
+towns,Bridgeport,2014,fentanyl,0,NA
+towns,Bridgeport,2014,heroin,0,NA
+towns,Bridgeport,2014,cocaine,0,NA
+towns,Bridgeport,2014,amphet,0,NA
+towns,Bridgeport,2015,all,20,NA
+towns,Bridgeport,2015,opioid,17,0.85
+towns,Bridgeport,2015,fentanyl,7,0.35
+towns,Bridgeport,2015,heroin,10,0.5
+towns,Bridgeport,2015,cocaine,7,0.35
+towns,Bridgeport,2015,amphet,0,0
+towns,Bridgeport,2016,all,53,NA
+towns,Bridgeport,2016,opioid,48,0.906
+towns,Bridgeport,2016,fentanyl,25,0.472
+towns,Bridgeport,2016,heroin,30,0.566
+towns,Bridgeport,2016,cocaine,22,0.415
+towns,Bridgeport,2016,amphet,2,0.038
+towns,Bridgeport,2017,all,56,NA
+towns,Bridgeport,2017,opioid,51,0.911
+towns,Bridgeport,2017,fentanyl,39,0.696
+towns,Bridgeport,2017,heroin,32,0.571
+towns,Bridgeport,2017,cocaine,26,0.464
+towns,Bridgeport,2017,amphet,2,0.036
+towns,Bridgeport,2018,all,59,NA
+towns,Bridgeport,2018,opioid,53,0.898
+towns,Bridgeport,2018,fentanyl,44,0.746
+towns,Bridgeport,2018,heroin,35,0.593
+towns,Bridgeport,2018,cocaine,25,0.424
+towns,Bridgeport,2018,amphet,1,0.017
+towns,Bridgeport,2019,all,66,NA
+towns,Bridgeport,2019,opioid,63,0.955
+towns,Bridgeport,2019,fentanyl,45,0.682
+towns,Bridgeport,2019,heroin,30,0.455
+towns,Bridgeport,2019,cocaine,27,0.409
+towns,Bridgeport,2019,amphet,2,0.03
+towns,Bridgeport,2020,all,73,NA
+towns,Bridgeport,2020,opioid,69,0.945
+towns,Bridgeport,2020,fentanyl,61,0.836
+towns,Bridgeport,2020,heroin,20,0.274
+towns,Bridgeport,2020,cocaine,22,0.301
+towns,Bridgeport,2020,amphet,3,0.041
+towns,Bristol,2012,all,0,NA
+towns,Bristol,2012,opioid,0,NA
+towns,Bristol,2012,fentanyl,0,NA
+towns,Bristol,2012,heroin,0,NA
+towns,Bristol,2012,cocaine,0,NA
+towns,Bristol,2012,amphet,0,NA
+towns,Bristol,2013,all,0,NA
+towns,Bristol,2013,opioid,0,NA
+towns,Bristol,2013,fentanyl,0,NA
+towns,Bristol,2013,heroin,0,NA
+towns,Bristol,2013,cocaine,0,NA
+towns,Bristol,2013,amphet,0,NA
+towns,Bristol,2014,all,0,NA
+towns,Bristol,2014,opioid,0,NA
+towns,Bristol,2014,fentanyl,0,NA
+towns,Bristol,2014,heroin,0,NA
+towns,Bristol,2014,cocaine,0,NA
+towns,Bristol,2014,amphet,0,NA
+towns,Bristol,2015,all,11,NA
+towns,Bristol,2015,opioid,10,0.909
+towns,Bristol,2015,fentanyl,5,0.455
+towns,Bristol,2015,heroin,6,0.545
+towns,Bristol,2015,cocaine,2,0.182
+towns,Bristol,2015,amphet,0,0
+towns,Bristol,2016,all,33,NA
+towns,Bristol,2016,opioid,33,1
+towns,Bristol,2016,fentanyl,18,0.545
+towns,Bristol,2016,heroin,22,0.667
+towns,Bristol,2016,cocaine,12,0.364
+towns,Bristol,2016,amphet,0,0
+towns,Bristol,2017,all,26,NA
+towns,Bristol,2017,opioid,23,0.885
+towns,Bristol,2017,fentanyl,16,0.615
+towns,Bristol,2017,heroin,8,0.308
+towns,Bristol,2017,cocaine,5,0.192
+towns,Bristol,2017,amphet,0,0
+towns,Bristol,2018,all,25,NA
+towns,Bristol,2018,opioid,23,0.92
+towns,Bristol,2018,fentanyl,20,0.8
+towns,Bristol,2018,heroin,8,0.32
+towns,Bristol,2018,cocaine,8,0.32
+towns,Bristol,2018,amphet,1,0.04
+towns,Bristol,2019,all,27,NA
+towns,Bristol,2019,opioid,25,0.926
+towns,Bristol,2019,fentanyl,22,0.815
+towns,Bristol,2019,heroin,11,0.407
+towns,Bristol,2019,cocaine,10,0.37
+towns,Bristol,2019,amphet,3,0.111
+towns,Bristol,2020,all,36,NA
+towns,Bristol,2020,opioid,35,0.972
+towns,Bristol,2020,fentanyl,34,0.944
+towns,Bristol,2020,heroin,3,0.083
+towns,Bristol,2020,cocaine,6,0.167
+towns,Bristol,2020,amphet,2,0.056
+towns,Danbury,2012,all,0,NA
+towns,Danbury,2012,opioid,0,NA
+towns,Danbury,2012,fentanyl,0,NA
+towns,Danbury,2012,heroin,0,NA
+towns,Danbury,2012,cocaine,0,NA
+towns,Danbury,2012,amphet,0,NA
+towns,Danbury,2013,all,0,NA
+towns,Danbury,2013,opioid,0,NA
+towns,Danbury,2013,fentanyl,0,NA
+towns,Danbury,2013,heroin,0,NA
+towns,Danbury,2013,cocaine,0,NA
+towns,Danbury,2013,amphet,0,NA
+towns,Danbury,2014,all,0,NA
+towns,Danbury,2014,opioid,0,NA
+towns,Danbury,2014,fentanyl,0,NA
+towns,Danbury,2014,heroin,0,NA
+towns,Danbury,2014,cocaine,0,NA
+towns,Danbury,2014,amphet,0,NA
+towns,Danbury,2015,all,9,NA
+towns,Danbury,2015,opioid,8,0.889
+towns,Danbury,2015,fentanyl,3,0.333
+towns,Danbury,2015,heroin,7,0.778
+towns,Danbury,2015,cocaine,2,0.222
+towns,Danbury,2015,amphet,0,0
+towns,Danbury,2016,all,16,NA
+towns,Danbury,2016,opioid,14,0.875
+towns,Danbury,2016,fentanyl,7,0.438
+towns,Danbury,2016,heroin,11,0.688
+towns,Danbury,2016,cocaine,3,0.188
+towns,Danbury,2016,amphet,0,0
+towns,Danbury,2017,all,19,NA
+towns,Danbury,2017,opioid,19,1
+towns,Danbury,2017,fentanyl,12,0.632
+towns,Danbury,2017,heroin,10,0.526
+towns,Danbury,2017,cocaine,5,0.263
+towns,Danbury,2017,amphet,0,0
+towns,Danbury,2018,all,15,NA
+towns,Danbury,2018,opioid,15,1
+towns,Danbury,2018,fentanyl,11,0.733
+towns,Danbury,2018,heroin,11,0.733
+towns,Danbury,2018,cocaine,3,0.2
+towns,Danbury,2018,amphet,1,0.067
+towns,Danbury,2019,all,21,NA
+towns,Danbury,2019,opioid,20,0.952
+towns,Danbury,2019,fentanyl,18,0.857
+towns,Danbury,2019,heroin,3,0.143
+towns,Danbury,2019,cocaine,4,0.19
+towns,Danbury,2019,amphet,0,0
+towns,Danbury,2020,all,25,NA
+towns,Danbury,2020,opioid,22,0.88
+towns,Danbury,2020,fentanyl,19,0.76
+towns,Danbury,2020,heroin,8,0.32
+towns,Danbury,2020,cocaine,13,0.52
+towns,Danbury,2020,amphet,2,0.08
+towns,Derby,2012,all,0,NA
+towns,Derby,2012,opioid,0,NA
+towns,Derby,2012,fentanyl,0,NA
+towns,Derby,2012,heroin,0,NA
+towns,Derby,2012,cocaine,0,NA
+towns,Derby,2012,amphet,0,NA
+towns,Derby,2013,all,0,NA
+towns,Derby,2013,opioid,0,NA
+towns,Derby,2013,fentanyl,0,NA
+towns,Derby,2013,heroin,0,NA
+towns,Derby,2013,cocaine,0,NA
+towns,Derby,2013,amphet,0,NA
+towns,Derby,2014,all,0,NA
+towns,Derby,2014,opioid,0,NA
+towns,Derby,2014,fentanyl,0,NA
+towns,Derby,2014,heroin,0,NA
+towns,Derby,2014,cocaine,0,NA
+towns,Derby,2014,amphet,0,NA
+towns,Derby,2015,all,2,NA
+towns,Derby,2015,opioid,2,1
+towns,Derby,2015,fentanyl,1,0.5
+towns,Derby,2015,heroin,2,1
+towns,Derby,2015,cocaine,0,0
+towns,Derby,2015,amphet,0,0
+towns,Derby,2016,all,3,NA
+towns,Derby,2016,opioid,3,1
+towns,Derby,2016,fentanyl,2,0.667
+towns,Derby,2016,heroin,2,0.667
+towns,Derby,2016,cocaine,0,0
+towns,Derby,2016,amphet,0,0
+towns,Derby,2017,all,2,NA
+towns,Derby,2017,opioid,2,1
+towns,Derby,2017,fentanyl,0,0
+towns,Derby,2017,heroin,2,1
+towns,Derby,2017,cocaine,0,0
+towns,Derby,2017,amphet,0,0
+towns,Derby,2018,all,8,NA
+towns,Derby,2018,opioid,8,1
+towns,Derby,2018,fentanyl,4,0.5
+towns,Derby,2018,heroin,4,0.5
+towns,Derby,2018,cocaine,2,0.25
+towns,Derby,2018,amphet,0,0
+towns,Derby,2019,all,8,NA
+towns,Derby,2019,opioid,8,1
+towns,Derby,2019,fentanyl,6,0.75
+towns,Derby,2019,heroin,3,0.375
+towns,Derby,2019,cocaine,2,0.25
+towns,Derby,2019,amphet,1,0.125
+towns,Derby,2020,all,8,NA
+towns,Derby,2020,opioid,8,1
+towns,Derby,2020,fentanyl,8,1
+towns,Derby,2020,heroin,4,0.5
+towns,Derby,2020,cocaine,4,0.5
+towns,Derby,2020,amphet,2,0.25
+towns,East Hartford,2012,all,0,NA
+towns,East Hartford,2012,opioid,0,NA
+towns,East Hartford,2012,fentanyl,0,NA
+towns,East Hartford,2012,heroin,0,NA
+towns,East Hartford,2012,cocaine,0,NA
+towns,East Hartford,2012,amphet,0,NA
+towns,East Hartford,2013,all,0,NA
+towns,East Hartford,2013,opioid,0,NA
+towns,East Hartford,2013,fentanyl,0,NA
+towns,East Hartford,2013,heroin,0,NA
+towns,East Hartford,2013,cocaine,0,NA
+towns,East Hartford,2013,amphet,0,NA
+towns,East Hartford,2014,all,0,NA
+towns,East Hartford,2014,opioid,0,NA
+towns,East Hartford,2014,fentanyl,0,NA
+towns,East Hartford,2014,heroin,0,NA
+towns,East Hartford,2014,cocaine,0,NA
+towns,East Hartford,2014,amphet,0,NA
+towns,East Hartford,2015,all,4,NA
+towns,East Hartford,2015,opioid,4,1
+towns,East Hartford,2015,fentanyl,2,0.5
+towns,East Hartford,2015,heroin,4,1
+towns,East Hartford,2015,cocaine,0,0
+towns,East Hartford,2015,amphet,0,0
+towns,East Hartford,2016,all,13,NA
+towns,East Hartford,2016,opioid,13,1
+towns,East Hartford,2016,fentanyl,11,0.846
+towns,East Hartford,2016,heroin,6,0.462
+towns,East Hartford,2016,cocaine,3,0.231
+towns,East Hartford,2016,amphet,0,0
+towns,East Hartford,2017,all,16,NA
+towns,East Hartford,2017,opioid,15,0.938
+towns,East Hartford,2017,fentanyl,14,0.875
+towns,East Hartford,2017,heroin,6,0.375
+towns,East Hartford,2017,cocaine,5,0.312
+towns,East Hartford,2017,amphet,1,0.062
+towns,East Hartford,2018,all,20,NA
+towns,East Hartford,2018,opioid,20,1
+towns,East Hartford,2018,fentanyl,18,0.9
+towns,East Hartford,2018,heroin,3,0.15
+towns,East Hartford,2018,cocaine,9,0.45
+towns,East Hartford,2018,amphet,0,0
+towns,East Hartford,2019,all,26,NA
+towns,East Hartford,2019,opioid,25,0.962
+towns,East Hartford,2019,fentanyl,21,0.808
+towns,East Hartford,2019,heroin,4,0.154
+towns,East Hartford,2019,cocaine,13,0.5
+towns,East Hartford,2019,amphet,1,0.038
+towns,East Hartford,2020,all,24,NA
+towns,East Hartford,2020,opioid,22,0.917
+towns,East Hartford,2020,fentanyl,22,0.917
+towns,East Hartford,2020,heroin,0,0
+towns,East Hartford,2020,cocaine,11,0.458
+towns,East Hartford,2020,amphet,2,0.083
+towns,East Haven,2012,all,0,NA
+towns,East Haven,2012,opioid,0,NA
+towns,East Haven,2012,fentanyl,0,NA
+towns,East Haven,2012,heroin,0,NA
+towns,East Haven,2012,cocaine,0,NA
+towns,East Haven,2012,amphet,0,NA
+towns,East Haven,2013,all,0,NA
+towns,East Haven,2013,opioid,0,NA
+towns,East Haven,2013,fentanyl,0,NA
+towns,East Haven,2013,heroin,0,NA
+towns,East Haven,2013,cocaine,0,NA
+towns,East Haven,2013,amphet,0,NA
+towns,East Haven,2014,all,0,NA
+towns,East Haven,2014,opioid,0,NA
+towns,East Haven,2014,fentanyl,0,NA
+towns,East Haven,2014,heroin,0,NA
+towns,East Haven,2014,cocaine,0,NA
+towns,East Haven,2014,amphet,0,NA
+towns,East Haven,2015,all,7,NA
+towns,East Haven,2015,opioid,7,1
+towns,East Haven,2015,fentanyl,0,0
+towns,East Haven,2015,heroin,4,0.571
+towns,East Haven,2015,cocaine,1,0.143
+towns,East Haven,2015,amphet,0,0
+towns,East Haven,2016,all,5,NA
+towns,East Haven,2016,opioid,5,1
+towns,East Haven,2016,fentanyl,2,0.4
+towns,East Haven,2016,heroin,1,0.2
+towns,East Haven,2016,cocaine,2,0.4
+towns,East Haven,2016,amphet,0,0
+towns,East Haven,2017,all,9,NA
+towns,East Haven,2017,opioid,9,1
+towns,East Haven,2017,fentanyl,7,0.778
+towns,East Haven,2017,heroin,5,0.556
+towns,East Haven,2017,cocaine,4,0.444
+towns,East Haven,2017,amphet,0,0
+towns,East Haven,2018,all,7,NA
+towns,East Haven,2018,opioid,7,1
+towns,East Haven,2018,fentanyl,2,0.286
+towns,East Haven,2018,heroin,1,0.143
+towns,East Haven,2018,cocaine,2,0.286
+towns,East Haven,2018,amphet,0,0
+towns,East Haven,2019,all,12,NA
+towns,East Haven,2019,opioid,12,1
+towns,East Haven,2019,fentanyl,6,0.5
+towns,East Haven,2019,heroin,4,0.333
+towns,East Haven,2019,cocaine,3,0.25
+towns,East Haven,2019,amphet,0,0
+towns,East Haven,2020,all,14,NA
+towns,East Haven,2020,opioid,14,1
+towns,East Haven,2020,fentanyl,14,1
+towns,East Haven,2020,heroin,3,0.214
+towns,East Haven,2020,cocaine,2,0.143
+towns,East Haven,2020,amphet,1,0.071
+towns,Enfield,2012,all,0,NA
+towns,Enfield,2012,opioid,0,NA
+towns,Enfield,2012,fentanyl,0,NA
+towns,Enfield,2012,heroin,0,NA
+towns,Enfield,2012,cocaine,0,NA
+towns,Enfield,2012,amphet,0,NA
+towns,Enfield,2013,all,0,NA
+towns,Enfield,2013,opioid,0,NA
+towns,Enfield,2013,fentanyl,0,NA
+towns,Enfield,2013,heroin,0,NA
+towns,Enfield,2013,cocaine,0,NA
+towns,Enfield,2013,amphet,0,NA
+towns,Enfield,2014,all,0,NA
+towns,Enfield,2014,opioid,0,NA
+towns,Enfield,2014,fentanyl,0,NA
+towns,Enfield,2014,heroin,0,NA
+towns,Enfield,2014,cocaine,0,NA
+towns,Enfield,2014,amphet,0,NA
+towns,Enfield,2015,all,8,NA
+towns,Enfield,2015,opioid,8,1
+towns,Enfield,2015,fentanyl,3,0.375
+towns,Enfield,2015,heroin,6,0.75
+towns,Enfield,2015,cocaine,2,0.25
+towns,Enfield,2015,amphet,1,0.125
+towns,Enfield,2016,all,14,NA
+towns,Enfield,2016,opioid,13,0.929
+towns,Enfield,2016,fentanyl,12,0.857
+towns,Enfield,2016,heroin,11,0.786
+towns,Enfield,2016,cocaine,7,0.5
+towns,Enfield,2016,amphet,0,0
+towns,Enfield,2017,all,19,NA
+towns,Enfield,2017,opioid,18,0.947
+towns,Enfield,2017,fentanyl,11,0.579
+towns,Enfield,2017,heroin,9,0.474
+towns,Enfield,2017,cocaine,7,0.368
+towns,Enfield,2017,amphet,0,0
+towns,Enfield,2018,all,15,NA
+towns,Enfield,2018,opioid,15,1
+towns,Enfield,2018,fentanyl,15,1
+towns,Enfield,2018,heroin,3,0.2
+towns,Enfield,2018,cocaine,5,0.333
+towns,Enfield,2018,amphet,0,0
+towns,Enfield,2019,all,11,NA
+towns,Enfield,2019,opioid,11,1
+towns,Enfield,2019,fentanyl,11,1
+towns,Enfield,2019,heroin,3,0.273
+towns,Enfield,2019,cocaine,3,0.273
+towns,Enfield,2019,amphet,1,0.091
+towns,Enfield,2020,all,18,NA
+towns,Enfield,2020,opioid,16,0.889
+towns,Enfield,2020,fentanyl,15,0.833
+towns,Enfield,2020,heroin,1,0.056
+towns,Enfield,2020,cocaine,4,0.222
+towns,Enfield,2020,amphet,2,0.111
+towns,Fairfield,2012,all,0,NA
+towns,Fairfield,2012,opioid,0,NA
+towns,Fairfield,2012,fentanyl,0,NA
+towns,Fairfield,2012,heroin,0,NA
+towns,Fairfield,2012,cocaine,0,NA
+towns,Fairfield,2012,amphet,0,NA
+towns,Fairfield,2013,all,0,NA
+towns,Fairfield,2013,opioid,0,NA
+towns,Fairfield,2013,fentanyl,0,NA
+towns,Fairfield,2013,heroin,0,NA
+towns,Fairfield,2013,cocaine,0,NA
+towns,Fairfield,2013,amphet,0,NA
+towns,Fairfield,2014,all,0,NA
+towns,Fairfield,2014,opioid,0,NA
+towns,Fairfield,2014,fentanyl,0,NA
+towns,Fairfield,2014,heroin,0,NA
+towns,Fairfield,2014,cocaine,0,NA
+towns,Fairfield,2014,amphet,0,NA
+towns,Fairfield,2015,all,10,NA
+towns,Fairfield,2015,opioid,8,0.8
+towns,Fairfield,2015,fentanyl,1,0.1
+towns,Fairfield,2015,heroin,4,0.4
+towns,Fairfield,2015,cocaine,2,0.2
+towns,Fairfield,2015,amphet,0,0
+towns,Fairfield,2016,all,6,NA
+towns,Fairfield,2016,opioid,6,1
+towns,Fairfield,2016,fentanyl,3,0.5
+towns,Fairfield,2016,heroin,2,0.333
+towns,Fairfield,2016,cocaine,1,0.167
+towns,Fairfield,2016,amphet,0,0
+towns,Fairfield,2017,all,7,NA
+towns,Fairfield,2017,opioid,6,0.857
+towns,Fairfield,2017,fentanyl,4,0.571
+towns,Fairfield,2017,heroin,2,0.286
+towns,Fairfield,2017,cocaine,1,0.143
+towns,Fairfield,2017,amphet,0,0
+towns,Fairfield,2018,all,1,NA
+towns,Fairfield,2018,opioid,1,1
+towns,Fairfield,2018,fentanyl,1,1
+towns,Fairfield,2018,heroin,0,0
+towns,Fairfield,2018,cocaine,0,0
+towns,Fairfield,2018,amphet,0,0
+towns,Fairfield,2019,all,6,NA
+towns,Fairfield,2019,opioid,6,1
+towns,Fairfield,2019,fentanyl,5,0.833
+towns,Fairfield,2019,heroin,2,0.333
+towns,Fairfield,2019,cocaine,3,0.5
+towns,Fairfield,2019,amphet,2,0.333
+towns,Fairfield,2020,all,8,NA
+towns,Fairfield,2020,opioid,7,0.875
+towns,Fairfield,2020,fentanyl,6,0.75
+towns,Fairfield,2020,heroin,2,0.25
+towns,Fairfield,2020,cocaine,0,0
+towns,Fairfield,2020,amphet,1,0.125
+towns,Griswold,2012,all,0,NA
+towns,Griswold,2012,opioid,0,NA
+towns,Griswold,2012,fentanyl,0,NA
+towns,Griswold,2012,heroin,0,NA
+towns,Griswold,2012,cocaine,0,NA
+towns,Griswold,2012,amphet,0,NA
+towns,Griswold,2013,all,0,NA
+towns,Griswold,2013,opioid,0,NA
+towns,Griswold,2013,fentanyl,0,NA
+towns,Griswold,2013,heroin,0,NA
+towns,Griswold,2013,cocaine,0,NA
+towns,Griswold,2013,amphet,0,NA
+towns,Griswold,2014,all,0,NA
+towns,Griswold,2014,opioid,0,NA
+towns,Griswold,2014,fentanyl,0,NA
+towns,Griswold,2014,heroin,0,NA
+towns,Griswold,2014,cocaine,0,NA
+towns,Griswold,2014,amphet,0,NA
+towns,Griswold,2015,all,2,NA
+towns,Griswold,2015,opioid,2,1
+towns,Griswold,2015,fentanyl,0,0
+towns,Griswold,2015,heroin,2,1
+towns,Griswold,2015,cocaine,0,0
+towns,Griswold,2015,amphet,0,0
+towns,Griswold,2016,all,7,NA
+towns,Griswold,2016,opioid,7,1
+towns,Griswold,2016,fentanyl,3,0.429
+towns,Griswold,2016,heroin,5,0.714
+towns,Griswold,2016,cocaine,1,0.143
+towns,Griswold,2016,amphet,0,0
+towns,Griswold,2017,all,8,NA
+towns,Griswold,2017,opioid,8,1
+towns,Griswold,2017,fentanyl,5,0.625
+towns,Griswold,2017,heroin,4,0.5
+towns,Griswold,2017,cocaine,2,0.25
+towns,Griswold,2017,amphet,0,0
+towns,Griswold,2018,all,5,NA
+towns,Griswold,2018,opioid,5,1
+towns,Griswold,2018,fentanyl,4,0.8
+towns,Griswold,2018,heroin,2,0.4
+towns,Griswold,2018,cocaine,2,0.4
+towns,Griswold,2018,amphet,1,0.2
+towns,Griswold,2019,all,4,NA
+towns,Griswold,2019,opioid,3,0.75
+towns,Griswold,2019,fentanyl,3,0.75
+towns,Griswold,2019,heroin,1,0.25
+towns,Griswold,2019,cocaine,0,0
+towns,Griswold,2019,amphet,0,0
+towns,Griswold,2020,all,8,NA
+towns,Griswold,2020,opioid,7,0.875
+towns,Griswold,2020,fentanyl,7,0.875
+towns,Griswold,2020,heroin,0,0
+towns,Griswold,2020,cocaine,3,0.375
+towns,Griswold,2020,amphet,2,0.25
+towns,Groton,2012,all,0,NA
+towns,Groton,2012,opioid,0,NA
+towns,Groton,2012,fentanyl,0,NA
+towns,Groton,2012,heroin,0,NA
+towns,Groton,2012,cocaine,0,NA
+towns,Groton,2012,amphet,0,NA
+towns,Groton,2013,all,0,NA
+towns,Groton,2013,opioid,0,NA
+towns,Groton,2013,fentanyl,0,NA
+towns,Groton,2013,heroin,0,NA
+towns,Groton,2013,cocaine,0,NA
+towns,Groton,2013,amphet,0,NA
+towns,Groton,2014,all,0,NA
+towns,Groton,2014,opioid,0,NA
+towns,Groton,2014,fentanyl,0,NA
+towns,Groton,2014,heroin,0,NA
+towns,Groton,2014,cocaine,0,NA
+towns,Groton,2014,amphet,0,NA
+towns,Groton,2015,all,4,NA
+towns,Groton,2015,opioid,4,1
+towns,Groton,2015,fentanyl,1,0.25
+towns,Groton,2015,heroin,4,1
+towns,Groton,2015,cocaine,1,0.25
+towns,Groton,2015,amphet,0,0
+towns,Groton,2016,all,9,NA
+towns,Groton,2016,opioid,9,1
+towns,Groton,2016,fentanyl,5,0.556
+towns,Groton,2016,heroin,5,0.556
+towns,Groton,2016,cocaine,2,0.222
+towns,Groton,2016,amphet,1,0.111
+towns,Groton,2017,all,10,NA
+towns,Groton,2017,opioid,10,1
+towns,Groton,2017,fentanyl,5,0.5
+towns,Groton,2017,heroin,4,0.4
+towns,Groton,2017,cocaine,1,0.1
+towns,Groton,2017,amphet,0,0
+towns,Groton,2018,all,16,NA
+towns,Groton,2018,opioid,15,0.938
+towns,Groton,2018,fentanyl,11,0.688
+towns,Groton,2018,heroin,5,0.312
+towns,Groton,2018,cocaine,3,0.188
+towns,Groton,2018,amphet,0,0
+towns,Groton,2019,all,11,NA
+towns,Groton,2019,opioid,11,1
+towns,Groton,2019,fentanyl,9,0.818
+towns,Groton,2019,heroin,3,0.273
+towns,Groton,2019,cocaine,1,0.091
+towns,Groton,2019,amphet,1,0.091
+towns,Groton,2020,all,5,NA
+towns,Groton,2020,opioid,5,1
+towns,Groton,2020,fentanyl,4,0.8
+towns,Groton,2020,heroin,1,0.2
+towns,Groton,2020,cocaine,1,0.2
+towns,Groton,2020,amphet,2,0.4
+towns,Hamden,2012,all,0,NA
+towns,Hamden,2012,opioid,0,NA
+towns,Hamden,2012,fentanyl,0,NA
+towns,Hamden,2012,heroin,0,NA
+towns,Hamden,2012,cocaine,0,NA
+towns,Hamden,2012,amphet,0,NA
+towns,Hamden,2013,all,0,NA
+towns,Hamden,2013,opioid,0,NA
+towns,Hamden,2013,fentanyl,0,NA
+towns,Hamden,2013,heroin,0,NA
+towns,Hamden,2013,cocaine,0,NA
+towns,Hamden,2013,amphet,0,NA
+towns,Hamden,2014,all,0,NA
+towns,Hamden,2014,opioid,0,NA
+towns,Hamden,2014,fentanyl,0,NA
+towns,Hamden,2014,heroin,0,NA
+towns,Hamden,2014,cocaine,0,NA
+towns,Hamden,2014,amphet,0,NA
+towns,Hamden,2015,all,5,NA
+towns,Hamden,2015,opioid,5,1
+towns,Hamden,2015,fentanyl,2,0.4
+towns,Hamden,2015,heroin,2,0.4
+towns,Hamden,2015,cocaine,0,0
+towns,Hamden,2015,amphet,0,0
+towns,Hamden,2016,all,10,NA
+towns,Hamden,2016,opioid,10,1
+towns,Hamden,2016,fentanyl,2,0.2
+towns,Hamden,2016,heroin,6,0.6
+towns,Hamden,2016,cocaine,1,0.1
+towns,Hamden,2016,amphet,0,0
+towns,Hamden,2017,all,11,NA
+towns,Hamden,2017,opioid,11,1
+towns,Hamden,2017,fentanyl,7,0.636
+towns,Hamden,2017,heroin,6,0.545
+towns,Hamden,2017,cocaine,3,0.273
+towns,Hamden,2017,amphet,0,0
+towns,Hamden,2018,all,11,NA
+towns,Hamden,2018,opioid,11,1
+towns,Hamden,2018,fentanyl,8,0.727
+towns,Hamden,2018,heroin,8,0.727
+towns,Hamden,2018,cocaine,1,0.091
+towns,Hamden,2018,amphet,1,0.091
+towns,Hamden,2019,all,10,NA
+towns,Hamden,2019,opioid,10,1
+towns,Hamden,2019,fentanyl,6,0.6
+towns,Hamden,2019,heroin,3,0.3
+towns,Hamden,2019,cocaine,5,0.5
+towns,Hamden,2019,amphet,1,0.1
+towns,Hamden,2020,all,18,NA
+towns,Hamden,2020,opioid,18,1
+towns,Hamden,2020,fentanyl,17,0.944
+towns,Hamden,2020,heroin,5,0.278
+towns,Hamden,2020,cocaine,9,0.5
+towns,Hamden,2020,amphet,2,0.111
+towns,Hartford,2012,all,0,NA
+towns,Hartford,2012,opioid,0,NA
+towns,Hartford,2012,fentanyl,0,NA
+towns,Hartford,2012,heroin,0,NA
+towns,Hartford,2012,cocaine,0,NA
+towns,Hartford,2012,amphet,0,NA
+towns,Hartford,2013,all,0,NA
+towns,Hartford,2013,opioid,0,NA
+towns,Hartford,2013,fentanyl,0,NA
+towns,Hartford,2013,heroin,0,NA
+towns,Hartford,2013,cocaine,0,NA
+towns,Hartford,2013,amphet,0,NA
+towns,Hartford,2014,all,0,NA
+towns,Hartford,2014,opioid,0,NA
+towns,Hartford,2014,fentanyl,0,NA
+towns,Hartford,2014,heroin,0,NA
+towns,Hartford,2014,cocaine,0,NA
+towns,Hartford,2014,amphet,0,NA
+towns,Hartford,2015,all,35,NA
+towns,Hartford,2015,opioid,33,0.943
+towns,Hartford,2015,fentanyl,16,0.457
+towns,Hartford,2015,heroin,25,0.714
+towns,Hartford,2015,cocaine,14,0.4
+towns,Hartford,2015,amphet,1,0.029
+towns,Hartford,2016,all,71,NA
+towns,Hartford,2016,opioid,64,0.901
+towns,Hartford,2016,fentanyl,43,0.606
+towns,Hartford,2016,heroin,45,0.634
+towns,Hartford,2016,cocaine,28,0.394
+towns,Hartford,2016,amphet,2,0.028
+towns,Hartford,2017,all,81,NA
+towns,Hartford,2017,opioid,73,0.901
+towns,Hartford,2017,fentanyl,63,0.778
+towns,Hartford,2017,heroin,37,0.457
+towns,Hartford,2017,cocaine,36,0.444
+towns,Hartford,2017,amphet,1,0.012
+towns,Hartford,2018,all,94,NA
+towns,Hartford,2018,opioid,90,0.957
+towns,Hartford,2018,fentanyl,80,0.851
+towns,Hartford,2018,heroin,24,0.255
+towns,Hartford,2018,cocaine,42,0.447
+towns,Hartford,2018,amphet,1,0.011
+towns,Hartford,2019,all,133,NA
+towns,Hartford,2019,opioid,128,0.962
+towns,Hartford,2019,fentanyl,120,0.902
+towns,Hartford,2019,heroin,25,0.188
+towns,Hartford,2019,cocaine,70,0.526
+towns,Hartford,2019,amphet,6,0.045
+towns,Hartford,2020,all,119,NA
+towns,Hartford,2020,opioid,114,0.958
+towns,Hartford,2020,fentanyl,108,0.908
+towns,Hartford,2020,heroin,13,0.109
+towns,Hartford,2020,cocaine,59,0.496
+towns,Hartford,2020,amphet,0,0
+towns,Killingly,2012,all,0,NA
+towns,Killingly,2012,opioid,0,NA
+towns,Killingly,2012,fentanyl,0,NA
+towns,Killingly,2012,heroin,0,NA
+towns,Killingly,2012,cocaine,0,NA
+towns,Killingly,2012,amphet,0,NA
+towns,Killingly,2013,all,0,NA
+towns,Killingly,2013,opioid,0,NA
+towns,Killingly,2013,fentanyl,0,NA
+towns,Killingly,2013,heroin,0,NA
+towns,Killingly,2013,cocaine,0,NA
+towns,Killingly,2013,amphet,0,NA
+towns,Killingly,2014,all,0,NA
+towns,Killingly,2014,opioid,0,NA
+towns,Killingly,2014,fentanyl,0,NA
+towns,Killingly,2014,heroin,0,NA
+towns,Killingly,2014,cocaine,0,NA
+towns,Killingly,2014,amphet,0,NA
+towns,Killingly,2015,all,2,NA
+towns,Killingly,2015,opioid,2,1
+towns,Killingly,2015,fentanyl,1,0.5
+towns,Killingly,2015,heroin,2,1
+towns,Killingly,2015,cocaine,0,0
+towns,Killingly,2015,amphet,0,0
+towns,Killingly,2016,all,5,NA
+towns,Killingly,2016,opioid,3,0.6
+towns,Killingly,2016,fentanyl,3,0.6
+towns,Killingly,2016,heroin,2,0.4
+towns,Killingly,2016,cocaine,3,0.6
+towns,Killingly,2016,amphet,0,0
+towns,Killingly,2017,all,9,NA
+towns,Killingly,2017,opioid,8,0.889
+towns,Killingly,2017,fentanyl,7,0.778
+towns,Killingly,2017,heroin,2,0.222
+towns,Killingly,2017,cocaine,4,0.444
+towns,Killingly,2017,amphet,0,0
+towns,Killingly,2018,all,3,NA
+towns,Killingly,2018,opioid,3,1
+towns,Killingly,2018,fentanyl,3,1
+towns,Killingly,2018,heroin,0,0
+towns,Killingly,2018,cocaine,0,0
+towns,Killingly,2018,amphet,1,0.333
+towns,Killingly,2019,all,6,NA
+towns,Killingly,2019,opioid,6,1
+towns,Killingly,2019,fentanyl,5,0.833
+towns,Killingly,2019,heroin,1,0.167
+towns,Killingly,2019,cocaine,1,0.167
+towns,Killingly,2019,amphet,1,0.167
+towns,Killingly,2020,all,9,NA
+towns,Killingly,2020,opioid,9,1
+towns,Killingly,2020,fentanyl,6,0.667
+towns,Killingly,2020,heroin,0,0
+towns,Killingly,2020,cocaine,2,0.222
+towns,Killingly,2020,amphet,0,0
+towns,Manchester,2012,all,0,NA
+towns,Manchester,2012,opioid,0,NA
+towns,Manchester,2012,fentanyl,0,NA
+towns,Manchester,2012,heroin,0,NA
+towns,Manchester,2012,cocaine,0,NA
+towns,Manchester,2012,amphet,0,NA
+towns,Manchester,2013,all,0,NA
+towns,Manchester,2013,opioid,0,NA
+towns,Manchester,2013,fentanyl,0,NA
+towns,Manchester,2013,heroin,0,NA
+towns,Manchester,2013,cocaine,0,NA
+towns,Manchester,2013,amphet,0,NA
+towns,Manchester,2014,all,0,NA
+towns,Manchester,2014,opioid,0,NA
+towns,Manchester,2014,fentanyl,0,NA
+towns,Manchester,2014,heroin,0,NA
+towns,Manchester,2014,cocaine,0,NA
+towns,Manchester,2014,amphet,0,NA
+towns,Manchester,2015,all,9,NA
+towns,Manchester,2015,opioid,9,1
+towns,Manchester,2015,fentanyl,3,0.333
+towns,Manchester,2015,heroin,8,0.889
+towns,Manchester,2015,cocaine,2,0.222
+towns,Manchester,2015,amphet,0,0
+towns,Manchester,2016,all,20,NA
+towns,Manchester,2016,opioid,20,1
+towns,Manchester,2016,fentanyl,15,0.75
+towns,Manchester,2016,heroin,11,0.55
+towns,Manchester,2016,cocaine,9,0.45
+towns,Manchester,2016,amphet,0,0
+towns,Manchester,2017,all,19,NA
+towns,Manchester,2017,opioid,19,1
+towns,Manchester,2017,fentanyl,15,0.789
+towns,Manchester,2017,heroin,4,0.211
+towns,Manchester,2017,cocaine,4,0.211
+towns,Manchester,2017,amphet,0,0
+towns,Manchester,2018,all,23,NA
+towns,Manchester,2018,opioid,23,1
+towns,Manchester,2018,fentanyl,23,1
+towns,Manchester,2018,heroin,6,0.261
+towns,Manchester,2018,cocaine,9,0.391
+towns,Manchester,2018,amphet,0,0
+towns,Manchester,2019,all,21,NA
+towns,Manchester,2019,opioid,21,1
+towns,Manchester,2019,fentanyl,20,0.952
+towns,Manchester,2019,heroin,2,0.095
+towns,Manchester,2019,cocaine,5,0.238
+towns,Manchester,2019,amphet,3,0.143
+towns,Manchester,2020,all,25,NA
+towns,Manchester,2020,opioid,23,0.92
+towns,Manchester,2020,fentanyl,21,0.84
+towns,Manchester,2020,heroin,0,0
+towns,Manchester,2020,cocaine,6,0.24
+towns,Manchester,2020,amphet,1,0.04
+towns,Meriden,2012,all,0,NA
+towns,Meriden,2012,opioid,0,NA
+towns,Meriden,2012,fentanyl,0,NA
+towns,Meriden,2012,heroin,0,NA
+towns,Meriden,2012,cocaine,0,NA
+towns,Meriden,2012,amphet,0,NA
+towns,Meriden,2013,all,0,NA
+towns,Meriden,2013,opioid,0,NA
+towns,Meriden,2013,fentanyl,0,NA
+towns,Meriden,2013,heroin,0,NA
+towns,Meriden,2013,cocaine,0,NA
+towns,Meriden,2013,amphet,0,NA
+towns,Meriden,2014,all,0,NA
+towns,Meriden,2014,opioid,0,NA
+towns,Meriden,2014,fentanyl,0,NA
+towns,Meriden,2014,heroin,0,NA
+towns,Meriden,2014,cocaine,0,NA
+towns,Meriden,2014,amphet,0,NA
+towns,Meriden,2015,all,12,NA
+towns,Meriden,2015,opioid,10,0.833
+towns,Meriden,2015,fentanyl,2,0.167
+towns,Meriden,2015,heroin,6,0.5
+towns,Meriden,2015,cocaine,4,0.333
+towns,Meriden,2015,amphet,1,0.083
+towns,Meriden,2016,all,27,NA
+towns,Meriden,2016,opioid,24,0.889
+towns,Meriden,2016,fentanyl,14,0.519
+towns,Meriden,2016,heroin,13,0.481
+towns,Meriden,2016,cocaine,9,0.333
+towns,Meriden,2016,amphet,0,0
+towns,Meriden,2017,all,33,NA
+towns,Meriden,2017,opioid,31,0.939
+towns,Meriden,2017,fentanyl,24,0.727
+towns,Meriden,2017,heroin,20,0.606
+towns,Meriden,2017,cocaine,8,0.242
+towns,Meriden,2017,amphet,2,0.061
+towns,Meriden,2018,all,22,NA
+towns,Meriden,2018,opioid,20,0.909
+towns,Meriden,2018,fentanyl,18,0.818
+towns,Meriden,2018,heroin,9,0.409
+towns,Meriden,2018,cocaine,6,0.273
+towns,Meriden,2018,amphet,1,0.045
+towns,Meriden,2019,all,23,NA
+towns,Meriden,2019,opioid,20,0.87
+towns,Meriden,2019,fentanyl,19,0.826
+towns,Meriden,2019,heroin,4,0.174
+towns,Meriden,2019,cocaine,6,0.261
+towns,Meriden,2019,amphet,1,0.043
+towns,Meriden,2020,all,34,NA
+towns,Meriden,2020,opioid,33,0.971
+towns,Meriden,2020,fentanyl,31,0.912
+towns,Meriden,2020,heroin,4,0.118
+towns,Meriden,2020,cocaine,11,0.324
+towns,Meriden,2020,amphet,0,0
+towns,Middletown,2012,all,0,NA
+towns,Middletown,2012,opioid,0,NA
+towns,Middletown,2012,fentanyl,0,NA
+towns,Middletown,2012,heroin,0,NA
+towns,Middletown,2012,cocaine,0,NA
+towns,Middletown,2012,amphet,0,NA
+towns,Middletown,2013,all,0,NA
+towns,Middletown,2013,opioid,0,NA
+towns,Middletown,2013,fentanyl,0,NA
+towns,Middletown,2013,heroin,0,NA
+towns,Middletown,2013,cocaine,0,NA
+towns,Middletown,2013,amphet,0,NA
+towns,Middletown,2014,all,0,NA
+towns,Middletown,2014,opioid,0,NA
+towns,Middletown,2014,fentanyl,0,NA
+towns,Middletown,2014,heroin,0,NA
+towns,Middletown,2014,cocaine,0,NA
+towns,Middletown,2014,amphet,0,NA
+towns,Middletown,2015,all,7,NA
+towns,Middletown,2015,opioid,6,0.857
+towns,Middletown,2015,fentanyl,2,0.286
+towns,Middletown,2015,heroin,3,0.429
+towns,Middletown,2015,cocaine,3,0.429
+towns,Middletown,2015,amphet,1,0.143
+towns,Middletown,2016,all,12,NA
+towns,Middletown,2016,opioid,11,0.917
+towns,Middletown,2016,fentanyl,8,0.667
+towns,Middletown,2016,heroin,6,0.5
+towns,Middletown,2016,cocaine,2,0.167
+towns,Middletown,2016,amphet,0,0
+towns,Middletown,2017,all,17,NA
+towns,Middletown,2017,opioid,17,1
+towns,Middletown,2017,fentanyl,12,0.706
+towns,Middletown,2017,heroin,4,0.235
+towns,Middletown,2017,cocaine,9,0.529
+towns,Middletown,2017,amphet,1,0.059
+towns,Middletown,2018,all,18,NA
+towns,Middletown,2018,opioid,17,0.944
+towns,Middletown,2018,fentanyl,15,0.833
+towns,Middletown,2018,heroin,4,0.222
+towns,Middletown,2018,cocaine,7,0.389
+towns,Middletown,2018,amphet,1,0.056
+towns,Middletown,2019,all,17,NA
+towns,Middletown,2019,opioid,17,1
+towns,Middletown,2019,fentanyl,14,0.824
+towns,Middletown,2019,heroin,3,0.176
+towns,Middletown,2019,cocaine,6,0.353
+towns,Middletown,2019,amphet,0,0
+towns,Middletown,2020,all,28,NA
+towns,Middletown,2020,opioid,26,0.929
+towns,Middletown,2020,fentanyl,20,0.714
+towns,Middletown,2020,heroin,2,0.071
+towns,Middletown,2020,cocaine,6,0.214
+towns,Middletown,2020,amphet,2,0.071
+towns,Milford,2012,all,0,NA
+towns,Milford,2012,opioid,0,NA
+towns,Milford,2012,fentanyl,0,NA
+towns,Milford,2012,heroin,0,NA
+towns,Milford,2012,cocaine,0,NA
+towns,Milford,2012,amphet,0,NA
+towns,Milford,2013,all,0,NA
+towns,Milford,2013,opioid,0,NA
+towns,Milford,2013,fentanyl,0,NA
+towns,Milford,2013,heroin,0,NA
+towns,Milford,2013,cocaine,0,NA
+towns,Milford,2013,amphet,0,NA
+towns,Milford,2014,all,0,NA
+towns,Milford,2014,opioid,0,NA
+towns,Milford,2014,fentanyl,0,NA
+towns,Milford,2014,heroin,0,NA
+towns,Milford,2014,cocaine,0,NA
+towns,Milford,2014,amphet,0,NA
+towns,Milford,2015,all,6,NA
+towns,Milford,2015,opioid,5,0.833
+towns,Milford,2015,fentanyl,2,0.333
+towns,Milford,2015,heroin,1,0.167
+towns,Milford,2015,cocaine,1,0.167
+towns,Milford,2015,amphet,0,0
+towns,Milford,2016,all,15,NA
+towns,Milford,2016,opioid,15,1
+towns,Milford,2016,fentanyl,6,0.4
+towns,Milford,2016,heroin,9,0.6
+towns,Milford,2016,cocaine,5,0.333
+towns,Milford,2016,amphet,1,0.067
+towns,Milford,2017,all,10,NA
+towns,Milford,2017,opioid,9,0.9
+towns,Milford,2017,fentanyl,4,0.4
+towns,Milford,2017,heroin,5,0.5
+towns,Milford,2017,cocaine,2,0.2
+towns,Milford,2017,amphet,1,0.1
+towns,Milford,2018,all,10,NA
+towns,Milford,2018,opioid,10,1
+towns,Milford,2018,fentanyl,5,0.5
+towns,Milford,2018,heroin,3,0.3
+towns,Milford,2018,cocaine,4,0.4
+towns,Milford,2018,amphet,0,0
+towns,Milford,2019,all,17,NA
+towns,Milford,2019,opioid,16,0.941
+towns,Milford,2019,fentanyl,14,0.824
+towns,Milford,2019,heroin,8,0.471
+towns,Milford,2019,cocaine,4,0.235
+towns,Milford,2019,amphet,0,0
+towns,Milford,2020,all,16,NA
+towns,Milford,2020,opioid,15,0.938
+towns,Milford,2020,fentanyl,14,0.875
+towns,Milford,2020,heroin,6,0.375
+towns,Milford,2020,cocaine,6,0.375
+towns,Milford,2020,amphet,0,0
+towns,Montville,2012,all,0,NA
+towns,Montville,2012,opioid,0,NA
+towns,Montville,2012,fentanyl,0,NA
+towns,Montville,2012,heroin,0,NA
+towns,Montville,2012,cocaine,0,NA
+towns,Montville,2012,amphet,0,NA
+towns,Montville,2013,all,0,NA
+towns,Montville,2013,opioid,0,NA
+towns,Montville,2013,fentanyl,0,NA
+towns,Montville,2013,heroin,0,NA
+towns,Montville,2013,cocaine,0,NA
+towns,Montville,2013,amphet,0,NA
+towns,Montville,2014,all,0,NA
+towns,Montville,2014,opioid,0,NA
+towns,Montville,2014,fentanyl,0,NA
+towns,Montville,2014,heroin,0,NA
+towns,Montville,2014,cocaine,0,NA
+towns,Montville,2014,amphet,0,NA
+towns,Montville,2015,all,0,NA
+towns,Montville,2015,opioid,0,NA
+towns,Montville,2015,fentanyl,0,NA
+towns,Montville,2015,heroin,0,NA
+towns,Montville,2015,cocaine,0,NA
+towns,Montville,2015,amphet,0,NA
+towns,Montville,2016,all,6,NA
+towns,Montville,2016,opioid,6,1
+towns,Montville,2016,fentanyl,5,0.833
+towns,Montville,2016,heroin,2,0.333
+towns,Montville,2016,cocaine,1,0.167
+towns,Montville,2016,amphet,0,0
+towns,Montville,2017,all,0,NA
+towns,Montville,2017,opioid,0,NA
+towns,Montville,2017,fentanyl,0,NA
+towns,Montville,2017,heroin,0,NA
+towns,Montville,2017,cocaine,0,NA
+towns,Montville,2017,amphet,0,NA
+towns,Montville,2018,all,8,NA
+towns,Montville,2018,opioid,7,0.875
+towns,Montville,2018,fentanyl,5,0.625
+towns,Montville,2018,heroin,2,0.25
+towns,Montville,2018,cocaine,2,0.25
+towns,Montville,2018,amphet,1,0.125
+towns,Montville,2019,all,8,NA
+towns,Montville,2019,opioid,8,1
+towns,Montville,2019,fentanyl,4,0.5
+towns,Montville,2019,heroin,0,0
+towns,Montville,2019,cocaine,3,0.375
+towns,Montville,2019,amphet,0,0
+towns,Montville,2020,all,9,NA
+towns,Montville,2020,opioid,8,0.889
+towns,Montville,2020,fentanyl,7,0.778
+towns,Montville,2020,heroin,0,0
+towns,Montville,2020,cocaine,2,0.222
+towns,Montville,2020,amphet,1,0.111
+towns,Naugatuck,2012,all,0,NA
+towns,Naugatuck,2012,opioid,0,NA
+towns,Naugatuck,2012,fentanyl,0,NA
+towns,Naugatuck,2012,heroin,0,NA
+towns,Naugatuck,2012,cocaine,0,NA
+towns,Naugatuck,2012,amphet,0,NA
+towns,Naugatuck,2013,all,0,NA
+towns,Naugatuck,2013,opioid,0,NA
+towns,Naugatuck,2013,fentanyl,0,NA
+towns,Naugatuck,2013,heroin,0,NA
+towns,Naugatuck,2013,cocaine,0,NA
+towns,Naugatuck,2013,amphet,0,NA
+towns,Naugatuck,2014,all,0,NA
+towns,Naugatuck,2014,opioid,0,NA
+towns,Naugatuck,2014,fentanyl,0,NA
+towns,Naugatuck,2014,heroin,0,NA
+towns,Naugatuck,2014,cocaine,0,NA
+towns,Naugatuck,2014,amphet,0,NA
+towns,Naugatuck,2015,all,6,NA
+towns,Naugatuck,2015,opioid,5,0.833
+towns,Naugatuck,2015,fentanyl,1,0.167
+towns,Naugatuck,2015,heroin,0,0
+towns,Naugatuck,2015,cocaine,2,0.333
+towns,Naugatuck,2015,amphet,0,0
+towns,Naugatuck,2016,all,8,NA
+towns,Naugatuck,2016,opioid,7,0.875
+towns,Naugatuck,2016,fentanyl,2,0.25
+towns,Naugatuck,2016,heroin,4,0.5
+towns,Naugatuck,2016,cocaine,4,0.5
+towns,Naugatuck,2016,amphet,0,0
+towns,Naugatuck,2017,all,16,NA
+towns,Naugatuck,2017,opioid,16,1
+towns,Naugatuck,2017,fentanyl,12,0.75
+towns,Naugatuck,2017,heroin,10,0.625
+towns,Naugatuck,2017,cocaine,3,0.188
+towns,Naugatuck,2017,amphet,1,0.062
+towns,Naugatuck,2018,all,12,NA
+towns,Naugatuck,2018,opioid,10,0.833
+towns,Naugatuck,2018,fentanyl,8,0.667
+towns,Naugatuck,2018,heroin,6,0.5
+towns,Naugatuck,2018,cocaine,5,0.417
+towns,Naugatuck,2018,amphet,1,0.083
+towns,Naugatuck,2019,all,16,NA
+towns,Naugatuck,2019,opioid,16,1
+towns,Naugatuck,2019,fentanyl,15,0.938
+towns,Naugatuck,2019,heroin,8,0.5
+towns,Naugatuck,2019,cocaine,5,0.312
+towns,Naugatuck,2019,amphet,0,0
+towns,Naugatuck,2020,all,16,NA
+towns,Naugatuck,2020,opioid,15,0.938
+towns,Naugatuck,2020,fentanyl,15,0.938
+towns,Naugatuck,2020,heroin,3,0.188
+towns,Naugatuck,2020,cocaine,6,0.375
+towns,Naugatuck,2020,amphet,1,0.062
+towns,New Britain,2012,all,0,NA
+towns,New Britain,2012,opioid,0,NA
+towns,New Britain,2012,fentanyl,0,NA
+towns,New Britain,2012,heroin,0,NA
+towns,New Britain,2012,cocaine,0,NA
+towns,New Britain,2012,amphet,0,NA
+towns,New Britain,2013,all,0,NA
+towns,New Britain,2013,opioid,0,NA
+towns,New Britain,2013,fentanyl,0,NA
+towns,New Britain,2013,heroin,0,NA
+towns,New Britain,2013,cocaine,0,NA
+towns,New Britain,2013,amphet,0,NA
+towns,New Britain,2014,all,0,NA
+towns,New Britain,2014,opioid,0,NA
+towns,New Britain,2014,fentanyl,0,NA
+towns,New Britain,2014,heroin,0,NA
+towns,New Britain,2014,cocaine,0,NA
+towns,New Britain,2014,amphet,0,NA
+towns,New Britain,2015,all,18,NA
+towns,New Britain,2015,opioid,17,0.944
+towns,New Britain,2015,fentanyl,9,0.5
+towns,New Britain,2015,heroin,13,0.722
+towns,New Britain,2015,cocaine,8,0.444
+towns,New Britain,2015,amphet,1,0.056
+towns,New Britain,2016,all,35,NA
+towns,New Britain,2016,opioid,34,0.971
+towns,New Britain,2016,fentanyl,19,0.543
+towns,New Britain,2016,heroin,21,0.6
+towns,New Britain,2016,cocaine,6,0.171
+towns,New Britain,2016,amphet,0,0
+towns,New Britain,2017,all,38,NA
+towns,New Britain,2017,opioid,37,0.974
+towns,New Britain,2017,fentanyl,24,0.632
+towns,New Britain,2017,heroin,12,0.316
+towns,New Britain,2017,cocaine,9,0.237
+towns,New Britain,2017,amphet,0,0
+towns,New Britain,2018,all,48,NA
+towns,New Britain,2018,opioid,45,0.938
+towns,New Britain,2018,fentanyl,39,0.812
+towns,New Britain,2018,heroin,8,0.167
+towns,New Britain,2018,cocaine,14,0.292
+towns,New Britain,2018,amphet,1,0.021
+towns,New Britain,2019,all,38,NA
+towns,New Britain,2019,opioid,37,0.974
+towns,New Britain,2019,fentanyl,35,0.921
+towns,New Britain,2019,heroin,11,0.289
+towns,New Britain,2019,cocaine,11,0.289
+towns,New Britain,2019,amphet,1,0.026
+towns,New Britain,2020,all,36,NA
+towns,New Britain,2020,opioid,36,1
+towns,New Britain,2020,fentanyl,32,0.889
+towns,New Britain,2020,heroin,3,0.083
+towns,New Britain,2020,cocaine,10,0.278
+towns,New Britain,2020,amphet,0,0
+towns,New Haven,2012,all,0,NA
+towns,New Haven,2012,opioid,0,NA
+towns,New Haven,2012,fentanyl,0,NA
+towns,New Haven,2012,heroin,0,NA
+towns,New Haven,2012,cocaine,0,NA
+towns,New Haven,2012,amphet,0,NA
+towns,New Haven,2013,all,0,NA
+towns,New Haven,2013,opioid,0,NA
+towns,New Haven,2013,fentanyl,0,NA
+towns,New Haven,2013,heroin,0,NA
+towns,New Haven,2013,cocaine,0,NA
+towns,New Haven,2013,amphet,0,NA
+towns,New Haven,2014,all,0,NA
+towns,New Haven,2014,opioid,0,NA
+towns,New Haven,2014,fentanyl,0,NA
+towns,New Haven,2014,heroin,0,NA
+towns,New Haven,2014,cocaine,0,NA
+towns,New Haven,2014,amphet,0,NA
+towns,New Haven,2015,all,22,NA
+towns,New Haven,2015,opioid,19,0.864
+towns,New Haven,2015,fentanyl,2,0.091
+towns,New Haven,2015,heroin,10,0.455
+towns,New Haven,2015,cocaine,5,0.227
+towns,New Haven,2015,amphet,1,0.045
+towns,New Haven,2016,all,58,NA
+towns,New Haven,2016,opioid,50,0.862
+towns,New Haven,2016,fentanyl,28,0.483
+towns,New Haven,2016,heroin,22,0.379
+towns,New Haven,2016,cocaine,22,0.379
+towns,New Haven,2016,amphet,1,0.017
+towns,New Haven,2017,all,41,NA
+towns,New Haven,2017,opioid,37,0.902
+towns,New Haven,2017,fentanyl,21,0.512
+towns,New Haven,2017,heroin,22,0.537
+towns,New Haven,2017,cocaine,17,0.415
+towns,New Haven,2017,amphet,2,0.049
+towns,New Haven,2018,all,43,NA
+towns,New Haven,2018,opioid,40,0.93
+towns,New Haven,2018,fentanyl,20,0.465
+towns,New Haven,2018,heroin,25,0.581
+towns,New Haven,2018,cocaine,17,0.395
+towns,New Haven,2018,amphet,1,0.023
+towns,New Haven,2019,all,65,NA
+towns,New Haven,2019,opioid,59,0.908
+towns,New Haven,2019,fentanyl,47,0.723
+towns,New Haven,2019,heroin,30,0.462
+towns,New Haven,2019,cocaine,23,0.354
+towns,New Haven,2019,amphet,2,0.031
+towns,New Haven,2020,all,87,NA
+towns,New Haven,2020,opioid,84,0.966
+towns,New Haven,2020,fentanyl,75,0.862
+towns,New Haven,2020,heroin,18,0.207
+towns,New Haven,2020,cocaine,35,0.402
+towns,New Haven,2020,amphet,7,0.08
+towns,New London,2012,all,0,NA
+towns,New London,2012,opioid,0,NA
+towns,New London,2012,fentanyl,0,NA
+towns,New London,2012,heroin,0,NA
+towns,New London,2012,cocaine,0,NA
+towns,New London,2012,amphet,0,NA
+towns,New London,2013,all,0,NA
+towns,New London,2013,opioid,0,NA
+towns,New London,2013,fentanyl,0,NA
+towns,New London,2013,heroin,0,NA
+towns,New London,2013,cocaine,0,NA
+towns,New London,2013,amphet,0,NA
+towns,New London,2014,all,0,NA
+towns,New London,2014,opioid,0,NA
+towns,New London,2014,fentanyl,0,NA
+towns,New London,2014,heroin,0,NA
+towns,New London,2014,cocaine,0,NA
+towns,New London,2014,amphet,0,NA
+towns,New London,2015,all,11,NA
+towns,New London,2015,opioid,11,1
+towns,New London,2015,fentanyl,2,0.182
+towns,New London,2015,heroin,9,0.818
+towns,New London,2015,cocaine,3,0.273
+towns,New London,2015,amphet,0,0
+towns,New London,2016,all,18,NA
+towns,New London,2016,opioid,17,0.944
+towns,New London,2016,fentanyl,10,0.556
+towns,New London,2016,heroin,11,0.611
+towns,New London,2016,cocaine,5,0.278
+towns,New London,2016,amphet,0,0
+towns,New London,2017,all,13,NA
+towns,New London,2017,opioid,12,0.923
+towns,New London,2017,fentanyl,7,0.538
+towns,New London,2017,heroin,7,0.538
+towns,New London,2017,cocaine,7,0.538
+towns,New London,2017,amphet,0,0
+towns,New London,2018,all,15,NA
+towns,New London,2018,opioid,15,1
+towns,New London,2018,fentanyl,14,0.933
+towns,New London,2018,heroin,3,0.2
+towns,New London,2018,cocaine,4,0.267
+towns,New London,2018,amphet,1,0.067
+towns,New London,2019,all,27,NA
+towns,New London,2019,opioid,24,0.889
+towns,New London,2019,fentanyl,23,0.852
+towns,New London,2019,heroin,3,0.111
+towns,New London,2019,cocaine,12,0.444
+towns,New London,2019,amphet,0,0
+towns,New London,2020,all,20,NA
+towns,New London,2020,opioid,18,0.9
+towns,New London,2020,fentanyl,14,0.7
+towns,New London,2020,heroin,2,0.1
+towns,New London,2020,cocaine,4,0.2
+towns,New London,2020,amphet,3,0.15
+towns,New Milford,2012,all,0,NA
+towns,New Milford,2012,opioid,0,NA
+towns,New Milford,2012,fentanyl,0,NA
+towns,New Milford,2012,heroin,0,NA
+towns,New Milford,2012,cocaine,0,NA
+towns,New Milford,2012,amphet,0,NA
+towns,New Milford,2013,all,0,NA
+towns,New Milford,2013,opioid,0,NA
+towns,New Milford,2013,fentanyl,0,NA
+towns,New Milford,2013,heroin,0,NA
+towns,New Milford,2013,cocaine,0,NA
+towns,New Milford,2013,amphet,0,NA
+towns,New Milford,2014,all,0,NA
+towns,New Milford,2014,opioid,0,NA
+towns,New Milford,2014,fentanyl,0,NA
+towns,New Milford,2014,heroin,0,NA
+towns,New Milford,2014,cocaine,0,NA
+towns,New Milford,2014,amphet,0,NA
+towns,New Milford,2015,all,6,NA
+towns,New Milford,2015,opioid,4,0.667
+towns,New Milford,2015,fentanyl,2,0.333
+towns,New Milford,2015,heroin,3,0.5
+towns,New Milford,2015,cocaine,1,0.167
+towns,New Milford,2015,amphet,1,0.167
+towns,New Milford,2016,all,5,NA
+towns,New Milford,2016,opioid,5,1
+towns,New Milford,2016,fentanyl,3,0.6
+towns,New Milford,2016,heroin,3,0.6
+towns,New Milford,2016,cocaine,2,0.4
+towns,New Milford,2016,amphet,0,0
+towns,New Milford,2017,all,5,NA
+towns,New Milford,2017,opioid,4,0.8
+towns,New Milford,2017,fentanyl,4,0.8
+towns,New Milford,2017,heroin,3,0.6
+towns,New Milford,2017,cocaine,1,0.2
+towns,New Milford,2017,amphet,2,0.4
+towns,New Milford,2018,all,8,NA
+towns,New Milford,2018,opioid,7,0.875
+towns,New Milford,2018,fentanyl,5,0.625
+towns,New Milford,2018,heroin,5,0.625
+towns,New Milford,2018,cocaine,3,0.375
+towns,New Milford,2018,amphet,1,0.125
+towns,New Milford,2019,all,4,NA
+towns,New Milford,2019,opioid,4,1
+towns,New Milford,2019,fentanyl,4,1
+towns,New Milford,2019,heroin,3,0.75
+towns,New Milford,2019,cocaine,2,0.5
+towns,New Milford,2019,amphet,1,0.25
+towns,New Milford,2020,all,6,NA
+towns,New Milford,2020,opioid,5,0.833
+towns,New Milford,2020,fentanyl,5,0.833
+towns,New Milford,2020,heroin,1,0.167
+towns,New Milford,2020,cocaine,1,0.167
+towns,New Milford,2020,amphet,1,0.167
+towns,Newington,2012,all,0,NA
+towns,Newington,2012,opioid,0,NA
+towns,Newington,2012,fentanyl,0,NA
+towns,Newington,2012,heroin,0,NA
+towns,Newington,2012,cocaine,0,NA
+towns,Newington,2012,amphet,0,NA
+towns,Newington,2013,all,0,NA
+towns,Newington,2013,opioid,0,NA
+towns,Newington,2013,fentanyl,0,NA
+towns,Newington,2013,heroin,0,NA
+towns,Newington,2013,cocaine,0,NA
+towns,Newington,2013,amphet,0,NA
+towns,Newington,2014,all,0,NA
+towns,Newington,2014,opioid,0,NA
+towns,Newington,2014,fentanyl,0,NA
+towns,Newington,2014,heroin,0,NA
+towns,Newington,2014,cocaine,0,NA
+towns,Newington,2014,amphet,0,NA
+towns,Newington,2015,all,0,NA
+towns,Newington,2015,opioid,0,NA
+towns,Newington,2015,fentanyl,0,NA
+towns,Newington,2015,heroin,0,NA
+towns,Newington,2015,cocaine,0,NA
+towns,Newington,2015,amphet,0,NA
+towns,Newington,2016,all,4,NA
+towns,Newington,2016,opioid,4,1
+towns,Newington,2016,fentanyl,3,0.75
+towns,Newington,2016,heroin,3,0.75
+towns,Newington,2016,cocaine,0,0
+towns,Newington,2016,amphet,0,0
+towns,Newington,2017,all,19,NA
+towns,Newington,2017,opioid,16,0.842
+towns,Newington,2017,fentanyl,10,0.526
+towns,Newington,2017,heroin,9,0.474
+towns,Newington,2017,cocaine,11,0.579
+towns,Newington,2017,amphet,1,0.053
+towns,Newington,2018,all,5,NA
+towns,Newington,2018,opioid,4,0.8
+towns,Newington,2018,fentanyl,3,0.6
+towns,Newington,2018,heroin,1,0.2
+towns,Newington,2018,cocaine,4,0.8
+towns,Newington,2018,amphet,1,0.2
+towns,Newington,2019,all,10,NA
+towns,Newington,2019,opioid,9,0.9
+towns,Newington,2019,fentanyl,8,0.8
+towns,Newington,2019,heroin,2,0.2
+towns,Newington,2019,cocaine,5,0.5
+towns,Newington,2019,amphet,1,0.1
+towns,Newington,2020,all,15,NA
+towns,Newington,2020,opioid,14,0.933
+towns,Newington,2020,fentanyl,14,0.933
+towns,Newington,2020,heroin,0,0
+towns,Newington,2020,cocaine,8,0.533
+towns,Newington,2020,amphet,1,0.067
+towns,Norwalk,2012,all,0,NA
+towns,Norwalk,2012,opioid,0,NA
+towns,Norwalk,2012,fentanyl,0,NA
+towns,Norwalk,2012,heroin,0,NA
+towns,Norwalk,2012,cocaine,0,NA
+towns,Norwalk,2012,amphet,0,NA
+towns,Norwalk,2013,all,0,NA
+towns,Norwalk,2013,opioid,0,NA
+towns,Norwalk,2013,fentanyl,0,NA
+towns,Norwalk,2013,heroin,0,NA
+towns,Norwalk,2013,cocaine,0,NA
+towns,Norwalk,2013,amphet,0,NA
+towns,Norwalk,2014,all,0,NA
+towns,Norwalk,2014,opioid,0,NA
+towns,Norwalk,2014,fentanyl,0,NA
+towns,Norwalk,2014,heroin,0,NA
+towns,Norwalk,2014,cocaine,0,NA
+towns,Norwalk,2014,amphet,0,NA
+towns,Norwalk,2015,all,9,NA
+towns,Norwalk,2015,opioid,9,1
+towns,Norwalk,2015,fentanyl,5,0.556
+towns,Norwalk,2015,heroin,4,0.444
+towns,Norwalk,2015,cocaine,2,0.222
+towns,Norwalk,2015,amphet,0,0
+towns,Norwalk,2016,all,8,NA
+towns,Norwalk,2016,opioid,7,0.875
+towns,Norwalk,2016,fentanyl,2,0.25
+towns,Norwalk,2016,heroin,6,0.75
+towns,Norwalk,2016,cocaine,6,0.75
+towns,Norwalk,2016,amphet,1,0.125
+towns,Norwalk,2017,all,13,NA
+towns,Norwalk,2017,opioid,12,0.923
+towns,Norwalk,2017,fentanyl,10,0.769
+towns,Norwalk,2017,heroin,8,0.615
+towns,Norwalk,2017,cocaine,6,0.462
+towns,Norwalk,2017,amphet,0,0
+towns,Norwalk,2018,all,9,NA
+towns,Norwalk,2018,opioid,8,0.889
+towns,Norwalk,2018,fentanyl,4,0.444
+towns,Norwalk,2018,heroin,4,0.444
+towns,Norwalk,2018,cocaine,2,0.222
+towns,Norwalk,2018,amphet,2,0.222
+towns,Norwalk,2019,all,17,NA
+towns,Norwalk,2019,opioid,14,0.824
+towns,Norwalk,2019,fentanyl,12,0.706
+towns,Norwalk,2019,heroin,7,0.412
+towns,Norwalk,2019,cocaine,5,0.294
+towns,Norwalk,2019,amphet,5,0.294
+towns,Norwalk,2020,all,17,NA
+towns,Norwalk,2020,opioid,16,0.941
+towns,Norwalk,2020,fentanyl,13,0.765
+towns,Norwalk,2020,heroin,5,0.294
+towns,Norwalk,2020,cocaine,2,0.118
+towns,Norwalk,2020,amphet,3,0.176
+towns,Norwich,2012,all,0,NA
+towns,Norwich,2012,opioid,0,NA
+towns,Norwich,2012,fentanyl,0,NA
+towns,Norwich,2012,heroin,0,NA
+towns,Norwich,2012,cocaine,0,NA
+towns,Norwich,2012,amphet,0,NA
+towns,Norwich,2013,all,0,NA
+towns,Norwich,2013,opioid,0,NA
+towns,Norwich,2013,fentanyl,0,NA
+towns,Norwich,2013,heroin,0,NA
+towns,Norwich,2013,cocaine,0,NA
+towns,Norwich,2013,amphet,0,NA
+towns,Norwich,2014,all,0,NA
+towns,Norwich,2014,opioid,0,NA
+towns,Norwich,2014,fentanyl,0,NA
+towns,Norwich,2014,heroin,0,NA
+towns,Norwich,2014,cocaine,0,NA
+towns,Norwich,2014,amphet,0,NA
+towns,Norwich,2015,all,4,NA
+towns,Norwich,2015,opioid,4,1
+towns,Norwich,2015,fentanyl,2,0.5
+towns,Norwich,2015,heroin,1,0.25
+towns,Norwich,2015,cocaine,0,0
+towns,Norwich,2015,amphet,0,0
+towns,Norwich,2016,all,22,NA
+towns,Norwich,2016,opioid,21,0.955
+towns,Norwich,2016,fentanyl,14,0.636
+towns,Norwich,2016,heroin,14,0.636
+towns,Norwich,2016,cocaine,3,0.136
+towns,Norwich,2016,amphet,0,0
+towns,Norwich,2017,all,32,NA
+towns,Norwich,2017,opioid,29,0.906
+towns,Norwich,2017,fentanyl,22,0.688
+towns,Norwich,2017,heroin,16,0.5
+towns,Norwich,2017,cocaine,8,0.25
+towns,Norwich,2017,amphet,1,0.031
+towns,Norwich,2018,all,14,NA
+towns,Norwich,2018,opioid,13,0.929
+towns,Norwich,2018,fentanyl,9,0.643
+towns,Norwich,2018,heroin,3,0.214
+towns,Norwich,2018,cocaine,3,0.214
+towns,Norwich,2018,amphet,2,0.143
+towns,Norwich,2019,all,27,NA
+towns,Norwich,2019,opioid,25,0.926
+towns,Norwich,2019,fentanyl,23,0.852
+towns,Norwich,2019,heroin,9,0.333
+towns,Norwich,2019,cocaine,14,0.519
+towns,Norwich,2019,amphet,2,0.074
+towns,Norwich,2020,all,38,NA
+towns,Norwich,2020,opioid,36,0.947
+towns,Norwich,2020,fentanyl,36,0.947
+towns,Norwich,2020,heroin,3,0.079
+towns,Norwich,2020,cocaine,11,0.289
+towns,Norwich,2020,amphet,5,0.132
+towns,Plainfield,2012,all,0,NA
+towns,Plainfield,2012,opioid,0,NA
+towns,Plainfield,2012,fentanyl,0,NA
+towns,Plainfield,2012,heroin,0,NA
+towns,Plainfield,2012,cocaine,0,NA
+towns,Plainfield,2012,amphet,0,NA
+towns,Plainfield,2013,all,0,NA
+towns,Plainfield,2013,opioid,0,NA
+towns,Plainfield,2013,fentanyl,0,NA
+towns,Plainfield,2013,heroin,0,NA
+towns,Plainfield,2013,cocaine,0,NA
+towns,Plainfield,2013,amphet,0,NA
+towns,Plainfield,2014,all,0,NA
+towns,Plainfield,2014,opioid,0,NA
+towns,Plainfield,2014,fentanyl,0,NA
+towns,Plainfield,2014,heroin,0,NA
+towns,Plainfield,2014,cocaine,0,NA
+towns,Plainfield,2014,amphet,0,NA
+towns,Plainfield,2015,all,2,NA
+towns,Plainfield,2015,opioid,2,1
+towns,Plainfield,2015,fentanyl,2,1
+towns,Plainfield,2015,heroin,0,0
+towns,Plainfield,2015,cocaine,0,0
+towns,Plainfield,2015,amphet,0,0
+towns,Plainfield,2016,all,3,NA
+towns,Plainfield,2016,opioid,3,1
+towns,Plainfield,2016,fentanyl,3,1
+towns,Plainfield,2016,heroin,0,0
+towns,Plainfield,2016,cocaine,0,0
+towns,Plainfield,2016,amphet,0,0
+towns,Plainfield,2017,all,8,NA
+towns,Plainfield,2017,opioid,8,1
+towns,Plainfield,2017,fentanyl,7,0.875
+towns,Plainfield,2017,heroin,3,0.375
+towns,Plainfield,2017,cocaine,2,0.25
+towns,Plainfield,2017,amphet,0,0
+towns,Plainfield,2018,all,10,NA
+towns,Plainfield,2018,opioid,10,1
+towns,Plainfield,2018,fentanyl,7,0.7
+towns,Plainfield,2018,heroin,3,0.3
+towns,Plainfield,2018,cocaine,1,0.1
+towns,Plainfield,2018,amphet,0,0
+towns,Plainfield,2019,all,3,NA
+towns,Plainfield,2019,opioid,3,1
+towns,Plainfield,2019,fentanyl,3,1
+towns,Plainfield,2019,heroin,0,0
+towns,Plainfield,2019,cocaine,2,0.667
+towns,Plainfield,2019,amphet,2,0.667
+towns,Plainfield,2020,all,5,NA
+towns,Plainfield,2020,opioid,5,1
+towns,Plainfield,2020,fentanyl,5,1
+towns,Plainfield,2020,heroin,0,0
+towns,Plainfield,2020,cocaine,2,0.4
+towns,Plainfield,2020,amphet,0,0
+towns,Plainville,2012,all,0,NA
+towns,Plainville,2012,opioid,0,NA
+towns,Plainville,2012,fentanyl,0,NA
+towns,Plainville,2012,heroin,0,NA
+towns,Plainville,2012,cocaine,0,NA
+towns,Plainville,2012,amphet,0,NA
+towns,Plainville,2013,all,0,NA
+towns,Plainville,2013,opioid,0,NA
+towns,Plainville,2013,fentanyl,0,NA
+towns,Plainville,2013,heroin,0,NA
+towns,Plainville,2013,cocaine,0,NA
+towns,Plainville,2013,amphet,0,NA
+towns,Plainville,2014,all,0,NA
+towns,Plainville,2014,opioid,0,NA
+towns,Plainville,2014,fentanyl,0,NA
+towns,Plainville,2014,heroin,0,NA
+towns,Plainville,2014,cocaine,0,NA
+towns,Plainville,2014,amphet,0,NA
+towns,Plainville,2015,all,2,NA
+towns,Plainville,2015,opioid,2,1
+towns,Plainville,2015,fentanyl,0,0
+towns,Plainville,2015,heroin,0,0
+towns,Plainville,2015,cocaine,0,0
+towns,Plainville,2015,amphet,0,0
+towns,Plainville,2016,all,7,NA
+towns,Plainville,2016,opioid,7,1
+towns,Plainville,2016,fentanyl,4,0.571
+towns,Plainville,2016,heroin,5,0.714
+towns,Plainville,2016,cocaine,5,0.714
+towns,Plainville,2016,amphet,0,0
+towns,Plainville,2017,all,6,NA
+towns,Plainville,2017,opioid,5,0.833
+towns,Plainville,2017,fentanyl,3,0.5
+towns,Plainville,2017,heroin,4,0.667
+towns,Plainville,2017,cocaine,4,0.667
+towns,Plainville,2017,amphet,1,0.167
+towns,Plainville,2018,all,12,NA
+towns,Plainville,2018,opioid,11,0.917
+towns,Plainville,2018,fentanyl,10,0.833
+towns,Plainville,2018,heroin,3,0.25
+towns,Plainville,2018,cocaine,3,0.25
+towns,Plainville,2018,amphet,2,0.167
+towns,Plainville,2019,all,10,NA
+towns,Plainville,2019,opioid,10,1
+towns,Plainville,2019,fentanyl,10,1
+towns,Plainville,2019,heroin,3,0.3
+towns,Plainville,2019,cocaine,5,0.5
+towns,Plainville,2019,amphet,0,0
+towns,Plainville,2020,all,5,NA
+towns,Plainville,2020,opioid,5,1
+towns,Plainville,2020,fentanyl,5,1
+towns,Plainville,2020,heroin,1,0.2
+towns,Plainville,2020,cocaine,1,0.2
+towns,Plainville,2020,amphet,0,0
+towns,Plymouth,2012,all,0,NA
+towns,Plymouth,2012,opioid,0,NA
+towns,Plymouth,2012,fentanyl,0,NA
+towns,Plymouth,2012,heroin,0,NA
+towns,Plymouth,2012,cocaine,0,NA
+towns,Plymouth,2012,amphet,0,NA
+towns,Plymouth,2013,all,0,NA
+towns,Plymouth,2013,opioid,0,NA
+towns,Plymouth,2013,fentanyl,0,NA
+towns,Plymouth,2013,heroin,0,NA
+towns,Plymouth,2013,cocaine,0,NA
+towns,Plymouth,2013,amphet,0,NA
+towns,Plymouth,2014,all,0,NA
+towns,Plymouth,2014,opioid,0,NA
+towns,Plymouth,2014,fentanyl,0,NA
+towns,Plymouth,2014,heroin,0,NA
+towns,Plymouth,2014,cocaine,0,NA
+towns,Plymouth,2014,amphet,0,NA
+towns,Plymouth,2015,all,2,NA
+towns,Plymouth,2015,opioid,2,1
+towns,Plymouth,2015,fentanyl,2,1
+towns,Plymouth,2015,heroin,1,0.5
+towns,Plymouth,2015,cocaine,1,0.5
+towns,Plymouth,2015,amphet,0,0
+towns,Plymouth,2016,all,4,NA
+towns,Plymouth,2016,opioid,4,1
+towns,Plymouth,2016,fentanyl,3,0.75
+towns,Plymouth,2016,heroin,2,0.5
+towns,Plymouth,2016,cocaine,1,0.25
+towns,Plymouth,2016,amphet,0,0
+towns,Plymouth,2017,all,5,NA
+towns,Plymouth,2017,opioid,4,0.8
+towns,Plymouth,2017,fentanyl,4,0.8
+towns,Plymouth,2017,heroin,1,0.2
+towns,Plymouth,2017,cocaine,2,0.4
+towns,Plymouth,2017,amphet,0,0
+towns,Plymouth,2018,all,7,NA
+towns,Plymouth,2018,opioid,6,0.857
+towns,Plymouth,2018,fentanyl,6,0.857
+towns,Plymouth,2018,heroin,4,0.571
+towns,Plymouth,2018,cocaine,2,0.286
+towns,Plymouth,2018,amphet,1,0.143
+towns,Plymouth,2019,all,7,NA
+towns,Plymouth,2019,opioid,7,1
+towns,Plymouth,2019,fentanyl,7,1
+towns,Plymouth,2019,heroin,3,0.429
+towns,Plymouth,2019,cocaine,2,0.286
+towns,Plymouth,2019,amphet,0,0
+towns,Plymouth,2020,all,9,NA
+towns,Plymouth,2020,opioid,9,1
+towns,Plymouth,2020,fentanyl,8,0.889
+towns,Plymouth,2020,heroin,3,0.333
+towns,Plymouth,2020,cocaine,3,0.333
+towns,Plymouth,2020,amphet,0,0
+towns,Shelton,2012,all,0,NA
+towns,Shelton,2012,opioid,0,NA
+towns,Shelton,2012,fentanyl,0,NA
+towns,Shelton,2012,heroin,0,NA
+towns,Shelton,2012,cocaine,0,NA
+towns,Shelton,2012,amphet,0,NA
+towns,Shelton,2013,all,0,NA
+towns,Shelton,2013,opioid,0,NA
+towns,Shelton,2013,fentanyl,0,NA
+towns,Shelton,2013,heroin,0,NA
+towns,Shelton,2013,cocaine,0,NA
+towns,Shelton,2013,amphet,0,NA
+towns,Shelton,2014,all,0,NA
+towns,Shelton,2014,opioid,0,NA
+towns,Shelton,2014,fentanyl,0,NA
+towns,Shelton,2014,heroin,0,NA
+towns,Shelton,2014,cocaine,0,NA
+towns,Shelton,2014,amphet,0,NA
+towns,Shelton,2015,all,3,NA
+towns,Shelton,2015,opioid,3,1
+towns,Shelton,2015,fentanyl,1,0.333
+towns,Shelton,2015,heroin,2,0.667
+towns,Shelton,2015,cocaine,0,0
+towns,Shelton,2015,amphet,0,0
+towns,Shelton,2016,all,12,NA
+towns,Shelton,2016,opioid,12,1
+towns,Shelton,2016,fentanyl,10,0.833
+towns,Shelton,2016,heroin,7,0.583
+towns,Shelton,2016,cocaine,3,0.25
+towns,Shelton,2016,amphet,1,0.083
+towns,Shelton,2017,all,9,NA
+towns,Shelton,2017,opioid,9,1
+towns,Shelton,2017,fentanyl,5,0.556
+towns,Shelton,2017,heroin,8,0.889
+towns,Shelton,2017,cocaine,1,0.111
+towns,Shelton,2017,amphet,1,0.111
+towns,Shelton,2018,all,9,NA
+towns,Shelton,2018,opioid,8,0.889
+towns,Shelton,2018,fentanyl,6,0.667
+towns,Shelton,2018,heroin,6,0.667
+towns,Shelton,2018,cocaine,3,0.333
+towns,Shelton,2018,amphet,1,0.111
+towns,Shelton,2019,all,7,NA
+towns,Shelton,2019,opioid,7,1
+towns,Shelton,2019,fentanyl,7,1
+towns,Shelton,2019,heroin,4,0.571
+towns,Shelton,2019,cocaine,4,0.571
+towns,Shelton,2019,amphet,0,0
+towns,Shelton,2020,all,12,NA
+towns,Shelton,2020,opioid,12,1
+towns,Shelton,2020,fentanyl,12,1
+towns,Shelton,2020,heroin,4,0.333
+towns,Shelton,2020,cocaine,3,0.25
+towns,Shelton,2020,amphet,1,0.083
+towns,Southington,2012,all,0,NA
+towns,Southington,2012,opioid,0,NA
+towns,Southington,2012,fentanyl,0,NA
+towns,Southington,2012,heroin,0,NA
+towns,Southington,2012,cocaine,0,NA
+towns,Southington,2012,amphet,0,NA
+towns,Southington,2013,all,0,NA
+towns,Southington,2013,opioid,0,NA
+towns,Southington,2013,fentanyl,0,NA
+towns,Southington,2013,heroin,0,NA
+towns,Southington,2013,cocaine,0,NA
+towns,Southington,2013,amphet,0,NA
+towns,Southington,2014,all,0,NA
+towns,Southington,2014,opioid,0,NA
+towns,Southington,2014,fentanyl,0,NA
+towns,Southington,2014,heroin,0,NA
+towns,Southington,2014,cocaine,0,NA
+towns,Southington,2014,amphet,0,NA
+towns,Southington,2015,all,1,NA
+towns,Southington,2015,opioid,1,1
+towns,Southington,2015,fentanyl,0,0
+towns,Southington,2015,heroin,1,1
+towns,Southington,2015,cocaine,0,0
+towns,Southington,2015,amphet,0,0
+towns,Southington,2016,all,9,NA
+towns,Southington,2016,opioid,9,1
+towns,Southington,2016,fentanyl,7,0.778
+towns,Southington,2016,heroin,5,0.556
+towns,Southington,2016,cocaine,3,0.333
+towns,Southington,2016,amphet,0,0
+towns,Southington,2017,all,13,NA
+towns,Southington,2017,opioid,12,0.923
+towns,Southington,2017,fentanyl,9,0.692
+towns,Southington,2017,heroin,5,0.385
+towns,Southington,2017,cocaine,3,0.231
+towns,Southington,2017,amphet,1,0.077
+towns,Southington,2018,all,5,NA
+towns,Southington,2018,opioid,4,0.8
+towns,Southington,2018,fentanyl,3,0.6
+towns,Southington,2018,heroin,1,0.2
+towns,Southington,2018,cocaine,2,0.4
+towns,Southington,2018,amphet,1,0.2
+towns,Southington,2019,all,12,NA
+towns,Southington,2019,opioid,12,1
+towns,Southington,2019,fentanyl,11,0.917
+towns,Southington,2019,heroin,6,0.5
+towns,Southington,2019,cocaine,4,0.333
+towns,Southington,2019,amphet,1,0.083
+towns,Southington,2020,all,17,NA
+towns,Southington,2020,opioid,15,0.882
+towns,Southington,2020,fentanyl,13,0.765
+towns,Southington,2020,heroin,3,0.176
+towns,Southington,2020,cocaine,5,0.294
+towns,Southington,2020,amphet,1,0.059
+towns,Stamford,2012,all,0,NA
+towns,Stamford,2012,opioid,0,NA
+towns,Stamford,2012,fentanyl,0,NA
+towns,Stamford,2012,heroin,0,NA
+towns,Stamford,2012,cocaine,0,NA
+towns,Stamford,2012,amphet,0,NA
+towns,Stamford,2013,all,0,NA
+towns,Stamford,2013,opioid,0,NA
+towns,Stamford,2013,fentanyl,0,NA
+towns,Stamford,2013,heroin,0,NA
+towns,Stamford,2013,cocaine,0,NA
+towns,Stamford,2013,amphet,0,NA
+towns,Stamford,2014,all,0,NA
+towns,Stamford,2014,opioid,0,NA
+towns,Stamford,2014,fentanyl,0,NA
+towns,Stamford,2014,heroin,0,NA
+towns,Stamford,2014,cocaine,0,NA
+towns,Stamford,2014,amphet,0,NA
+towns,Stamford,2015,all,5,NA
+towns,Stamford,2015,opioid,5,1
+towns,Stamford,2015,fentanyl,1,0.2
+towns,Stamford,2015,heroin,2,0.4
+towns,Stamford,2015,cocaine,1,0.2
+towns,Stamford,2015,amphet,0,0
+towns,Stamford,2016,all,10,NA
+towns,Stamford,2016,opioid,10,1
+towns,Stamford,2016,fentanyl,6,0.6
+towns,Stamford,2016,heroin,7,0.7
+towns,Stamford,2016,cocaine,2,0.2
+towns,Stamford,2016,amphet,1,0.1
+towns,Stamford,2017,all,15,NA
+towns,Stamford,2017,opioid,12,0.8
+towns,Stamford,2017,fentanyl,9,0.6
+towns,Stamford,2017,heroin,4,0.267
+towns,Stamford,2017,cocaine,5,0.333
+towns,Stamford,2017,amphet,3,0.2
+towns,Stamford,2018,all,14,NA
+towns,Stamford,2018,opioid,12,0.857
+towns,Stamford,2018,fentanyl,8,0.571
+towns,Stamford,2018,heroin,5,0.357
+towns,Stamford,2018,cocaine,5,0.357
+towns,Stamford,2018,amphet,3,0.214
+towns,Stamford,2019,all,9,NA
+towns,Stamford,2019,opioid,6,0.667
+towns,Stamford,2019,fentanyl,4,0.444
+towns,Stamford,2019,heroin,2,0.222
+towns,Stamford,2019,cocaine,2,0.222
+towns,Stamford,2019,amphet,1,0.111
+towns,Stamford,2020,all,20,NA
+towns,Stamford,2020,opioid,19,0.95
+towns,Stamford,2020,fentanyl,18,0.9
+towns,Stamford,2020,heroin,4,0.2
+towns,Stamford,2020,cocaine,10,0.5
+towns,Stamford,2020,amphet,2,0.1
+towns,Stratford,2012,all,0,NA
+towns,Stratford,2012,opioid,0,NA
+towns,Stratford,2012,fentanyl,0,NA
+towns,Stratford,2012,heroin,0,NA
+towns,Stratford,2012,cocaine,0,NA
+towns,Stratford,2012,amphet,0,NA
+towns,Stratford,2013,all,0,NA
+towns,Stratford,2013,opioid,0,NA
+towns,Stratford,2013,fentanyl,0,NA
+towns,Stratford,2013,heroin,0,NA
+towns,Stratford,2013,cocaine,0,NA
+towns,Stratford,2013,amphet,0,NA
+towns,Stratford,2014,all,0,NA
+towns,Stratford,2014,opioid,0,NA
+towns,Stratford,2014,fentanyl,0,NA
+towns,Stratford,2014,heroin,0,NA
+towns,Stratford,2014,cocaine,0,NA
+towns,Stratford,2014,amphet,0,NA
+towns,Stratford,2015,all,6,NA
+towns,Stratford,2015,opioid,5,0.833
+towns,Stratford,2015,fentanyl,2,0.333
+towns,Stratford,2015,heroin,3,0.5
+towns,Stratford,2015,cocaine,1,0.167
+towns,Stratford,2015,amphet,1,0.167
+towns,Stratford,2016,all,19,NA
+towns,Stratford,2016,opioid,18,0.947
+towns,Stratford,2016,fentanyl,8,0.421
+towns,Stratford,2016,heroin,13,0.684
+towns,Stratford,2016,cocaine,9,0.474
+towns,Stratford,2016,amphet,1,0.053
+towns,Stratford,2017,all,16,NA
+towns,Stratford,2017,opioid,16,1
+towns,Stratford,2017,fentanyl,13,0.812
+towns,Stratford,2017,heroin,12,0.75
+towns,Stratford,2017,cocaine,5,0.312
+towns,Stratford,2017,amphet,1,0.062
+towns,Stratford,2018,all,17,NA
+towns,Stratford,2018,opioid,16,0.941
+towns,Stratford,2018,fentanyl,11,0.647
+towns,Stratford,2018,heroin,6,0.353
+towns,Stratford,2018,cocaine,7,0.412
+towns,Stratford,2018,amphet,0,0
+towns,Stratford,2019,all,11,NA
+towns,Stratford,2019,opioid,11,1
+towns,Stratford,2019,fentanyl,6,0.545
+towns,Stratford,2019,heroin,2,0.182
+towns,Stratford,2019,cocaine,2,0.182
+towns,Stratford,2019,amphet,0,0
+towns,Stratford,2020,all,23,NA
+towns,Stratford,2020,opioid,23,1
+towns,Stratford,2020,fentanyl,20,0.87
+towns,Stratford,2020,heroin,4,0.174
+towns,Stratford,2020,cocaine,7,0.304
+towns,Stratford,2020,amphet,2,0.087
+towns,Torrington,2012,all,0,NA
+towns,Torrington,2012,opioid,0,NA
+towns,Torrington,2012,fentanyl,0,NA
+towns,Torrington,2012,heroin,0,NA
+towns,Torrington,2012,cocaine,0,NA
+towns,Torrington,2012,amphet,0,NA
+towns,Torrington,2013,all,0,NA
+towns,Torrington,2013,opioid,0,NA
+towns,Torrington,2013,fentanyl,0,NA
+towns,Torrington,2013,heroin,0,NA
+towns,Torrington,2013,cocaine,0,NA
+towns,Torrington,2013,amphet,0,NA
+towns,Torrington,2014,all,0,NA
+towns,Torrington,2014,opioid,0,NA
+towns,Torrington,2014,fentanyl,0,NA
+towns,Torrington,2014,heroin,0,NA
+towns,Torrington,2014,cocaine,0,NA
+towns,Torrington,2014,amphet,0,NA
+towns,Torrington,2015,all,6,NA
+towns,Torrington,2015,opioid,6,1
+towns,Torrington,2015,fentanyl,2,0.333
+towns,Torrington,2015,heroin,2,0.333
+towns,Torrington,2015,cocaine,1,0.167
+towns,Torrington,2015,amphet,0,0
+towns,Torrington,2016,all,13,NA
+towns,Torrington,2016,opioid,13,1
+towns,Torrington,2016,fentanyl,6,0.462
+towns,Torrington,2016,heroin,7,0.538
+towns,Torrington,2016,cocaine,3,0.231
+towns,Torrington,2016,amphet,0,0
+towns,Torrington,2017,all,18,NA
+towns,Torrington,2017,opioid,18,1
+towns,Torrington,2017,fentanyl,11,0.611
+towns,Torrington,2017,heroin,13,0.722
+towns,Torrington,2017,cocaine,3,0.167
+towns,Torrington,2017,amphet,0,0
+towns,Torrington,2018,all,24,NA
+towns,Torrington,2018,opioid,24,1
+towns,Torrington,2018,fentanyl,20,0.833
+towns,Torrington,2018,heroin,13,0.542
+towns,Torrington,2018,cocaine,10,0.417
+towns,Torrington,2018,amphet,0,0
+towns,Torrington,2019,all,29,NA
+towns,Torrington,2019,opioid,27,0.931
+towns,Torrington,2019,fentanyl,26,0.897
+towns,Torrington,2019,heroin,16,0.552
+towns,Torrington,2019,cocaine,11,0.379
+towns,Torrington,2019,amphet,2,0.069
+towns,Torrington,2020,all,25,NA
+towns,Torrington,2020,opioid,24,0.96
+towns,Torrington,2020,fentanyl,22,0.88
+towns,Torrington,2020,heroin,8,0.32
+towns,Torrington,2020,cocaine,10,0.4
+towns,Torrington,2020,amphet,1,0.04
+towns,Vernon,2012,all,0,NA
+towns,Vernon,2012,opioid,0,NA
+towns,Vernon,2012,fentanyl,0,NA
+towns,Vernon,2012,heroin,0,NA
+towns,Vernon,2012,cocaine,0,NA
+towns,Vernon,2012,amphet,0,NA
+towns,Vernon,2013,all,0,NA
+towns,Vernon,2013,opioid,0,NA
+towns,Vernon,2013,fentanyl,0,NA
+towns,Vernon,2013,heroin,0,NA
+towns,Vernon,2013,cocaine,0,NA
+towns,Vernon,2013,amphet,0,NA
+towns,Vernon,2014,all,0,NA
+towns,Vernon,2014,opioid,0,NA
+towns,Vernon,2014,fentanyl,0,NA
+towns,Vernon,2014,heroin,0,NA
+towns,Vernon,2014,cocaine,0,NA
+towns,Vernon,2014,amphet,0,NA
+towns,Vernon,2015,all,2,NA
+towns,Vernon,2015,opioid,2,1
+towns,Vernon,2015,fentanyl,1,0.5
+towns,Vernon,2015,heroin,1,0.5
+towns,Vernon,2015,cocaine,1,0.5
+towns,Vernon,2015,amphet,0,0
+towns,Vernon,2016,all,5,NA
+towns,Vernon,2016,opioid,5,1
+towns,Vernon,2016,fentanyl,3,0.6
+towns,Vernon,2016,heroin,3,0.6
+towns,Vernon,2016,cocaine,0,0
+towns,Vernon,2016,amphet,0,0
+towns,Vernon,2017,all,11,NA
+towns,Vernon,2017,opioid,11,1
+towns,Vernon,2017,fentanyl,10,0.909
+towns,Vernon,2017,heroin,0,0
+towns,Vernon,2017,cocaine,3,0.273
+towns,Vernon,2017,amphet,0,0
+towns,Vernon,2018,all,9,NA
+towns,Vernon,2018,opioid,9,1
+towns,Vernon,2018,fentanyl,7,0.778
+towns,Vernon,2018,heroin,3,0.333
+towns,Vernon,2018,cocaine,3,0.333
+towns,Vernon,2018,amphet,1,0.111
+towns,Vernon,2019,all,13,NA
+towns,Vernon,2019,opioid,11,0.846
+towns,Vernon,2019,fentanyl,11,0.846
+towns,Vernon,2019,heroin,0,0
+towns,Vernon,2019,cocaine,6,0.462
+towns,Vernon,2019,amphet,0,0
+towns,Vernon,2020,all,13,NA
+towns,Vernon,2020,opioid,12,0.923
+towns,Vernon,2020,fentanyl,11,0.846
+towns,Vernon,2020,heroin,0,0
+towns,Vernon,2020,cocaine,4,0.308
+towns,Vernon,2020,amphet,2,0.154
+towns,Wallingford,2012,all,0,NA
+towns,Wallingford,2012,opioid,0,NA
+towns,Wallingford,2012,fentanyl,0,NA
+towns,Wallingford,2012,heroin,0,NA
+towns,Wallingford,2012,cocaine,0,NA
+towns,Wallingford,2012,amphet,0,NA
+towns,Wallingford,2013,all,0,NA
+towns,Wallingford,2013,opioid,0,NA
+towns,Wallingford,2013,fentanyl,0,NA
+towns,Wallingford,2013,heroin,0,NA
+towns,Wallingford,2013,cocaine,0,NA
+towns,Wallingford,2013,amphet,0,NA
+towns,Wallingford,2014,all,0,NA
+towns,Wallingford,2014,opioid,0,NA
+towns,Wallingford,2014,fentanyl,0,NA
+towns,Wallingford,2014,heroin,0,NA
+towns,Wallingford,2014,cocaine,0,NA
+towns,Wallingford,2014,amphet,0,NA
+towns,Wallingford,2015,all,3,NA
+towns,Wallingford,2015,opioid,2,0.667
+towns,Wallingford,2015,fentanyl,0,0
+towns,Wallingford,2015,heroin,0,0
+towns,Wallingford,2015,cocaine,0,0
+towns,Wallingford,2015,amphet,0,0
+towns,Wallingford,2016,all,13,NA
+towns,Wallingford,2016,opioid,13,1
+towns,Wallingford,2016,fentanyl,5,0.385
+towns,Wallingford,2016,heroin,6,0.462
+towns,Wallingford,2016,cocaine,3,0.231
+towns,Wallingford,2016,amphet,0,0
+towns,Wallingford,2017,all,9,NA
+towns,Wallingford,2017,opioid,8,0.889
+towns,Wallingford,2017,fentanyl,6,0.667
+towns,Wallingford,2017,heroin,4,0.444
+towns,Wallingford,2017,cocaine,4,0.444
+towns,Wallingford,2017,amphet,1,0.111
+towns,Wallingford,2018,all,7,NA
+towns,Wallingford,2018,opioid,6,0.857
+towns,Wallingford,2018,fentanyl,4,0.571
+towns,Wallingford,2018,heroin,4,0.571
+towns,Wallingford,2018,cocaine,2,0.286
+towns,Wallingford,2018,amphet,0,0
+towns,Wallingford,2019,all,4,NA
+towns,Wallingford,2019,opioid,4,1
+towns,Wallingford,2019,fentanyl,3,0.75
+towns,Wallingford,2019,heroin,3,0.75
+towns,Wallingford,2019,cocaine,2,0.5
+towns,Wallingford,2019,amphet,0,0
+towns,Wallingford,2020,all,7,NA
+towns,Wallingford,2020,opioid,7,1
+towns,Wallingford,2020,fentanyl,6,0.857
+towns,Wallingford,2020,heroin,1,0.143
+towns,Wallingford,2020,cocaine,0,0
+towns,Wallingford,2020,amphet,0,0
+towns,Waterbury,2012,all,0,NA
+towns,Waterbury,2012,opioid,0,NA
+towns,Waterbury,2012,fentanyl,0,NA
+towns,Waterbury,2012,heroin,0,NA
+towns,Waterbury,2012,cocaine,0,NA
+towns,Waterbury,2012,amphet,0,NA
+towns,Waterbury,2013,all,0,NA
+towns,Waterbury,2013,opioid,0,NA
+towns,Waterbury,2013,fentanyl,0,NA
+towns,Waterbury,2013,heroin,0,NA
+towns,Waterbury,2013,cocaine,0,NA
+towns,Waterbury,2013,amphet,0,NA
+towns,Waterbury,2014,all,0,NA
+towns,Waterbury,2014,opioid,0,NA
+towns,Waterbury,2014,fentanyl,0,NA
+towns,Waterbury,2014,heroin,0,NA
+towns,Waterbury,2014,cocaine,0,NA
+towns,Waterbury,2014,amphet,0,NA
+towns,Waterbury,2015,all,27,NA
+towns,Waterbury,2015,opioid,24,0.889
+towns,Waterbury,2015,fentanyl,6,0.222
+towns,Waterbury,2015,heroin,19,0.704
+towns,Waterbury,2015,cocaine,12,0.444
+towns,Waterbury,2015,amphet,1,0.037
+towns,Waterbury,2016,all,39,NA
+towns,Waterbury,2016,opioid,37,0.949
+towns,Waterbury,2016,fentanyl,20,0.513
+towns,Waterbury,2016,heroin,21,0.538
+towns,Waterbury,2016,cocaine,12,0.308
+towns,Waterbury,2016,amphet,1,0.026
+towns,Waterbury,2017,all,56,NA
+towns,Waterbury,2017,opioid,53,0.946
+towns,Waterbury,2017,fentanyl,33,0.589
+towns,Waterbury,2017,heroin,30,0.536
+towns,Waterbury,2017,cocaine,29,0.518
+towns,Waterbury,2017,amphet,1,0.018
+towns,Waterbury,2018,all,68,NA
+towns,Waterbury,2018,opioid,66,0.971
+towns,Waterbury,2018,fentanyl,54,0.794
+towns,Waterbury,2018,heroin,37,0.544
+towns,Waterbury,2018,cocaine,30,0.441
+towns,Waterbury,2018,amphet,3,0.044
+towns,Waterbury,2019,all,108,NA
+towns,Waterbury,2019,opioid,105,0.972
+towns,Waterbury,2019,fentanyl,97,0.898
+towns,Waterbury,2019,heroin,63,0.583
+towns,Waterbury,2019,cocaine,48,0.444
+towns,Waterbury,2019,amphet,7,0.065
+towns,Waterbury,2020,all,103,NA
+towns,Waterbury,2020,opioid,99,0.961
+towns,Waterbury,2020,fentanyl,91,0.883
+towns,Waterbury,2020,heroin,20,0.194
+towns,Waterbury,2020,cocaine,40,0.388
+towns,Waterbury,2020,amphet,5,0.049
+towns,Watertown,2012,all,0,NA
+towns,Watertown,2012,opioid,0,NA
+towns,Watertown,2012,fentanyl,0,NA
+towns,Watertown,2012,heroin,0,NA
+towns,Watertown,2012,cocaine,0,NA
+towns,Watertown,2012,amphet,0,NA
+towns,Watertown,2013,all,0,NA
+towns,Watertown,2013,opioid,0,NA
+towns,Watertown,2013,fentanyl,0,NA
+towns,Watertown,2013,heroin,0,NA
+towns,Watertown,2013,cocaine,0,NA
+towns,Watertown,2013,amphet,0,NA
+towns,Watertown,2014,all,0,NA
+towns,Watertown,2014,opioid,0,NA
+towns,Watertown,2014,fentanyl,0,NA
+towns,Watertown,2014,heroin,0,NA
+towns,Watertown,2014,cocaine,0,NA
+towns,Watertown,2014,amphet,0,NA
+towns,Watertown,2015,all,3,NA
+towns,Watertown,2015,opioid,3,1
+towns,Watertown,2015,fentanyl,2,0.667
+towns,Watertown,2015,heroin,2,0.667
+towns,Watertown,2015,cocaine,1,0.333
+towns,Watertown,2015,amphet,0,0
+towns,Watertown,2016,all,6,NA
+towns,Watertown,2016,opioid,6,1
+towns,Watertown,2016,fentanyl,4,0.667
+towns,Watertown,2016,heroin,2,0.333
+towns,Watertown,2016,cocaine,2,0.333
+towns,Watertown,2016,amphet,0,0
+towns,Watertown,2017,all,4,NA
+towns,Watertown,2017,opioid,3,0.75
+towns,Watertown,2017,fentanyl,1,0.25
+towns,Watertown,2017,heroin,2,0.5
+towns,Watertown,2017,cocaine,2,0.5
+towns,Watertown,2017,amphet,1,0.25
+towns,Watertown,2018,all,10,NA
+towns,Watertown,2018,opioid,10,1
+towns,Watertown,2018,fentanyl,9,0.9
+towns,Watertown,2018,heroin,6,0.6
+towns,Watertown,2018,cocaine,3,0.3
+towns,Watertown,2018,amphet,0,0
+towns,Watertown,2019,all,8,NA
+towns,Watertown,2019,opioid,8,1
+towns,Watertown,2019,fentanyl,7,0.875
+towns,Watertown,2019,heroin,5,0.625
+towns,Watertown,2019,cocaine,3,0.375
+towns,Watertown,2019,amphet,0,0
+towns,Watertown,2020,all,7,NA
+towns,Watertown,2020,opioid,7,1
+towns,Watertown,2020,fentanyl,6,0.857
+towns,Watertown,2020,heroin,2,0.286
+towns,Watertown,2020,cocaine,1,0.143
+towns,Watertown,2020,amphet,2,0.286
+towns,West Hartford,2012,all,0,NA
+towns,West Hartford,2012,opioid,0,NA
+towns,West Hartford,2012,fentanyl,0,NA
+towns,West Hartford,2012,heroin,0,NA
+towns,West Hartford,2012,cocaine,0,NA
+towns,West Hartford,2012,amphet,0,NA
+towns,West Hartford,2013,all,0,NA
+towns,West Hartford,2013,opioid,0,NA
+towns,West Hartford,2013,fentanyl,0,NA
+towns,West Hartford,2013,heroin,0,NA
+towns,West Hartford,2013,cocaine,0,NA
+towns,West Hartford,2013,amphet,0,NA
+towns,West Hartford,2014,all,0,NA
+towns,West Hartford,2014,opioid,0,NA
+towns,West Hartford,2014,fentanyl,0,NA
+towns,West Hartford,2014,heroin,0,NA
+towns,West Hartford,2014,cocaine,0,NA
+towns,West Hartford,2014,amphet,0,NA
+towns,West Hartford,2015,all,1,NA
+towns,West Hartford,2015,opioid,1,1
+towns,West Hartford,2015,fentanyl,1,1
+towns,West Hartford,2015,heroin,0,0
+towns,West Hartford,2015,cocaine,0,0
+towns,West Hartford,2015,amphet,0,0
+towns,West Hartford,2016,all,7,NA
+towns,West Hartford,2016,opioid,7,1
+towns,West Hartford,2016,fentanyl,3,0.429
+towns,West Hartford,2016,heroin,5,0.714
+towns,West Hartford,2016,cocaine,4,0.571
+towns,West Hartford,2016,amphet,0,0
+towns,West Hartford,2017,all,12,NA
+towns,West Hartford,2017,opioid,11,0.917
+towns,West Hartford,2017,fentanyl,7,0.583
+towns,West Hartford,2017,heroin,5,0.417
+towns,West Hartford,2017,cocaine,4,0.333
+towns,West Hartford,2017,amphet,1,0.083
+towns,West Hartford,2018,all,12,NA
+towns,West Hartford,2018,opioid,11,0.917
+towns,West Hartford,2018,fentanyl,9,0.75
+towns,West Hartford,2018,heroin,3,0.25
+towns,West Hartford,2018,cocaine,6,0.5
+towns,West Hartford,2018,amphet,1,0.083
+towns,West Hartford,2019,all,4,NA
+towns,West Hartford,2019,opioid,4,1
+towns,West Hartford,2019,fentanyl,3,0.75
+towns,West Hartford,2019,heroin,1,0.25
+towns,West Hartford,2019,cocaine,3,0.75
+towns,West Hartford,2019,amphet,0,0
+towns,West Hartford,2020,all,9,NA
+towns,West Hartford,2020,opioid,6,0.667
+towns,West Hartford,2020,fentanyl,6,0.667
+towns,West Hartford,2020,heroin,2,0.222
+towns,West Hartford,2020,cocaine,4,0.444
+towns,West Hartford,2020,amphet,0,0
+towns,West Haven,2012,all,0,NA
+towns,West Haven,2012,opioid,0,NA
+towns,West Haven,2012,fentanyl,0,NA
+towns,West Haven,2012,heroin,0,NA
+towns,West Haven,2012,cocaine,0,NA
+towns,West Haven,2012,amphet,0,NA
+towns,West Haven,2013,all,0,NA
+towns,West Haven,2013,opioid,0,NA
+towns,West Haven,2013,fentanyl,0,NA
+towns,West Haven,2013,heroin,0,NA
+towns,West Haven,2013,cocaine,0,NA
+towns,West Haven,2013,amphet,0,NA
+towns,West Haven,2014,all,0,NA
+towns,West Haven,2014,opioid,0,NA
+towns,West Haven,2014,fentanyl,0,NA
+towns,West Haven,2014,heroin,0,NA
+towns,West Haven,2014,cocaine,0,NA
+towns,West Haven,2014,amphet,0,NA
+towns,West Haven,2015,all,9,NA
+towns,West Haven,2015,opioid,9,1
+towns,West Haven,2015,fentanyl,0,0
+towns,West Haven,2015,heroin,5,0.556
+towns,West Haven,2015,cocaine,1,0.111
+towns,West Haven,2015,amphet,0,0
+towns,West Haven,2016,all,19,NA
+towns,West Haven,2016,opioid,17,0.895
+towns,West Haven,2016,fentanyl,8,0.421
+towns,West Haven,2016,heroin,9,0.474
+towns,West Haven,2016,cocaine,9,0.474
+towns,West Haven,2016,amphet,0,0
+towns,West Haven,2017,all,21,NA
+towns,West Haven,2017,opioid,19,0.905
+towns,West Haven,2017,fentanyl,12,0.571
+towns,West Haven,2017,heroin,7,0.333
+towns,West Haven,2017,cocaine,3,0.143
+towns,West Haven,2017,amphet,2,0.095
+towns,West Haven,2018,all,13,NA
+towns,West Haven,2018,opioid,12,0.923
+towns,West Haven,2018,fentanyl,8,0.615
+towns,West Haven,2018,heroin,8,0.615
+towns,West Haven,2018,cocaine,4,0.308
+towns,West Haven,2018,amphet,0,0
+towns,West Haven,2019,all,25,NA
+towns,West Haven,2019,opioid,24,0.96
+towns,West Haven,2019,fentanyl,17,0.68
+towns,West Haven,2019,heroin,9,0.36
+towns,West Haven,2019,cocaine,14,0.56
+towns,West Haven,2019,amphet,1,0.04
+towns,West Haven,2020,all,21,NA
+towns,West Haven,2020,opioid,19,0.905
+towns,West Haven,2020,fentanyl,17,0.81
+towns,West Haven,2020,heroin,4,0.19
+towns,West Haven,2020,cocaine,9,0.429
+towns,West Haven,2020,amphet,2,0.095
+towns,Wethersfield,2012,all,0,NA
+towns,Wethersfield,2012,opioid,0,NA
+towns,Wethersfield,2012,fentanyl,0,NA
+towns,Wethersfield,2012,heroin,0,NA
+towns,Wethersfield,2012,cocaine,0,NA
+towns,Wethersfield,2012,amphet,0,NA
+towns,Wethersfield,2013,all,0,NA
+towns,Wethersfield,2013,opioid,0,NA
+towns,Wethersfield,2013,fentanyl,0,NA
+towns,Wethersfield,2013,heroin,0,NA
+towns,Wethersfield,2013,cocaine,0,NA
+towns,Wethersfield,2013,amphet,0,NA
+towns,Wethersfield,2014,all,0,NA
+towns,Wethersfield,2014,opioid,0,NA
+towns,Wethersfield,2014,fentanyl,0,NA
+towns,Wethersfield,2014,heroin,0,NA
+towns,Wethersfield,2014,cocaine,0,NA
+towns,Wethersfield,2014,amphet,0,NA
+towns,Wethersfield,2015,all,4,NA
+towns,Wethersfield,2015,opioid,4,1
+towns,Wethersfield,2015,fentanyl,2,0.5
+towns,Wethersfield,2015,heroin,1,0.25
+towns,Wethersfield,2015,cocaine,1,0.25
+towns,Wethersfield,2015,amphet,0,0
+towns,Wethersfield,2016,all,6,NA
+towns,Wethersfield,2016,opioid,6,1
+towns,Wethersfield,2016,fentanyl,4,0.667
+towns,Wethersfield,2016,heroin,4,0.667
+towns,Wethersfield,2016,cocaine,4,0.667
+towns,Wethersfield,2016,amphet,0,0
+towns,Wethersfield,2017,all,6,NA
+towns,Wethersfield,2017,opioid,6,1
+towns,Wethersfield,2017,fentanyl,4,0.667
+towns,Wethersfield,2017,heroin,4,0.667
+towns,Wethersfield,2017,cocaine,2,0.333
+towns,Wethersfield,2017,amphet,0,0
+towns,Wethersfield,2018,all,7,NA
+towns,Wethersfield,2018,opioid,5,0.714
+towns,Wethersfield,2018,fentanyl,5,0.714
+towns,Wethersfield,2018,heroin,3,0.429
+towns,Wethersfield,2018,cocaine,3,0.429
+towns,Wethersfield,2018,amphet,3,0.429
+towns,Wethersfield,2019,all,9,NA
+towns,Wethersfield,2019,opioid,9,1
+towns,Wethersfield,2019,fentanyl,9,1
+towns,Wethersfield,2019,heroin,1,0.111
+towns,Wethersfield,2019,cocaine,5,0.556
+towns,Wethersfield,2019,amphet,2,0.222
+towns,Wethersfield,2020,all,7,NA
+towns,Wethersfield,2020,opioid,6,0.857
+towns,Wethersfield,2020,fentanyl,5,0.714
+towns,Wethersfield,2020,heroin,0,0
+towns,Wethersfield,2020,cocaine,3,0.429
+towns,Wethersfield,2020,amphet,0,0
+towns,Windham,2012,all,0,NA
+towns,Windham,2012,opioid,0,NA
+towns,Windham,2012,fentanyl,0,NA
+towns,Windham,2012,heroin,0,NA
+towns,Windham,2012,cocaine,0,NA
+towns,Windham,2012,amphet,0,NA
+towns,Windham,2013,all,0,NA
+towns,Windham,2013,opioid,0,NA
+towns,Windham,2013,fentanyl,0,NA
+towns,Windham,2013,heroin,0,NA
+towns,Windham,2013,cocaine,0,NA
+towns,Windham,2013,amphet,0,NA
+towns,Windham,2014,all,0,NA
+towns,Windham,2014,opioid,0,NA
+towns,Windham,2014,fentanyl,0,NA
+towns,Windham,2014,heroin,0,NA
+towns,Windham,2014,cocaine,0,NA
+towns,Windham,2014,amphet,0,NA
+towns,Windham,2015,all,5,NA
+towns,Windham,2015,opioid,5,1
+towns,Windham,2015,fentanyl,2,0.4
+towns,Windham,2015,heroin,5,1
+towns,Windham,2015,cocaine,2,0.4
+towns,Windham,2015,amphet,0,0
+towns,Windham,2016,all,10,NA
+towns,Windham,2016,opioid,10,1
+towns,Windham,2016,fentanyl,4,0.4
+towns,Windham,2016,heroin,8,0.8
+towns,Windham,2016,cocaine,0,0
+towns,Windham,2016,amphet,0,0
+towns,Windham,2017,all,13,NA
+towns,Windham,2017,opioid,13,1
+towns,Windham,2017,fentanyl,7,0.538
+towns,Windham,2017,heroin,8,0.615
+towns,Windham,2017,cocaine,3,0.231
+towns,Windham,2017,amphet,0,0
+towns,Windham,2018,all,11,NA
+towns,Windham,2018,opioid,10,0.909
+towns,Windham,2018,fentanyl,8,0.727
+towns,Windham,2018,heroin,0,0
+towns,Windham,2018,cocaine,3,0.273
+towns,Windham,2018,amphet,0,0
+towns,Windham,2019,all,20,NA
+towns,Windham,2019,opioid,18,0.9
+towns,Windham,2019,fentanyl,16,0.8
+towns,Windham,2019,heroin,3,0.15
+towns,Windham,2019,cocaine,8,0.4
+towns,Windham,2019,amphet,1,0.05
+towns,Windham,2020,all,22,NA
+towns,Windham,2020,opioid,21,0.955
+towns,Windham,2020,fentanyl,19,0.864
+towns,Windham,2020,heroin,0,0
+towns,Windham,2020,cocaine,4,0.182
+towns,Windham,2020,amphet,2,0.091
+towns,Windsor,2012,all,0,NA
+towns,Windsor,2012,opioid,0,NA
+towns,Windsor,2012,fentanyl,0,NA
+towns,Windsor,2012,heroin,0,NA
+towns,Windsor,2012,cocaine,0,NA
+towns,Windsor,2012,amphet,0,NA
+towns,Windsor,2013,all,0,NA
+towns,Windsor,2013,opioid,0,NA
+towns,Windsor,2013,fentanyl,0,NA
+towns,Windsor,2013,heroin,0,NA
+towns,Windsor,2013,cocaine,0,NA
+towns,Windsor,2013,amphet,0,NA
+towns,Windsor,2014,all,0,NA
+towns,Windsor,2014,opioid,0,NA
+towns,Windsor,2014,fentanyl,0,NA
+towns,Windsor,2014,heroin,0,NA
+towns,Windsor,2014,cocaine,0,NA
+towns,Windsor,2014,amphet,0,NA
+towns,Windsor,2015,all,2,NA
+towns,Windsor,2015,opioid,1,0.5
+towns,Windsor,2015,fentanyl,0,0
+towns,Windsor,2015,heroin,0,0
+towns,Windsor,2015,cocaine,2,1
+towns,Windsor,2015,amphet,0,0
+towns,Windsor,2016,all,6,NA
+towns,Windsor,2016,opioid,6,1
+towns,Windsor,2016,fentanyl,5,0.833
+towns,Windsor,2016,heroin,3,0.5
+towns,Windsor,2016,cocaine,3,0.5
+towns,Windsor,2016,amphet,0,0
+towns,Windsor,2017,all,3,NA
+towns,Windsor,2017,opioid,3,1
+towns,Windsor,2017,fentanyl,2,0.667
+towns,Windsor,2017,heroin,2,0.667
+towns,Windsor,2017,cocaine,3,1
+towns,Windsor,2017,amphet,1,0.333
+towns,Windsor,2018,all,7,NA
+towns,Windsor,2018,opioid,7,1
+towns,Windsor,2018,fentanyl,5,0.714
+towns,Windsor,2018,heroin,2,0.286
+towns,Windsor,2018,cocaine,0,0
+towns,Windsor,2018,amphet,0,0
+towns,Windsor,2019,all,8,NA
+towns,Windsor,2019,opioid,8,1
+towns,Windsor,2019,fentanyl,7,0.875
+towns,Windsor,2019,heroin,1,0.125
+towns,Windsor,2019,cocaine,4,0.5
+towns,Windsor,2019,amphet,1,0.125
+towns,Windsor,2020,all,7,NA
+towns,Windsor,2020,opioid,7,1
+towns,Windsor,2020,fentanyl,6,0.857
+towns,Windsor,2020,heroin,2,0.286
+towns,Windsor,2020,cocaine,6,0.857
+towns,Windsor,2020,amphet,0,0

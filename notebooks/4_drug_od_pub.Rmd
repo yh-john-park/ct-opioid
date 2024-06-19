@@ -1,0 +1,457 @@
+---
+title: "Drug ODs analysis/plots for publication"
+output: github_document
+---
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	fig.height = 5,
+	fig.width = 7,
+	fig.showtext = TRUE,
+	message = FALSE,
+	warning = FALSE,
+	dpi = 300
+)
+```
+
+```{r}
+library(tidyverse)
+library(camiller)
+library(cwi)
+library(patchwork)
+library(showtext)
+library(lubridate)
+library(tsibble)
+library(sf)
+source("../_utils/misc_functions.R")
+source("../_utils/utils.R")
+
+theme_set(theme_din2())
+font_add_google("Roboto Condensed", "roboto")
+showtext_auto()
+tol12 <- PerformanceAnalytics::tol12qualitative
+plots <- list()
+
+logo <- cowplot::ggdraw() + 
+  cowplot::draw_image("../_utils/25th-logotype.jpg", x = 0, hjust = 0, width = 0.25) +
+  theme(plot.margin = margin(0.05, 0.05, 0.05, 0.05, "in"))
+```
+
+```{r}
+drugs_indiv <- read_csv("../output_data/overdoses_indiv_2012_2020.csv")
+drugs_ts <- readRDS("../output_data/drug_overdose_5ct_monthly_ts_1mil.rds")
+drug_trend <- readRDS("../output_data/drug_overdose_age_adj_time_series_by_group_2012_2020.rds")
+ann_age_adj_15_20 <- readRDS("../output_data/age_adj_drug_deaths_2015_2020.rds")
+```
+
+```{r}
+drug_trend$trend_race %>% 
+  filter(name %in% c("Connecticut", "Greater New Haven")) %>%
+  mutate(name = as_factor(name) %>% fct_reorder2(month, monthly_age_adj, .fun = max)) %>%
+  # gather(key, value, monthly_age_adj, rolling_mean_6mo) %>%
+  ggplot(aes(x = month, y = rolling_mean_6mo, color = race)) +
+  geom_line() +
+  scale_color_manual(values = tol12[c(5, 9, 1)]) +
+  # scale_alpha_manual(values = c(monthly_age_adj = 0.3, rolling_mean_6mo = 0.9)) +
+  theme_din() +
+  facet_wrap(vars(name)) +
+  labs(title = "Monthly age-adjusted rate of overdose deaths",
+       subtitle = "By race per 100k, 6 month rolling average only") +
+  theme(legend.position = "bottom")
+```
+
+
+```{r}
+drugs_indiv %>%
+  count(year = year(date)) # Annual OD deaths surpassed 1,000
+
+drugs_indiv %>%
+  filter(date >= "2020-01-01") %>% 
+  count(is_opioid) %>%
+  mutate(share = n / sum(n)) # 94 percent of drug related deaths in 2019 involve opioid/opiate
+```
+
+```{r}
+median_age <- read_csv("../output_data/median_age_drug_overdose_2016_2020.csv")
+```
+
+```{r}
+drug_trend$trend_fentanyl %>% as_tibble() %>% ungroup() %>% filter(str_detect(name, "Hartford")) %>% mutate(year = year(month)) %>% group_by(name, is_fentanyl, year) %>% summarize(annual_n = sum(monthly_n)) # %>% filter(is_fentanyl) %>% ggplot(aes(x = year, y = annual_n, fill=name)) + geom_bar(stat = "identity", position = position_dodge())
+```
+```{r}
+286/(286+53) - 152/(152+95)
+```
+
+
+## OD death rate continues to increase
+```{r nhv_chart, fig.width=8, fig.height=5}
+drug_trend$trend_opioid$name %>% table()
+to_plot <- drug_trend$trend_opioid %>%
+  filter(is_opioid == TRUE, !is.na(rolling_mean_6mo)) %>% 
+  filter(name %in% c("Connecticut", "Greater Hartford", "Hartford Inner Ring", "Hartford Outer Ring", "Hartford")) %>% 
+  mutate(date = as.Date(month))
+endpts <- to_plot %>%
+  filter(date %in% range(date)) %>%
+  mutate(fmt = format(round(rolling_mean_6mo, 1)),
+         # date_lbl = format(month, "%b %Y"),
+         lbl = if_else(date == min(date),
+                       # str_glue("{date_lbl}: {fmt}"),
+                       fmt,
+                       paste(name, fmt, sep = ": "))) %>%
+  mutate(off = if_else(date == min(date), -1, 1) * 60)
+
+gh_pal <- c("gray50", pastel[c(2, 4:7)])
+
+gh_plot <- to_plot %>%
+  # as_tibble() %>%
+  # mutate(month = as.Date(month)) %>%
+  ggplot(aes(x = date, y = rolling_mean_6mo, color = name)) +
+  geom_line(size = 1.2, alpha = 0.9) +
+  geom_point(size = 2.5, 
+             data = endpts) +
+  ggrepel::geom_text_repel(aes(label = lbl, x = date + off),
+                           data = endpts,
+                           hjust = "outward", direction = "y", seed = 1, 
+                           size = 3.4, fontface = "bold", family = "barcond", 
+                           box.padding = unit(0.1, "lines"),
+                           min.segment.length = 1.0) +
+  scale_color_manual(values = colorspace::darken(gh_pal, amount = 0.2), guide = "none") +
+  scale_x_date(breaks = seq.Date(as.Date("2012-01-01"), as.Date("2020-12-01"), by = "1 year"), date_labels = "%Y", expand = expansion(add = c(6 * 30, 22 * 30))) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits = c(0, NA)) +
+  theme(axis.text.y.left = element_text(margin = margin(0, 2, 0, 18, "pt")),
+        axis.line.x = element_line(color = "gray40")) +
+  labs(x = NULL, y = "Rate per 1 million",
+       title = "Overdose death rate in Hartford continues to increase",
+       subtitle = "Age-adjusted monthly rate of opioid-related overdose deaths per 1 million residents\n6-month moving average, 2012–2020") +
+  coord_cartesian(clip = "off")
+
+gh_plot_out <- cowplot::plot_grid(
+  gh_plot, logo,
+  ncol = 1,
+  rel_heights = c(10, 1)
+)
+
+ggsave("../plots/1_gh_plot.png", gh_plot_out, width=8, height=5)
+```
+
+## Overdose death rate among Blacks eclipses white rate
+```{r race, fig.width=8, fig.height=5}
+to_plot <- drug_trend$trend_race %>%
+  filter(month > yearmonth("2014 Dec")) %>% 
+  filter(race %in% c("white", "black", "latino"), !is.na(rolling_mean_6mo)) %>% 
+  mutate_at(vars(race), str_to_title) %>% 
+  filter(name %in% c("Connecticut", "Greater Hartford")) %>% 
+  mutate(date = as.Date(month))
+endpts <- to_plot %>%
+  filter(date %in% range(date)) %>%
+  mutate(fmt = format(round(rolling_mean_6mo, 1)),
+         date_lbl = format(month, "%b %Y"),
+         lbl = if_else(date == min(date),
+                       fmt,
+                       paste(race, fmt, sep = ": "))) %>%
+  mutate(off = if_else(date == min(date), -1, 1) * 60)
+
+race_pal <- c("gray50", pastel[c(5, 6)])
+
+race_plot <- to_plot %>%
+  ggplot(aes(x = date, y = rolling_mean_6mo, color = race)) +
+  geom_line(size = 1.2, alpha = 0.9) +
+  geom_point(size = 2.5, 
+             data = endpts) +
+  ggrepel::geom_text_repel(aes(label = lbl, x = date + off),
+                           data = endpts,
+                           hjust = "outward", direction = "y", seed = 1, 
+                           size = 3.4, fontface = "bold", family = "barcond", 
+                           box.padding = unit(0.1, "lines"),
+                           min.segment.length = 1.0) +
+  scale_color_manual(values = colorspace::darken(race_pal, amount = 0.2), guide = "none") +
+  scale_x_date(breaks = seq.Date(as.Date("2012-01-01"), as.Date("2020-12-01"), by = "1 year"), date_labels = "%Y", expand = expansion(add = c(6 * 30, 22 * 30))) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits = c(0, NA)) +
+  facet_wrap(vars(name), nrow = 1) +
+  theme(axis.text.y.left = element_text(margin = margin(0, 2, 0, 18, "pt")),
+        axis.line.x = element_line(color = "gray40")) +
+  labs(x = NULL, y = "Rate per 1 million",
+       title = "Overdose death rate among minorities eclipses white rate",
+       subtitle = "Age-adjusted monthly rate of opioid-related overdose deaths per 1 million residents\n6-month moving average, Jan 2015–Dec 2020") +
+  coord_cartesian(clip = "off")
+
+race_plot_out <- cowplot::plot_grid(
+  race_plot, logo,
+  ncol = 1,
+  rel_heights = c(10, 1)
+)
+
+ggsave("../plots/2_race.png", race_plot_out, width=8, height=5)
+```
+
+## Fentanyl
+```{r fentanyl, fig.width=7, fig.height=4}
+# convert to rate per million
+share_fent_trend <- drug_trend$trend_fentanyl %>%
+  filter(name %in% c("Greater Hartford", "Connecticut")) %>%
+  as_tibble() %>%
+  group_by(level, name, month) %>%
+  mutate(share = monthly_n / sum(monthly_n)) %>%
+  as_tsibble(key = c(level, name, is_fentanyl), index = month) %>%
+  group_by_key() %>%
+  mutate(rolling_rate = slider::slide_dbl(monthly_age_adj, mean, .before = 6, .complete = TRUE, na.rm = TRUE) * 10,
+         rolling_share = slider::slide_dbl(share, mean, .before = 6, .complete = TRUE, na.rm = TRUE)) %>%
+  ungroup()
+
+fent_plot <- share_fent_trend %>%
+  mutate(date = as.Date(month)) %>%
+  mutate(name = fct_reorder2(name, date, desc(rolling_rate), .desc = FALSE),
+         is_fentanyl = as_factor(ifelse(is_fentanyl, "Fentanyl", "No fentanyl"))) %>%
+  ggplot(aes(x = date, y = rolling_rate, group = interaction(name, is_fentanyl), color = is_fentanyl)) +
+  geom_line(size = 1.2, alpha = 0.9) +
+  scale_color_manual(values = c(Fentanyl = "#8b3058", "No fentanyl" = "gray50"),
+                    guide = guide_legend(reverse = TRUE)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), breaks = seq(0, 30, by = 5)) +
+  scale_x_date(date_breaks = "2 years", date_labels = "%Y") +
+  facet_wrap(vars(name), nrow = 1) +
+  coord_cartesian(clip = "off") +
+  theme(legend.position = c(-.175, 1), 
+        legend.justification = c(-1, 1),
+        axis.line.x = element_line(color = "gray40")) +
+  labs(x = NULL, y = "Rate per 1 million", color = NULL,
+       title = "Fentanyl's steep rise has eclipsed decreasing overdose rates from other drugs",
+       subtitle = "Age-adjusted monthly rate of drug overdose deaths per 1 million residents by presence of fentanyl\nBy region, 6-month moving average, 2012–2020")
+
+fent_plot_out <- cowplot::plot_grid(
+  fent_plot, logo,
+  ncol = 1,
+  rel_heights = c(10, 1)
+)
+
+ggsave("../plots/3_fent_line.png", fent_plot_out, w = 7, h = 4)
+```
+
+```{r fig.width=7, fig.height=7}
+to_plot <- drug_trend$trend_fentanyl %>%
+  filter(str_detect(name, "Hartford")) %>%
+  filter(month > yearmonth("2014 Dec")) %>% 
+  mutate(is_fentanyl = ifelse(!is_fentanyl, "No Fentanyl", "Fentanyl")) %>% 
+  mutate(month = as.Date(month)) %>% 
+  index_by(mo6 = floor_date(month, "6 months")) %>%
+  group_by(name, is_fentanyl) %>%
+  summarise(monthly_n = sum(monthly_n)) %>% 
+  as_tibble() %>% 
+  group_by(name, mo6) %>% 
+  mutate(share = monthly_n/sum(monthly_n))
+
+fent_bar <- to_plot %>% 
+  ggplot(aes(x = mo6, y = monthly_n, fill = forcats::fct_rev(is_fentanyl))) + 
+  geom_col(alpha = 0.9) +
+  geom_text(aes(label = scales::percent(share, accuracy = 1)), 
+            data = . %>% filter(is_fentanyl=="Fentanyl"),
+            vjust = -0.1, family = "roboto", size = 2.8) +
+  theme_din() +
+  scale_fill_manual(values = tol12[c(3, 11)]) +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y", limits=c(as.Date("2015-01-01"), as.Date("2020-12-31"))) +
+  facet_wrap(vars(name), scales = "free_y", ncol = 2) +
+  labs(title = "Count of opioid-related deaths by presence of fentanyl",
+       subtitle = "6-month totals, 2015-2020\nWith share of deaths that involve fentanyl",
+       x = NULL,
+       y = NULL) +
+  theme(legend.position = "bottom", legend.title = element_blank())
+
+ggsave("../plots/4_fent_bar.png", fent_bar, w = 7, h = 7)
+```
+
+
+## Xylazine
+```{r}
+xyl_bar <- drugs_indiv %>% 
+  filter(county == "Hartford") %>% 
+  filter(date > "2018-12-31") %>% 
+  select(date, town, county, is_xylazine, is_fentanyl) %>% 
+  mutate(mo6 = yearmonth(floor_date(date, "6 months"))) %>% 
+  mutate_at(vars(mo6), str_replace_all, pattern="Jan", replacement="Jan-Jun") %>% 
+  mutate_at(vars(mo6), str_replace_all, pattern="Jul", replacement="Jul-Dec") %>% 
+  filter(is_xylazine) %>% 
+  ggplot(aes(x=mo6, fill=is_xylazine)) + 
+  geom_bar() +
+  geom_text(stat='count', aes(label = after_stat(stat(count))), vjust=-1) +
+  theme_din() +
+  scale_fill_manual(values = tol12[4]) +
+  labs(title = "Count of deaths involving xylazine",
+       subtitle = "6-month totals, 2019-2020, Greater Hartford",
+       x = NULL,
+       y = NULL) +
+  theme(legend.position = "none")
+
+ggsave("../plots/5_xyl_bar.png", xyl_bar, w = 5.5, h = 7)
+```
+```{r}
+drugs_indiv %>% 
+  filter(date > "2018-12-31") %>% 
+  filter(date < "2020-01-01") %>% 
+  select(date, town, county, is_xylazine, is_fentanyl) %>% 
+  mutate(mo6 = yearmonth(floor_date(date, "6 months"))) %>% 
+  mutate_at(vars(mo6), str_replace_all, pattern="Jan", replacement="Jan-Jun") %>% 
+  mutate_at(vars(mo6), str_replace_all, pattern="Jul", replacement="Jul-Dec") %>% 
+  filter(is_xylazine)
+```
+
+
+## By substance
+```{r}
+# from Kelly's code - OD2A
+source("../_utils/kelly_utils.R")
+rates_od <- read_csv("../output_data/od_counts_and_rates_by_substance.csv")
+rates_od %>% 
+	filter(str_detect(name, "Hartford")) %>% 
+  filter(year >= "2015-01-01",
+				 substance != "all") %>% 
+	mutate(name = "Region",
+				 substance = str_to_title(substance)) %>% 
+  mutate(substance = if_else(substance == "Amphet", "Amphetamine", substance),
+				 substance = if_else(substance == "Opioid", "Any Opioid", substance),
+				 substance = as.factor(substance) %>% 
+				 	fct_relevel(., "Any Opioid", "Fentanyl", "Heroin", "Cocaine", "Amphetamine")) %>% 
+	ggplot(aes(substance, share)) +
+	#geom_line(aes(color = substance)) +
+	#geom_point(aes(color = substance)) +
+	geom_col(aes(fill = substance)) +
+	geom_text(aes(label = if_else(substance != "Amphetamine", paste(scales::percent(share, accuracy = 1)), "")), vjust = 1.2) +
+	geom_text(aes(label = if_else(substance == "Amphetamine", paste(scales::percent(share, accuracy = 1)), "")), vjust = "inward") +
+	scale_y_continuous(expand = expansion(mult = c(0,.05))) +
+	facet_grid(cols = vars(year)) +
+	scale_fill_manual(values = c(tol12[1:10])) +
+	guides(fill = guide_legend("")) +
+	labs(title = "Share of Regional Overdose Deaths Involving Select Substances, 2016–2020", x = "", y = "") +
+	theme(legend.position = "bottom",
+				axis.text.x = element_blank(),
+				axis.text.y = element_blank(),
+				panel.grid.major.y = element_blank())
+
+ggsave(filename = "../output_charts/share_deaths_by_substance.png")
+```
+
+
+
+
+## Town map
+```{r town_map, fig.width=7.5, fig.height=4.75}
+opioid <- ann_age_adj_15_20 %>% 
+  `[[`("by_substance") %>%
+  filter(is_opioid == "opiate_opioid", level == "towns") %>%
+  select(name, n, adj = annualized_age_adj_rate100k) %>%
+  mutate(opi_jenks = jenks(adj, n = 5) %>% fct_relabel(camiller::brk_labels))
+
+opioid_sf <- cwi::town_sf %>%
+  inner_join(opioid, by = "name") %>%
+  st_centroid()
+
+town_map <- ggplot(opioid_sf) +
+  geom_sf(data = cwi::town_sf, fill = "gray95", color = "gray30", size = 0.25) +
+  geom_sf(aes(size = n, fill = opi_jenks), shape = 21, stroke = 0.4, color = "gray20", alpha = 0.9) +
+  coord_sf(ndiscr = 0) +
+  rcartocolor::scale_fill_carto_d(palette = "Burg") +
+  scale_x_continuous(expand = expansion(mult = 0)) +
+  scale_y_continuous(expand = expansion(mult = c(0.0, 0.0))) +
+  scale_size_area(max_size = 8) +
+  guides(fill = guide_legend(override.aes = list(size = 4), order = 1)) +
+  labs(fill = "Overdose death rate\nper 100K (annualized)", size = "Overdose deaths",
+       title = "Towns throughout the state see high rates of overdose deaths", 
+       subtitle = "Rate and total number of opioid-related deaths by town, 2015–2020") +
+  theme(plot.caption.position = "plot")
+
+town_map_out <- cowplot::plot_grid(
+  town_map, logo,
+  ncol = 1,
+  rel_heights = c(10, 1)
+)
+
+ggsave("../plots/8_town_map.png", town_map_out, w = 7.5, h = 4.75)
+```
+
+## Hartford map
+```{r hartford_map, fig.width=7.5, fig.height=4.75}
+hartford_towns <- cwi::regions$`Greater Hartford`
+
+hartford_sf <- cwi::town_sf %>%
+  filter(name %in% hartford_towns)
+
+opioid_sf <- hartford_sf %>% 
+  inner_join(opioid, by = "name") %>%
+  st_centroid()
+
+hartford_map <- ggplot(opioid_sf) +
+  geom_sf(data = hartford_sf, fill = "gray95", color = "gray30", size = 0.25) +
+  geom_sf(aes(size = n, fill = opi_jenks), shape = 21, stroke = 0.4, color = "gray20", alpha = 0.9) +
+  coord_sf(ndiscr = 0) +
+  rcartocolor::scale_fill_carto_d(palette = "Burg") +
+  scale_x_continuous(expand = expansion(mult = 0)) +
+  scale_y_continuous(expand = expansion(mult = c(0.0, 0.0))) +
+  scale_size_area(max_size = 18) +
+  guides(fill = guide_legend(override.aes = list(size = 4), order = 1)) +
+  labs(fill = "Overdose death rate\nper 100K (annualized)", size = "Overdose deaths",
+       title = "High rates of overdose deaths in Greater Hartford", 
+       subtitle = "Rate and total number of opioid-related deaths by town, 2015–2020") +
+  theme(plot.caption.position = "plot")
+
+hartford_map_out <- cowplot::plot_grid(
+  hartford_map, logo,
+  ncol = 1,
+  rel_heights = c(10, 1)
+)
+
+ggsave("../plots/9_hartford_map.png", hartford_map_out, w = 7.5, h = 4.75)
+```
+
+
+----------------------
+
+
+## 5 CTs
+```{r five_ct, fig.width=8, fig.height=5}
+drug_to_plot <- drugs_ts %>%
+  filter(is_opioid == "opioids_only", !is.na(rolling_mean_6mo)) %>% 
+  mutate(date = as.Date(month))
+drug_ts_endpts <- drug_to_plot %>%
+  filter(date %in% range(date)) %>%
+  mutate(fmt = format(round(rolling_mean_6mo, 1)),
+         # date_lbl = format(month, "%b %Y"),
+         lbl = if_else(date == min(date),
+                       # str_glue("{date_lbl}: {fmt}"),
+                       fmt,
+                       paste(name, fmt, sep = ": "))) %>%
+  mutate(off = if_else(date == min(date), -1, 1) * 60)
+
+ct5_pal <- c("gray50", pastel[c(2, 4:7)])
+
+five_ct <- drug_to_plot %>%
+  # as_tibble() %>%
+  # mutate(month = as.Date(month)) %>%
+  ggplot(aes(x = date, y = rolling_mean_6mo, color = name)) +
+  geom_line(size = 1.2, alpha = 0.9) +
+  geom_point(size = 2.5, 
+             data = drug_ts_endpts) +
+  ggrepel::geom_text_repel(aes(label = lbl, x = date + off),
+                           data = drug_ts_endpts,
+                           hjust = "outward", direction = "y", seed = 1, 
+                           size = 3.4, fontface = "bold", family = "barcond", 
+                           box.padding = unit(0.1, "lines"),
+                           min.segment.length = 1.0) +
+  scale_color_manual(values = colorspace::darken(ct5_pal, amount = 0.2), guide = "none") +
+  scale_x_date(breaks = seq.Date(as.Date("2012-01-01"), as.Date("2020-12-01"), by = "1 year"), date_labels = "%Y", expand = expansion(add = c(6 * 30, 22 * 30))) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), limits = c(0, NA)) +
+  theme(axis.text.y.left = element_text(margin = margin(0, 2, 0, 18, "pt")),
+        axis.line.x = element_line(color = "gray40")) +
+  labs(x = NULL, y = "Rate per 1 million",
+       title = "Overdose death rate for the Urban Core continues to diverge",
+       subtitle = "Age-adjusted monthly rate of opioid-related overdose deaths per 1 million residents\nBy Five Connecticuts grouping, 6-month moving average, 2012–2020") +
+  coord_cartesian(clip = "off")
+
+five_ct_out <- cowplot::plot_grid(
+  five_ct, logo,
+  ncol = 1,
+  rel_heights = c(10, 1)
+)
+
+ggsave("../plots/1_od_rate_5ct.png", five_ct_out, width=8, height=5)
+```
+
+
